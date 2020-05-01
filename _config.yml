@@ -12,7 +12,7 @@
 
 theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" #"air" #"default"  , "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" #"dark" #"air" #"default"  , "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -23,29 +23,29 @@ name                     : "Chandula Nethmal"
 description              : "Welcome to the creative cloud of Chandula ;) . you will find so many cool tech stuffs you may interested in. This is a Static web site created using Gatsby Static site generating tools and React. Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs related to science fields. You may find interesting projects which the author has done through his knowledge and experience in Robotics, PCB designing, Internet of Things, Embedded systems.."
 url                      : https://chandulanethmal.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : https://github.com/ChandulaNethmal/chandulanethmal.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : ChandulaNethmal/chandulanethmal.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "site-image.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "ThinkersLogoTrans.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "staticman_v2" #"facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     #https://developers.facebook.com/docs/plugins/comments
-    appid                : 673957996759198
-    num_posts            :  5 #(default)
-    colorscheme          :  "light" #(default), "dark"
+    appid                : #673957996759198 
+    num_posts            : # 5 #(default)
+    colorscheme          :  #"light" #(default), "dark"
   utterances:
-    theme                : "github-light" # "github-light" (default), "github-dark"
-    issue_term           : "pathname" # "pathname" (default)
+    theme                : #"github-light" # "github-light" (default), "github-dark"
+    issue_term           : #"pathname" # "pathname" (default)
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch               : "gh-pages"
+    endpoint             : "https://api.staticman.net/v3/entry/github/" #chandulanethmal/chandulanethmal.github.io/master/comments" # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -87,10 +87,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-165264762-1"
+    anonymize_ip         : true # true, false (default)
 
 
 # Site Author
@@ -257,10 +257,12 @@ tag_archive:
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
-#   permalinks:
+  permalinks:
+    /about/
+    /
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
+        
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -283,4 +285,11 @@ defaults:
       comments: true
       share: true
       related: true
+      # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
