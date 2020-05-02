@@ -24,7 +24,7 @@ description              : "Welcome to the creative cloud of Chandula ;) . you w
 url                      : https://chandulanethmal.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ChandulaNethmal/chandulanethmal.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "site-image.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "ThinkersLogoTrans.png" #"/assets/images/500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "ThinkersLogoTrans.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true # true, false (default)
@@ -90,7 +90,7 @@ analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-165264762-1"
-    anonymize_ip         : true # true, false (default)
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
@@ -163,12 +163,12 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
-  - Gemfile
+  #- Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
   - log
-  - node_modules
+  #- node_modules
   - package.json
   - package-lock.json
   - Rakefile
@@ -257,9 +257,9 @@ tag_archive:
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
-  permalinks:
-    /about/
-    /
+#  permalinks:
+#    /about/
+#    /
 #     category: /categories/:name/
 #     tag: /tags/:name/
         
@@ -287,7 +287,7 @@ defaults:
       related: true
       # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
