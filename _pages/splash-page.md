@@ -6,7 +6,7 @@ date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: "https://source.unsplash.com/1600x400/?tech"
   actions:
     - label: "Blog"
       url: "/year-archive/"
@@ -15,44 +15,44 @@ excerpt: "Welcome to the creative cloud of Chandula. you will find so many cool 
 intro: 
   - excerpt: 'Thinkers Cloud is basically a web site based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs related to science fields. You may find interesting projects which the author has done through his knowledge and experience in Robotics, PCB designing, Internet of Things, Embedded systems. Centered with `type="center"`'
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
+  - image_path: "https://source.unsplash.com/800x800/?computer"
     alt: "placeholder image 1"
-    title: "Placeholder 1"
+    title: "Computer Science"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: "https://source.unsplash.com/800x800/?electronic_circuit"
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
-    title: "Placeholder 2"
+    title: "Electronics"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Go to the Blog"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
+  - image_path: "https://source.unsplash.com/800x800/?robotics"
+    title: "Robotics"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: "https://source.unsplash.com/400x400/?entertainment"
     alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    title: "Entertainment"
+    excerpt: 'Some **Entertainment** items for you. Left aligned with `type="left"`'
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Entertainment"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: "https://source.unsplash.com/400x400/?contact_details"
     alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
+    title: "Contact Us"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: "https://source.unsplash.com/400x400/?about_me"
     alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    title: "About Me"
+    excerpt: 'Find out details on what is the **Thinkers Cloud** and some details about the author. Centered with `type="center"`'
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "About"
     btn_class: "btn--primary"
 ---
 
