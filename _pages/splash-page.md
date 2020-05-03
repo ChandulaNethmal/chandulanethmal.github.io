@@ -24,7 +24,7 @@ feature_row:
     alt: "placeholder image 2"
     title: "Electronics"
     excerpt: "There are some cool **Elctronic** projects which you may interested in."
-    url: "#test-link"
+    url: "/year-archive/"
     btn_label: "Go to the Blog"
     btn_class: "btn--primary"
   - image_path: "https://source.unsplash.com/800x800/?robotics"
@@ -35,7 +35,7 @@ feature_row2:
     alt: "placeholder image 2"
     title: "Entertainment"
     excerpt: 'Some **Entertainment** items for you.'
-    url: "#test-link"
+    url: "/year-archive/"
     btn_label: "Entertainment"
     btn_class: "btn--primary"
 feature_row3:
@@ -43,7 +43,7 @@ feature_row3:
     alt: "placeholder image 2"
     title: "Contact Us"
     excerpt: 'If you have anything to share with us or need to know something related to the content, do not hesitate to contact us!'
-    url: "#test-link"
+    url: "/about/"
     btn_label: "Contact Details"
     btn_class: "btn--primary"
 feature_row4:
@@ -51,7 +51,7 @@ feature_row4:
     alt: "placeholder image 2"
     title: "About Me"
     excerpt: 'Find out details on what is the **Thinkers Cloud** and some details about the author.'
-    url: "#test-link"
+    url: "/about/"
     btn_label: "About"
     btn_class: "btn--primary"
 ---
