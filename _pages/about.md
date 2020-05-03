@@ -4,7 +4,7 @@ title: "About"
 header:
   image: /assets/images/unsplash-image-2.jpg
   og_image: /assets/images/page-header-og-image.png
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+excerpt: "This is Chandula Nethmal's Official web site."
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
     image_path: /assets/images/mm-layout-splash.png

@@ -6,7 +6,7 @@ date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
-  overlay_image: "https://source.unsplash.com/800x300/?tech"
+  overlay_image: "/Thinkers-splash.jpg"
   actions:
     - label: "Blog"
       url: "/year-archive/"
@@ -18,18 +18,18 @@ feature_row:
   - image_path: "https://source.unsplash.com/800x800/?computer"
     alt: "placeholder image 1"
     title: "Computer Science"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "This blog contains some articles related to **Computer Science** projects."
   - image_path: "https://source.unsplash.com/800x800/?electronic_circuit"
     image_caption: "Chandula Nethmal"
     alt: "placeholder image 2"
     title: "Electronics"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "There are some cool **Elctronic** projects which you may interested in."
     url: "#test-link"
     btn_label: "Go to the Blog"
     btn_class: "btn--primary"
   - image_path: "https://source.unsplash.com/800x800/?robotics"
     title: "Robotics"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "**Robotics** projects also there at your interest."
 feature_row2:
   - image_path: "https://source.unsplash.com/400x400/?entertainment"
     alt: "placeholder image 2"
@@ -42,9 +42,9 @@ feature_row3:
   - image_path: "https://source.unsplash.com/400x400/?email"
     alt: "placeholder image 2"
     title: "Contact Us"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting.'
+    excerpt: 'If you have anything to share with us or need to know something related to the content, do not hesitate to contact us!'
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Contact Details"
     btn_class: "btn--primary"
 feature_row4:
   - image_path: /site-image.jpg
