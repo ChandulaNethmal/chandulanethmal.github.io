@@ -1,6 +1,15 @@
 ---
 title: "Introduction to Programmable Logic Devices"
 date: "2017-12-19" 
+categories:
+  - FPGA
+  - Electronics
+  - Embedded
+tags:
+  - Programming
+  - Electronics
+toc: true
+
 ---
 
 ## PROGRAMMABLE LOGIC DEVICES(PLDS)
@@ -10,20 +19,20 @@ A PLD is an electronic component used to build reconfigurable digital circuits. 
 
 ## How PLDs realized their Programmability
 A PLD is a combination of a reconfigurable logic array and a memory device. The memory is used to store the inputs that was given to the chip during programming and outputs. Most of the methods for storing data in an integrated circuit have been adapted for use in PLDs. These include:
-·         Silicon antifuses
-·         SRAM
-·         EPROM or EEPROM cells
-·         Flash memory
-·         Silicon antifuses are connections that are made by applying a voltage across a modified area of silicon inside the chip. They are called antifuses because they act in the opposite way to normal fuses, which begin life as connections until they are broken by an electric current.
+*         Silicon antifuses
+*         SRAM
+*         EPROM or EEPROM cells
+*         Flash memory
+*         Silicon antifuses are connections that are made by applying a voltage across a modified area of silicon inside the chip. They are called antifuses because they act in the opposite way to normal fuses, which begin life as connections until they are broken by an electric current.
 <iframe width="560" height="315" src="https://2.bp.blogspot.com/-UKiy7NrqVBE/WjiR2u1XuGI/AAAAAAAAAro/f92qwmO3HEog6VK63YBC6zvIl0LYHxoPgCLcBGAs/s320/VIA.GIF" frameborder="0" allowfullscreen></iframe>
 
- Antifuse
+ ## Antifuse
 
-·         SRAM, or static RAM, is a volatile type of memory, meaning that its contents are lost each time the power is switched off. SRAM-based PLDs therefore have to be programmed every time the circuit is switched on. This is usually done automatically by another part of the circuit.
-·         An EPROM cell is a MOS (metal-oxide-semiconductor) transistor that can be switched on by trapping an electric charge permanently on its gate electrode. This is done by a PAL programmer. The charge remains for many years and can only be removed by exposing the chip to strong ultraviolet light in a device called an EPROM eraser.
+*         SRAM, or static RAM, is a volatile type of memory, meaning that its contents are lost each time the power is switched off. SRAM-based PLDs therefore have to be programmed every time the circuit is switched on. This is usually done automatically by another part of the circuit.
+*         An EPROM cell is a MOS (metal-oxide-semiconductor) transistor that can be switched on by trapping an electric charge permanently on its gate electrode. This is done by a PAL programmer. The charge remains for many years and can only be removed by exposing the chip to strong ultraviolet light in a device called an EPROM eraser.
 
  
-·         Flash memory is non-volatile, retaining its contents even when the power is switched off. It can be erased and reprogrammed as required. This makes it useful for PLD memory.
+*         Flash memory is non-volatile, retaining its contents even when the power is switched off. It can be erased and reprogrammed as required. This makes it useful for PLD memory.
 
  There are several kinds of PLDs available with different kind performances.
 
@@ -33,25 +42,24 @@ They typically contain 4 to 22 fully connected macrocells which are typically co
 
 
 
-#    1.    PROM
+    1.    PROM
 (Programmable ROM)
 PROM is the oldest ancestor of the PLD family which is used to create arbitrary combinational logic functions of a number of inputs. M input address and N output data line ROM can produce N separate logic circuits (of up to M inputs)
 
-#    2.    PLA
+    2.    PLA
  (programmable Logic Array)
 A programmable logic array (PLA) has a programmable AND gate array, which links to a programmable OR gate array, which can then be conditionally complemented to produce an output.
 
-
-#   3.    PAL
+   3.    PAL
 (Programmable Array Logic)
 PAL devices have arrays of transistor cells arranged in a "fixed-OR, programmable-AND" plane used to implement "sum-of-products" binary logic equations for each of the outputs in terms of the inputs and either synchronous or asynchronous feedback from the outputs.
 
-#   4.    GAL
+   4.    GAL
 (Generic Array Logic)
 This device has the same logical properties as the PAL but can be erased and reprogrammed.  The GAL is very useful in the prototyping stage of a design, when any bugs in the logic can be corrected by reprogramming. GALs are programmed and reprogrammed using a PAL programmer, or by using the in-circuit programming technique on supporting chips.
 
 
-## Complex programmable logic Devices (CPLD)
+5.  Complex programmable logic Devices (CPLD)
 PALs PLAs and GALs are available only in small sizes, equivalent to a few hundred logic gates. For bigger logic circuits, complex programmable Logic Devices can be used. These contain the equivalent of several PALs linked by programmable interconnections, all in one integrated circuit. CPLDs can replace thousands, or even hundreds of thousands, of logic gates.
 
 Some CPLDs are programmed using a PAL programmer, but this method becomes inconvenient for devices with hundreds of pins. A second method of programming is to solder the device to its printed circuit board, then feed it with a serial data stream from a computer. The CPLD contains a circuit that decodes the data stream and configures the CPLD to perform its specified logic function. Some manufacturers such as ALTERA use JTAG to program CPLD's in-circuit from .JAM files.

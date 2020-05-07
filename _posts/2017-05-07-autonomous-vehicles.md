@@ -1,6 +1,19 @@
 ---
 title: "Autonomous vehicles on the Road"
 date: "2017-05-07"
+header:
+  teaser: "https://www.wired.com/wp-content/uploads/2014/05/autonomous-feat.jpg" 
+categories:
+  - Robotics
+  - Electronics
+  - IoT
+tags:
+  - Rpbotics
+  - Autonomous
+  - Machine Learning
+  - Sensors
+toc: true
+
 ---
 
 <iframe width="560" height="315" src="https://www.wired.com/wp-content/uploads/2014/05/autonomous-feat.jpg" frameborder="0" allowfullscreen></iframe>

@@ -1,6 +1,19 @@
 ---
 title: "Rocker Bogie Suspension System"
 date: "2019-05-11"
+header:
+  teaser: "https://4.bp.blogspot.com/-GBh99YjvTqM/XNcFLKFhn6I/AAAAAAAADUY/yXkiTuqrsVwABuC6DvuUlBs6DmUKqreAwCLcBGAs/s400/maxresdefault.jpg" 
+categories:
+  - Robotics
+  - Electronics
+  - Automation
+tags:
+  - Robotics
+  - Rocker Bogie
+  - Rover
+  - Configuration
+toc: true
+
 ---
 ## What is Rocker Bogie Suspension?
 When we are designing a robot, understanding the operating environment is a must. For a land mobile robot, we need to consider about the terrain and obstacles it needs to overcome.Mechanical design of the robot is highly dependent on this details. A suspension is the system which allows the relative motion between wheels and the body and connect them together.  Rocker Bogie is a special suspension mechanism designed for land mobile platforms. Expectation of this design is providing a maximum stability to the platform in all kinds of difficult terrains. A surface with rough terrain including rocks, pits, sand or even stairs can be overcome by a mobile platform with the use of this mechanism. 

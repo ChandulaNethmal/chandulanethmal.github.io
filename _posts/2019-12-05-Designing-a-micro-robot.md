@@ -1,6 +1,22 @@
 ---
 title: "Designing a Micro Robot on a PCB"
 date: "2019-12-05"
+
+header:
+  teaser:"https://1.bp.blogspot.com/-curokNax5XE/XekpG7O8XfI/AAAAAAAAGmI/MYYFvqQraWcG6n3DZpvNp-LTsNmmnJKoQCLcBGAsYHQ/s320/PCB1_bottom_3d3.jpg" 
+categories:
+  - Projects
+  - Embedded
+  - Electronics
+  - Robotics
+tags:
+  - Robot
+  - Electronics
+  - Programming
+  - PCB
+  - Routing
+toc: true
+
 ---
 Micro robots are becoming popular in robotics and hobby electronics fields rapidly since they have several positive factors with comparison to the bulky designs. Generally, a design of a micro robot is heavily limited by its size and obviously by its hardware components because of they are designed to be light weight. Since these types of robots are designed according to a specific application like swarm-robots, micro mouse or even for educational purposes, we can design them with specific set of hardware which won’t get affected by above limitations that much. Designing of a micro robot can be bit difficult due to its highly compact nature. However, the same compact nature can make the assembling process easier and the building cost lower compared to a regular sized robot. 
 

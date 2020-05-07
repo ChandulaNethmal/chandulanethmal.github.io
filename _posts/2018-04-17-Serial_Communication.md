@@ -1,6 +1,19 @@
 ---
 title: "Serial Communication"
 date: "2018-04-17" 
+header:
+  teaser: "https://2.bp.blogspot.com/-sdxozX2ZjQE/WtYt1-qsVTI/AAAAAAAAA5c/l_B-530VzwAMq_d6B4dJXmvoE3-7oJYaQCLcBGAs/s320/U5dspZFBZGsSau4jpiCKeJZmDVEi5Mr_1680x8400.jpg" 
+categories:
+  - Projects
+  - Embedded
+  - Telecommunication
+  - IoT
+tags:
+  - Communication
+  - Serial
+  - UART
+toc: true
+
 ---
  
 ##  Serial Communication
