@@ -7,6 +7,8 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: "/Thinkers-splash.jpg"
+  og_image: "/ThinkersLogoTrans.png"
+
   actions:
     - label: "Blog"
       url: "/year-archive/"
@@ -35,7 +37,7 @@ feature_row2:
     alt: "placeholder image 2"
     title: "Entertainment"
     excerpt: 'Some **Entertainment** items for you.'
-    url: "/year-archive/"
+    url: "/entertainment/"
     btn_label: "Entertainment"
     btn_class: "btn--primary"
 feature_row3:
