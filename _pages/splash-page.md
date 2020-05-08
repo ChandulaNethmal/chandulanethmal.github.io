@@ -5,7 +5,7 @@ permalink: /splash-page/
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_filter: "0.6"
+  overlay_filter: "0.4"
   overlay_image: "/Thinkers-splash.jpg"
   actions:
     - label: "Blog"

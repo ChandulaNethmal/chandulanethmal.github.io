@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v2" #"facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" #"facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : chandulanethmal-github-io # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -44,8 +44,8 @@ comments:
     theme                : #"github-light" # "github-light" (default), "github-dark"
     issue_term           : #"pathname" # "pathname" (default)
   staticman:
-    branch               : "gh-pages"
-    endpoint             : "https://api.staticman.net/v3/entry/github/" #chandulanethmal/chandulanethmal.github.io/master/comments" # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch               : #"gh-pages"
+    endpoint             : #"https://api.staticman.net/v3/entry/github/" #chandulanethmal/chandulanethmal.github.io/master/comments" # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -65,7 +65,7 @@ google:
   instant_search         : # false (default), true
 
 # SEO Related
-google_site_verification :
+google_site_verification : google-site-verification=aTgQv7kj5kj-u1JBeXtEqPDmZdJV0OFpR5VKvKL5IOQ
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :

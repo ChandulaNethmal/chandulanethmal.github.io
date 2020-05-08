@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 header:
   image: /assets/images/unsplash-image-2.jpg
-  og_image: /assets/images/page-header-og-image.png
+  og_image: /assets/images/unsplash-image-2.jpg
 excerpt: "This is Chandula Nethmal's Official web site."
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
