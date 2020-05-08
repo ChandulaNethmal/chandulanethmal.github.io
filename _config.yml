@@ -24,7 +24,7 @@ description              : "Welcome to the creative cloud of Chandula ;) . you w
 url                      : https://chandulanethmal.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ChandulaNethmal/chandulanethmal.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "ThinkersLogoTrans.png" #"/assets/images/500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/500x300.png" #"ThinkersLogoTrans.png" #"/assets/images/500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "ThinkersLogoTrans.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true # true, false (default)
@@ -97,7 +97,7 @@ analytics:
 author:
   name             : "Chandula Nethmal"
   avatar           : "Chan_prof.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A Tech Enthusiat, an Electronic and Telecommuniction Engineer." # As a student and a professional engineer in Electronics and telecommnicaion field, I have gained some knowledge and experience on above mentioned specializations. I worked on some cool projects relaed to those fields as it was my number one favourite hobby and also in order to fullfill some reqiurements to complete my Engineering degree. I am pretty sure you will find some cool stuffs around my blog if you also a tech enthusiast."
+  bio              : "A Tech Enthusiat with an Artistic Heart." # As a student and a professional engineer in Electronics and telecommnicaion field, I have gained some knowledge and experience on above mentioned specializations. I worked on some cool projects relaed to those fields as it was my number one favourite hobby and also in order to fullfill some reqiurements to complete my Engineering degree. I am pretty sure you will find some cool stuffs around my blog if you also a tech enthusiast."
   location         : "Sri Lanka"
   email            : chandulanethmal@gmail.com
   links:
@@ -109,10 +109,10 @@ author:
       url: "https://chandula-nethmal.blogspot.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/chandulanethmal"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/chandulanethmal"
+    #  url: "https://facebook.com/chandulanethmal"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chandulanethmal"
@@ -125,10 +125,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/chandulanethmal"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/chandulanethmal"
+      #url: "https://facebook.com/chandulanethmal"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chandulanethmal"

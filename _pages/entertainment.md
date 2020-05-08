@@ -15,7 +15,7 @@ feature_row:
     alt: "placeholder image 2"
     title: "Photos"
     excerpt: "There are some random **Photos** taken by me you may interested in."
-    url: "/year-archive/"
+    url: "/photos/"
     btn_label: "Go to Photos"
     btn_class: "btn--primary"
 feature_row2:
@@ -23,7 +23,7 @@ feature_row2:
     alt: "placeholder image 2"
     title: "Drawings"
     excerpt: 'Some **Computer Graphic Designs and Pencil Sketches** for you.'
-    url: "/year-archive/"
+    url: "/drawings/"
     btn_label: "Go to Drawings"
     btn_class: "btn--primary"
 feature_row3:
@@ -31,7 +31,7 @@ feature_row3:
     alt: "placeholder image 2"
     title: "Go to Quotes"
     excerpt: 'Some interesting Quotes from Movies and other Erudites'
-    url: "/about/"
+    url: "/quotes/"
     btn_label: "Go to Quotes"
     btn_class: "btn--primary"
 ---
