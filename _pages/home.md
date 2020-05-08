@@ -7,7 +7,8 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: "/Thinkers-splash.jpg"
-  og_image: "/ThinkersLogoTrans.png"
+  og_image: /ThinkersLogoTrans.png
+
 
   actions:
     - label: "Blog"

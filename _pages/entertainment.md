@@ -7,6 +7,8 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.1"
   overlay_image: "https://source.unsplash.com/800x800/?Entertainment"
+  og_image: /assets/images/photos/1.jpg 
+
 intro: 
   - excerpt: 'Thinkers Cloud is basically a web site based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs related to science fields. You may find interesting projects which the author has done through his knowledge and experience in Robotics, PCB designing, Internet of Things, Embedded systems.'
 feature_row:
