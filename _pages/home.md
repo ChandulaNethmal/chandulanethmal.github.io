@@ -11,9 +11,9 @@ header:
     - label: "Blog"
       url: "/year-archive/"
   caption: "Chandula Nethmal"
-excerpt: "Welcome to the creative cloud of Chandula . You will find so many cool tech stuffs you may interested in. This is a Static web site created using Jekyll Static site generating tools and hosted with Github."
+excerpt: "Welcome to the creative cloud of Chandula . You will find so many cool tech stuffs you may interested in."
 intro: 
-  - excerpt: 'Thinkers Cloud is basically a web site based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs related to science fields. You may find interesting projects which the author has done through his knowledge and experience in Robotics, PCB designing, Internet of Things, Embedded systems.'
+  - excerpt: 'Thinkers Cloud is basically a Static web site created using Jekyll Static site generating tools and hosted with Github. This web site based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs related to science fields. You may find interesting projects which the author has done through his knowledge and experience in Robotics, PCB designing, Internet of Things, Embedded systems.'
 feature_row:
   - image_path: "https://source.unsplash.com/800x800/?computer"
     alt: "placeholder image 1"

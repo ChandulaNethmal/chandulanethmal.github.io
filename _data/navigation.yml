@@ -7,6 +7,6 @@ main:
   - title: "Categories"
     url: /categories/
   - title: "Entertainment"
-    url: /about/ 
+    url: /entertainment/ 
   - title: "About"
     url: /about/
