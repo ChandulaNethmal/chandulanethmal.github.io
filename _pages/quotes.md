@@ -18,6 +18,88 @@ last_modified_at: 2020-05-08T14:07:54-04:00
 toc: true
 ---
 
+{% capture fig_img %}
+![Foo]({{ '/assets/images/quotes/11.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>______.</figcaption>
+</figure>
+
+{% capture fig_img %}
+![Foo]({{ '/assets/images/quotes/4.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>______.</figcaption>
+</figure>
+
+{% capture fig_img %}
+![Foo]({{ '/assets/images/quotes/5.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>______.</figcaption>
+</figure>
+
+{% capture fig_img %}
+![Foo]({{ '/assets/images/quotes/6.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>______.</figcaption>
+</figure>
+
+{% capture fig_img %}
+![Foo]({{ '/assets/images/quotes/7.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>______.</figcaption>
+</figure>
+
+{% capture fig_img %}
+![Foo]({{ '/assets/images/quotes/8.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>______.</figcaption>
+</figure>
+
+{% capture fig_img %}
+![Foo]({{ '/assets/images/quotes/3.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>______.</figcaption>
+</figure>
+
+{% capture fig_img %}
+![Foo]({{ '/assets/images/quotes/12.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>______.</figcaption>
+</figure>
+
+{% capture fig_img %}
+![Foo]({{ '/assets/images/quotes/10.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>______.</figcaption>
+</figure>
+
+
 
 {% capture fig_img %}
 ![Foo]({{ '/assets/images/quotes/1.jpg' | relative_url }})
