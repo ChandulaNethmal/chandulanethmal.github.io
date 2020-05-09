@@ -24,7 +24,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>Silence and Smile.</figcaption>
 </figure>
 
 {% capture fig_img %}
