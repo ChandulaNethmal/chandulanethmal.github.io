@@ -17,9 +17,8 @@ Welcome to the creative cloud of Chandula!. you will find so many cool tech stuf
 Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs including awesome photos, drawings and some interesting quotes may give soemthing to your life. You may find interesting projects which the author has done through his knowledge and experience in Robotics, PCB designing, Internet of Things, Embedded systems..
 
 ## The Author
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/profile_2.jpg)
 
-Hi! I am Chandula Nethmal and I introduce myself as a tech enthusiast who loves to help others and share my knowledge and experience. I Completed higher education at University of Moratuwa, SriLanka and graduated as a professional in Electronic and Telecommunictaion field. Throughout these years, I worked on so many projects related to different tech fileds and I was so keen to share those experiences with the vast community who has the pure passion. However I made sure to build this site with some fun and cool entertainment items because, this won't be sooo boring, going through a bunch of tech text paragraphs. Also as a encouragement for non-tech peeps.    
+Hi! I am Chandula Nethmal and I introduce myself as a tech enthusiast who loves to help others and share my knowledge and experience. I Completed higher education at University of Moratuwa, SriLanka and graduated as a professional in Electronic and Telecommunictaion field. Throughout these years, I worked on so many projects related to different tech fileds and I was so keen to share those experiences with the vast community who has the pure passion. However, I made sure to build this site with some fun and cool entertainment items because, this won't be sooo boring, going through a bunch of tech text paragraphs. Also as a encouragement for non-tech peeps.    
 
 ## What is a Static Site?
 

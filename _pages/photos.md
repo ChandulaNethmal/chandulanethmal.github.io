@@ -15,9 +15,13 @@ layouts_gallery:
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
 last_modified_at: 2020-05-08T14:07:54-04:00
+intro: 
+  - excerpt: 'Some random **Photos** taken by me in my jounery of life.*We take photos as a return ticket to a moment otherwise gone*'
+
 toc: true
 ---
 
+*We take photos as a return ticket to a moment otherwise gone* 
 
 {% capture fig_img %}
 ![Foo]({{ '/assets/images/photos/1.jpg' | relative_url }})
@@ -148,6 +152,15 @@ toc: true
 </figure>
 
 {% capture fig_img %}
+![Foo]({{ '/assets/images/photos/13-1.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Cats have it all: admiration, love without penalties and company when they want it. However, I always wonder and jealous on their endless peaceful sleep.  </figcaption>
+</figure>
+
+{% capture fig_img %}
 ![Foo]({{ '/assets/images/photos/14.jpg' | relative_url }})
 {% endcapture %}
 
@@ -224,7 +237,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>__.</figcaption>
+  <figcaption>Above the clouds.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -233,7 +246,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>___.</figcaption>
+  <figcaption>Trying to get you an awesome bird's eye view.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -242,7 +255,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>___.</figcaption>
+  <figcaption>.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -251,7 +264,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>_____.</figcaption>
+  <figcaption>SriLankan tea.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -260,7 +273,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>___.</figcaption>
+  <figcaption>Under the sky of University of Moratuwa.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -269,7 +282,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>___.</figcaption>
+  <figcaption>Above the clouds.</figcaption>
 </figure>
 
 {% capture fig_img %}
