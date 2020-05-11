@@ -10,7 +10,7 @@ toc: true
 ---
 ![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/site-image.jpg)
 
-Welcome to the creative cloud of Chandula!. you will find so many cool tech stuffs you may interested in. This is a Static web site created using **Jekyll** Static site generating tools and hosted with **GitHub** pages. 
+Welcome to the creative cloud of Chandula!. you will find so many cool stuffs you may interested in. This is a Static web site created using **Jekyll** Static site generating tools and hosted with **GitHub** pages. 
 
 ## What will you find in the Thinker's Cloud!
 
@@ -18,7 +18,7 @@ Most of the Contents of the web site is based on a Blog related to Electronics, 
 
 ## The Author
 
-Hi! I am Chandula Nethmal and I introduce myself as a tech enthusiast who loves to help others and share my knowledge and experience. I Completed higher education at University of Moratuwa, SriLanka and graduated as a professional in Electronic and Telecommunictaion field. Throughout these years, I worked on so many projects related to different tech fileds and I was so keen to share those experiences with the vast community who has the pure passion. However, I made sure to build this site with some fun and cool entertainment items because, this won't be sooo boring, going through a bunch of tech text paragraphs. Also as a encouragement for non-tech peeps.    
+Hi! I am Chandula Nethmal and I introduce myself as a tech enthusiast who loves to help others and share my knowledge and experience. I Completed higher education at University of Moratuwa, SriLanka and graduated as a professional in Electronic and Telecommunictaion field. Throughout these years, I worked on so many projects related to different tech fileds and I was so keen to share this experience with the vast community who has the pure passion. However, I made sure to build this site with some fun and cool entertainment items because, this won't be sooo boring, going through a bunch of tech text paragraphs.
 
 ## What is a Static Site?
 

@@ -16,7 +16,7 @@ feature_row:
     image_caption: "Chandula Nethmal"
     alt: "placeholder image 2"
     title: "Photos"
-    excerpt: "Some random **Photos** taken by by the author.*We take photos as a return ticket to a moment otherwise gone*"
+    excerpt: "Some random **Photos** taken by the author.*We take photos as a return ticket to a moment otherwise gone*"
     url: "/photos/"
     btn_label: "Go to Photos"
     btn_class: "btn--primary"

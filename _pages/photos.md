@@ -201,7 +201,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>The Yahangala moountain, Sri Lanka.</figcaption>
+  <figcaption>The Yahangala mountain, Sri Lanka.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -210,7 +210,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption> There are somethings you cannot explain using a single sentense like this photo.   </figcaption>
+  <figcaption> There are somethings you cannot explain using a single sentense like this photo. Just went to my childhood and brought back some memories. </figcaption>
 </figure>
 
 {% capture fig_img %}

@@ -17,7 +17,6 @@ toc: true
 ---
 
 
-
 Nowadays people are paying their attention to work with Single Board Computers (SBCs) for their projects rather than using large computers or bunch of micro-controllers inside a limited space. There are several reasons behind this. These SBCs are highly integrated circuit boards with many kinds of microprocessors, memory chips, GPIO (Input/output) features with different communication protocols and etc. within a small single printed circuit board. Considerably high computational power with essential external interfacing I/O features and low power consumption makes these kinds of circuits are ideal for robotics, IoT, Machine learning and many other portable applications. Here we are going to work on a considerably advanced project using a Raspberry Pi SBC which I was implemented as a sub part of one of my university projects. 
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/rpi_live_stream/1.jpg){: .align-center}
