@@ -18,7 +18,10 @@ tags:
 toc: true
 
 ---
-Micro robots are becoming popular in robotics and hobby electronics fields rapidly since they have several positive factors with comparison to the bulky designs. Generally, a design of a micro robot is heavily limited by its size and obviously by its hardware components because of they are designed to be light weight. Since these types of robots are designed according to a specific application like swarm-robots, micro mouse or even for educational purposes, we can design them with specific set of hardware which won’t get affected by above limitations that much. Designing of a micro robot can be bit difficult due to its highly compact nature. However, the same compact nature can make the assembling process easier and the building cost lower compared to a regular sized robot. 
+Micro robots are becoming popular in robotics and hobby electronics fields rapidly since they have several positive factors with comparison to the bulky designs. Generally, a design of a micro robot is heavily limited by its size and obviously by its hardware components because of they are designed to be light weight.
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/micro_robot_on_pcb/2.jpg)
+
+Since these types of robots are designed according to a specific application like swarm-robots, micro mouse or even for educational purposes, we can design them with specific set of hardware which won’t get affected by above limitations that much. Designing of a micro robot can be bit difficult due to its highly compact nature. However, the same compact nature can make the assembling process easier and the building cost lower compared to a regular sized robot. 
 
 <iframe width="560" height="315" src="https://1.bp.blogspot.com/-curokNax5XE/XekpG7O8XfI/AAAAAAAAGmI/MYYFvqQraWcG6n3DZpvNp-LTsNmmnJKoQCLcBGAsYHQ/s320/PCB1_bottom_3d3.jpg" frameborder="0" allowfullscreen></iframe>
 
@@ -96,6 +99,8 @@ Following images shows that the both sides of the PCB from the design view and 3
 <iframe width="560" height="315" src="https://1.bp.blogspot.com/-VuEEsBGWepI/Xeksboqi1sI/AAAAAAAAGnY/cjExAzOXQqcfzurGSvmj0j7vYtpBWyQ-ACLcBGAsYHQ/s320/PCB1_bottom_3d.jpg" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://1.bp.blogspot.com/-bI_EYagWlyw/Xeksb6bP7BI/AAAAAAAAGng/k7h3dWJeBiUkvvI98f4-1JFRUUe1x1skwCLcBGAsYHQ/s320/PCB1_bottom_3d2.jpg" frameborder="0" allowfullscreen></iframe>
+
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/micro_robot_on_pcb/2.jpg)
 
  You can find the completed Altium PCB drawing from the
 

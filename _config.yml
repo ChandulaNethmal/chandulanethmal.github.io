@@ -12,7 +12,7 @@
 
 theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" #"dark" #"air" #"default"  , "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" #"dark" #"air" #"default"  , "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -24,7 +24,7 @@ description              : "Welcome to the creative cloud of Chandula ;) . you w
 url                      : https://chandulanethmal.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ChandulaNethmal/chandulanethmal.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/500x300.png" #"ThinkersLogoTrans.png" #"/assets/images/500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/ThinkersLogoTrans.png" #"ThinkersLogoTrans.png" #"/assets/images/500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "ThinkersLogoTrans.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true # true, false (default)
