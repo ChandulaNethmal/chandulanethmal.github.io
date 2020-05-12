@@ -14,10 +14,10 @@ tags:
 toc: true
 ---
 ## What is a Website?
+Nowadays, the word "Website" is a very common thing even among primary school chilren and everyone in the society is benefitted with different types of websites in day-to-day life with or without a knowledge onn this thing. 
+
 ![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/static_dynamic/stat-dynamic_1.jpg)
-
-
-Nowadays, the word "Website" is a very common thing even among primary school chilren and everyone in the society is benefitted with different types of websites in day-to-day life with or without a knowledge onn this thing. Before get in to the topic we need to discuss three terms as follows,
+Before get in to our major topic, we need to discuss some basics. Let's start with following three terms.
 
 * web page: 
 A document written in a statdard format which can be displayed in a web browser such as Firefox, Google Chrome.  These are also often called just "pages".
