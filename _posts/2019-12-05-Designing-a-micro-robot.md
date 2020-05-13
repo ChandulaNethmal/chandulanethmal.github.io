@@ -4,7 +4,7 @@ date: "2019-12-05"
 
 header:
   teaser:"https://1.bp.blogspot.com/-curokNax5XE/XekpG7O8XfI/AAAAAAAAGmI/MYYFvqQraWcG6n3DZpvNp-LTsNmmnJKoQCLcBGAsYHQ/s320/PCB1_bottom_3d3.jpg" 
-  og_image:"https://1.bp.blogspot.com/-curokNax5XE/XekpG7O8XfI/AAAAAAAAGmI/MYYFvqQraWcG6n3DZpvNp-LTsNmmnJKoQCLcBGAsYHQ/s320/PCB1_bottom_3d3.jpg" 
+  og_image:"assets/images/micro_robot_on_pcb/2.jpg"
 categories:
   - Projects
   - Embedded

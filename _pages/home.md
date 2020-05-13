@@ -14,8 +14,13 @@ header:
   caption: "Chandula Nethmal"
 excerpt: "Welcome to the creative cloud of Chandula. You may find some cool tech and fun stuffs in this Static website."
 intro: 
-  - excerpt: 'Thinker`s Cloud is basically a Static website created using Jekyll Static site generating tools and hosted with Github. Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, computer science and many other cool stuffs including awesome photos, drawings and some interesting quotes may give soemthing to your life. You may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..'
+  - excerpt: '**Thinker`s Cloud is basically a Static website created using Jekyll Static site generating tools and hosted with Github. Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, computer science and many other cool stuffs including awesome photos, drawings and some interesting quotes may give soemthing to your life. You may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..**'
 
+site_map:
+  - image_path: /assets/images/sitemap.png
+    alt: "placeholder image 2"
+    title: "Little Guide to Site-Map"
+    excerpt: 'The blog contains mostly tech related articles and you can get access to them in the order of timeline via the **Blog** page. These articles are also categorized under most suitable topics considering the content and you can easily go to a particular category of interest via **Categories** page. There is another advantage in this blog which is the **Tags** feature. You can easily find a similar set of articles categorized using common tags via tags you find in the end of each article. Other than above features, there is a keyword search feature in the header of the site, in order to find an article using whatever the keyword in your mind.'
 
 feature_row:
   - image_path: "https://source.unsplash.com/800x800/?computer"
@@ -60,6 +65,8 @@ feature_row4:
 ---
 
 {% include feature_row id="intro" type="center" %}
+
+{% include feature_row id="site_map" type="left" %}
 
 {% include feature_row %}
 
