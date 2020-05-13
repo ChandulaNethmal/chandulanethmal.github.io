@@ -2,6 +2,7 @@
 title: "Raspberry Pi Live Video Streaming with Pi-Camera  "
 header:
   teaser: "assets/images/rpi_live_stream/1.jpg"
+  og_image: "assets/images/rpi_live_stream/1.jpg"
 categories:
   - Projects
   - Embedded

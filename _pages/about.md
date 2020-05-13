@@ -8,7 +8,7 @@ excerpt: "This is Chandula Nethmal's Official web site."
 last_modified_at: 2020-05-08T14:07:54-04:00
 toc: true
 ---
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/site-image.jpg)
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/Thinkers-splash2.jpg)
 
 Welcome to the creative cloud of Chandula!. you will find so many cool stuffs you may interested in. This is a Static web site created using **Jekyll** Static site generating tools and hosted with **GitHub** pages. 
 

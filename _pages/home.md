@@ -7,14 +7,14 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: "/Thinkers-splash.jpg"
-  og_image: /ThinkersLogoTrans.png
+  og_image: "/Thinkers-splash2.jpg"
   actions:
     - label: "Blog"
       url: "/year-archive/"
   caption: "Chandula Nethmal"
 excerpt: "Welcome to the creative cloud of Chandula. You may find some cool tech and fun stuffs in this Static website."
 intro: 
-  - excerpt: 'Thinker's Cloud is basically a Static website created using Jekyll Static site generating tools and hosted with Github. Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, computer science and many other cool stuffs including awesome photos, drawings and some interesting quotes may give soemthing to your life. You may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..'
+  - excerpt: 'Thinker`s Cloud is basically a Static website created using Jekyll Static site generating tools and hosted with Github. Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, computer science and many other cool stuffs including awesome photos, drawings and some interesting quotes may give soemthing to your life. You may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..'
 
 
 feature_row:
@@ -37,7 +37,7 @@ feature_row2:
   - image_path: "https://source.unsplash.com/400x400/?entertainment"
     alt: "placeholder image 2"
     title: "Entertainment"
-    excerpt: 'Some **Entertainment** items for you to add some  colors to ur life'
+    excerpt: 'Some **Entertainment** items for you to add some  colors to ur life. *Entertainment is about taking people away from the regular order of things when there is some chaos and pain and stress.*'
     url: "/entertainment/"
     btn_label: "Go to Entertainment Items"
     btn_class: "btn--primary"
