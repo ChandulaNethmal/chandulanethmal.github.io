@@ -33,7 +33,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>Failures of Life.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -42,7 +42,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>How well you have lived.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -51,7 +51,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>Happiness.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -60,7 +60,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>Fact of Life.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -69,7 +69,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>Cheering yourself.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -78,7 +78,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>Do not waste Heartbeats.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -87,7 +87,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>Time...Heart....Behavior.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -96,7 +96,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>Happiness.</figcaption>
 </figure>
 
 
@@ -107,7 +107,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>____.</figcaption>
+  <figcaption>Keep breathing.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -116,7 +116,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>Hope is a Good thing.</figcaption>
 </figure>
 
 

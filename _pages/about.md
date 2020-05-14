@@ -50,5 +50,12 @@ Since static Web pages contain fixed code,the content of each page does not chan
 
 Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open source MIT license.
 
+## Little Guide to Site-Map
+![Unsplash image 10]({{ site.url }}
+{{ site.baseurl }}/assets/images/sitemap.png)
+
+The blog contains mostly tech related articles and you can get access to them in the order of timeline via the **Blog** page. These articles are also categorized under most suitable topics considering the content and you can easily go to a particular category of interest via **Categories** page. There is another advantage in this blog which is the **Tags** feature. You can easily find a similar set of articles categorized using common tags via tags you find in the end of each article. Other than above features, there is a keyword search feature in the header of the site, in order to find an article using whatever the keyword in your mind.
+
+
 ---
 

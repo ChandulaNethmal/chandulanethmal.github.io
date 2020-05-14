@@ -103,22 +103,22 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:chandulanethmal@gmail.com
+    #  url: mailto:chandulanethmal@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://chandula-nethmal.blogspot.com"
+      url: "https://chandulanethmal.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/chandulanethmal"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-    #  url: "https://facebook.com/chandulanethmal"
+    #  url: "https://facebook.com/thinkerscloud"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chandulanethmal"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    #- label: "Instagram"
+    # icon: "fab fa-fw fa-instagram"
+    # url: "https://instagram.com/"
 
 # Site Footer
 footer:

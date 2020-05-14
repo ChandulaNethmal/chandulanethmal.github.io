@@ -14,10 +14,10 @@ tags:
 toc: true
 ---
 ## What is a Website?
-Nowadays, the word "Website" is a very common thing even among primary school chilren and everyone in the society is benefitted with different types of websites in day-to-day life with or without a knowledge onn this thing. 
+Nowadays, the word "Website" is a very common thing, even among primary school chilren. Everyone in the society is benefitted with different types of websites in their day-to-day life with or without a knowledge on this. 
 
 ![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/static_dynamic/stat-dynamic_1.jpg)
-Before get in to our major topic, we need to discuss some basics. Let's start with following three terms.
+Before get in to our major topic, we need to discuss some basics. Let's start with the following three terms.
 
 * web page: 
 A document written in a statdard format which can be displayed in a web browser such as Firefox, Google Chrome.  These are also often called just "pages".
@@ -35,6 +35,8 @@ All publicly accessible websites collectively constitute the World Wide Web. Oth
 Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment, or social networking. Hyperlinking between web pages guides the navigation of the site, which often starts with a home page.
 Web sites can be categorized in to basic two branches as Static websites and Dynamic websites. In this post, we are focusing on discuss about static websites since this blog is based on a static web site.    
 
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/static_dynamic/stat_dyn.png)
+
 ## What is a Dynamic website?
 
 Dynamic websites are  contain Web pages that are generated in real-time. These pages include Web scripting code, such as PHP or ASP. When a dynamic page is accessed, the code within the page is parsed on the Web server and the resulting HTML is sent to the client's Web browser.
@@ -45,8 +47,6 @@ Most large websites are dynamic, since they are easier to maintain than static w
 
 A static website contains Web pages with fixed content. That means, each page displays the same information to every visitor.
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/static_dynamic/stat_dyn.png)
-
 ![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/static_dynamic/stat.png)
 
 Since static Web pages contain fixed code,the content of each page does not change unless it is manually updated by the webmaster. This works well for small websites, but it can make large sites with hundreds or thousands of pages difficult to maintain. Therefore, larger websites typically use dynamic pages, which can be updated by simply modifying a database record. Static sites that contain a lot of pages are often designed using templates. This makes it possible to update several pages at once, and also helps provide a consistent layout throughout the site.
@@ -54,7 +54,7 @@ Since static Web pages contain fixed code,the content of each page does not chan
 ### Advantages of a static website
 
 - Provide improved security over dynamic websites (dynamic websites are at risk to web shell attacks if a vulnerability is present).
-- Improved performance for end users compared to dynamic websites
+- Improved performance for end users compared to dynamic websites.
 - Fewer or no dependencies on systems such as databases or other application servers.
 - Cost savings from utilizing cloud storage, as opposed to a hosted environment.
 

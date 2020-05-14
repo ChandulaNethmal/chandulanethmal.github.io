@@ -15,9 +15,8 @@ layouts_gallery:
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
 last_modified_at: 2020-05-08T14:07:54-04:00
-toc: true
 ---
-
+## DRAWING IS NOT WHAT ONE SEES, BUT WHAT ONE CAN MAKE OTHERS SEE..
 
 {% capture fig_img %}
 ![Foo]({{ '/assets/images/drawings/1.jpg' | relative_url }})
@@ -25,7 +24,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>____.</figcaption>
+  <figcaption>The Phoenix with Adobe Photoshop Pencil tool.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -34,7 +33,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>Another sketch with Adobe Photoshop Pencil tool.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -43,7 +42,7 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>______.</figcaption>
+  <figcaption>A vector Graphic of Che Guvera using CorelDraw.</figcaption>
 </figure>
 
 {% capture fig_img %}
@@ -52,9 +51,17 @@ toc: true
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>_______.</figcaption>
+  <figcaption>A simple Floral Vector Graphic using CorelDraw.</figcaption>
 </figure>
 
+{% capture fig_img %}
+![Foo]({{ '/assets/images/drawings/5.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>A multicolor copies of Book cover using Coreldraw.</figcaption>
+</figure>
 
 
 ---
