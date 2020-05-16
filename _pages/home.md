@@ -14,7 +14,7 @@ header:
   caption: "Chandula Nethmal"
 excerpt: "**Welcome to the Creative Cloud of Chandula!** *You may find some CooL Tech and Fun stuffs in this Static Website.*"
 intro: 
-  - excerpt: '**Thinker`s Cloud is basically a Static website created using Jekyll Static site generating tools and hosted with Github. Most of the Contents of the web site are based on a Blog related to Electronics, Internet of Things, Telecommunication, Computer Science and many other cool informative stuffs including awesome photos, drawings and some  quotes may add some colors to your life. Also, you may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..**'
+  - excerpt: '**Thinker`s Cloud is basically a Static website powered by Jekyll tools and hosted with Github. Most of the Contents of the web site are based on a Blog related to Electronics, Internet of Things, Telecommunication, Computer Science and many other cool informative stuffs including awesome photos, drawings and some  quotes may add some colors to your life. Also, you may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..**'
 
 site_map:
   - image_path: /assets/images/sitemap.png
@@ -22,7 +22,7 @@ site_map:
     title: "Little Guide to Site-Map"
     excerpt: 'The blog contains mostly tech related articles and you can get access to them in the order of timeline via the **Blog** page. These articles are also categorized under most suitable topics considering the content and you can easily go to a particular category of interest via **Categories** page. There is another advantage in this blog which is the **Tags** feature. You can easily find a similar set of articles categorized using common tags via tags you find in the end of each article. Other than above features, there is a keyword search feature in the header of the site, in order to find an article using whatever the keyword in your mind.
 
-*Finally, have a kind request from you to give us a feedback. Whatever on your mind about articles, please don`t hesitate to hit an emoji and type a comment.* '
+*Finally, have a kind request from you to give us a feedback and share to your favourite Social site. Whatever on your mind about articles, please don`t hesitate to hit an emoji and type a comment.* '
 
 feature_row:
   - image_path: "https://source.unsplash.com/800x800/?computer"
