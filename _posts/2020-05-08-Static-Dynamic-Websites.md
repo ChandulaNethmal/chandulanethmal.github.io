@@ -60,10 +60,26 @@ Since static Web pages contain fixed code,the content of each page does not chan
 
 ### Disadvantages of a static website
 - Dynamic functionality must be performed on the client side.
+- Even a small change to some Websites with large nuber of pages may bit difficult.
+
+## Static Site Generators
+
+Basically, static site generators are command-line tools that generate the creation of the final HTML page forward from the point the user requests it to the point you write the content. When you make any update to a page, generators will build you the new page, which can then be served as-is to every user who requests it as we discussed in the above sections. There are several popular ststic-site generators you will find as follows.
+
+1. Jekyll
+2. Gatsby
+3. Hugo
+4. Hexo
+5. Nuxt
+
+Here, I am going to coninue our discussion with Jekyll since this site is built with Jekyll generator.
 
 ## What  is Jekyll?
 
 ![Unsplash image 10]({{ site.url }}
 {{ site.baseurl }}/assets/images/jekyll-logo.png)
 
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open source MIT license.
+Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open source MIT license.Instead of using databases, Jekyll takes the content, renders Markdown or Textile and Liquid templates
+and produces a complete, static website ready to be served by Apache HTTP Server, Nginx or another web server.
+
+Jekyll is the engine behind GitHub Pages, a GitHub feature that allows users to host websites based on their GitHub repositories for no additional cost.Jekyll is flexible and can be used in combination with front-end frameworks such as Bootstrap,Semantic UI and many others.

@@ -10,7 +10,7 @@ header:
   og_image: "/assets/images/photos/1.jpg" 
 
 intro: 
-  - excerpt: 'Thinkers Cloud is basically a web site based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs related to science fields. You may find interesting projects which the author has done through his knowledge and experience in Robotics, PCB designing, Internet of Things, Embedded systems.'
+  - excerpt: 'This is where you find some Real Rest to your brain. Scrolling below, you will find the Awesome **Photos** section, Creative **Drawings** section some **Quotes** worth for your time in the Quotes section. They may add some colors to your life.' 
 feature_row:
   - image_path: "https://source.unsplash.com/800x800/?Nature"
     image_caption: "Chandula Nethmal"
@@ -37,6 +37,7 @@ feature_row3:
     btn_label: "Go to Quotes"
     btn_class: "btn--primary"
 ---
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row type="center" %}
 

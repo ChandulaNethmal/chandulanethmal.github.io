@@ -20,12 +20,12 @@ title                    : "Thinker's Cloud"
 title_separator          : "-"
 subtitle                 : "Inspiring the Creativity" # site tagline that appears below site title in masthead
 name                     : "Chandula Nethmal"
-description              : "Welcome to the creative cloud of Chandula ;) . you will find so many cool tech stuffs you may interested in. This is a Static web site created using Gatsby Static site generating tools and React. Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs related to science fields. You may find interesting projects which the author has done through his knowledge and experience in Robotics, PCB designing, Internet of Things, Embedded systems.."
+description              : "Welcome to the creative cloud of Chandula . you will find so many cool tech stuffs you may interested in. This is a Static web site created using Gatsby Static site generating tools and React. Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs related to science fields. You may find interesting projects which the author has done through his knowledge and experience in Robotics, PCB designing, Internet of Things, Embedded systems.."
 url                      : https://chandulanethmal.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ChandulaNethmal/chandulanethmal.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "ThinkersLogoTrans.png" #"ThinkersLogoTrans.png" #"/assets/images/500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "ThinkersLogoTrans.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/site-image.jpg" #"ThinkersLogoTrans.png" #"/assets/images/500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/site-image.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200

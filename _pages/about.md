@@ -14,18 +14,17 @@ Welcome to the creative cloud of Chandula!. you will find so many cool stuffs yo
 
 ## What will you find in the Thinker's Cloud!
 
-Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs including awesome photos, drawings and some interesting quotes may give soemthing to your life. You may find interesting projects which the author has done through his knowledge and experience in Robotics, PCB designing, Internet of Things, Embedded systems..
-Other than that, so many cool stuffs including awesome photos, drawings and some interesting quotes may give soemthing to your life. You may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..
+Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, new technologies and many other cool stuffs including awesome photos, drawings and some interesting quotes may give soemthing to your life. You may find interesting projects and so many cool stuffs including awesome photos, drawings and some interesting quotes may give soemthing to your life..
 
 ## The Author
 
-Hi! I am Chandula Nethmal and I introduce myself as a tech enthusiast who loves to help others and share my knowledge and experience.
+Hi! I am Chandula Nethmal and I introduce myself as a tech enthusiast who loves to help others by sharing my knowledge and experience.
 
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/chandula_prof1.jpg)
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/chandula_prof2.jpg)
 
 
-I Completed my higher education at University of Moratuwa, SriLanka and graduated as a professional in Electronic and Telecommunictaion field. Throughout these years, I worked on many projects related to different tech fileds and I was so keen to share this experience with the vast community with the pure passion. However, I made sure to build this site with some fun and cool entertainment items because, it won't be sooo boring, going through a bunch of tech text paragraphs.
+I Completed my higher education at University of Moratuwa, SriLanka and graduated as a professional in Electronic and Telecommunictaion field. Throughout these years, I worked on many projects related to different tech fileds and I was so keen to share this experience with the vast community with the pure passion. However, I made sure to build this site with some fun and cool entertainment items because, it won't be sooo boring, going through a bunch of tech text paragraphs. I hope you may spend a better time going through the site.  
 
 ## What is a Static Site?
 
@@ -38,6 +37,7 @@ Since static Web pages contain fixed code,the content of each page does not chan
 
 ### Advantages of a static website
 
+- Hey! Do you know that Static sites are **SuperFast**. 
 - Provide improved security over dynamic websites (dynamic websites are at risk to web shell attacks if a vulnerability is present).
 - Improved performance for end users compared to dynamic websites
 - Fewer or no dependencies on systems such as databases or other application servers.

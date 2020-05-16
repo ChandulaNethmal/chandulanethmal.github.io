@@ -2,7 +2,7 @@
 title: "Some Random Quotes"
 permalink: /quotes/
 header:
-  og_image: /assets/images/unsplash-image-2.jpg
+  og_image: "/assets/images/quotes/11.jpg" 
 excerpt: "This is Chandula Nethmal's Official web site."
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png

@@ -5,16 +5,16 @@ permalink: /home/
 date: 2020-05-7T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_filter: "0.2"
+  overlay_filter: "0.1"
   overlay_image: "/Thinkers-splash.jpg"
-  og_image: "/Thinkers-splash2.jpg"
+  og_image: "/Thinkers-splash.jpg"
   actions:
     - label: "Blog"
       url: "/year-archive/"
   caption: "Chandula Nethmal"
-excerpt: "Welcome to the creative cloud of Chandula. You may find some cool tech and fun stuffs in this Static website."
+excerpt: "**Welcome to the Creative Cloud of Chandula!** *You may find some CooL Tech and Fun stuffs in this Static Website.*"
 intro: 
-  - excerpt: '**Thinker`s Cloud is basically a Static website created using Jekyll Static site generating tools and hosted with Github. Most of the Contents of the web site is based on a Blog related to Electronics, Internet of Things, Telecommunication, computer science and many other cool stuffs including awesome photos, drawings and some interesting quotes may give soemthing to your life. You may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..**'
+  - excerpt: '**Thinker`s Cloud is basically a Static website created using Jekyll Static site generating tools and hosted with Github. Most of the Contents of the web site are based on a Blog related to Electronics, Internet of Things, Telecommunication, Computer Science and many other cool informative stuffs including awesome photos, drawings and some  quotes may add some colors to your life. Also, you may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..**'
 
 site_map:
   - image_path: /assets/images/sitemap.png

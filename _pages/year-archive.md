@@ -4,7 +4,7 @@ permalink: /year-archive/
 layout: posts
 header:
   image: /assets/images/unsplash-image-3.jpg
-  og_image: /assets/images/page-header-og-image.png
+  og_image: "/Thinkers-splash.jpg"
 
 author_profile: true
 ---
