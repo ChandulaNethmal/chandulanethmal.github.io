@@ -21,7 +21,7 @@ Most of the Contents of the web site is based on a Blog related to Electronics, 
 Hi! I am Chandula Nethmal and I introduce myself as a tech enthusiast who loves to help others by sharing my knowledge and experience.
 
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/chandula_prof3.jpg)
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/chandula_prof1.jpg)
 
 
 I Completed my higher education at University of Moratuwa, SriLanka and graduated as a professional in Electronic and Telecommunictaion field. Throughout these years, I worked on many projects related to different tech fileds and I was so keen to share this experience with the vast community with the pure passion. However, I made sure to build this site with some fun and cool entertainment items because, it won't be sooo boring, going through a bunch of tech text paragraphs. I hope you may spend a better time going through the site.  
