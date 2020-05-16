@@ -7,7 +7,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.1"
   overlay_image: "/Thinkers-splash.jpg"
-  og_image: "/Thinkers-splash.jpg"
+  og_image: "/Thinkers-splash3.jpg"
   actions:
     - label: "Blog"
       url: "/year-archive/"
