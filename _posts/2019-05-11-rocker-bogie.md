@@ -2,6 +2,9 @@
 title: "Rocker Bogie Suspension System"
 date: "2019-05-11"
 header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image:  "https://4.bp.blogspot.com/-GBh99YjvTqM/XNcFLKFhn6I/AAAAAAAADUY/yXkiTuqrsVwABuC6DvuUlBs6DmUKqreAwCLcBGAs/s400/maxresdefault.jpg" 
   teaser: "https://4.bp.blogspot.com/-GBh99YjvTqM/XNcFLKFhn6I/AAAAAAAADUY/yXkiTuqrsVwABuC6DvuUlBs6DmUKqreAwCLcBGAs/s400/maxresdefault.jpg" 
 categories:
   - Robotics
@@ -16,7 +19,9 @@ toc: true
 
 ---
 ## What is Rocker Bogie Suspension?
-When we are designing a robot, understanding the operating environment is a must. For a land mobile robot, we need to consider about the terrain and obstacles it needs to overcome.Mechanical design of the robot is highly dependent on this details. A suspension is the system which allows the relative motion between wheels and the body and connect them together.  Rocker Bogie is a special suspension mechanism designed for land mobile platforms. Expectation of this design is providing a maximum stability to the platform in all kinds of difficult terrains. A surface with rough terrain including rocks, pits, sand or even stairs can be overcome by a mobile platform with the use of this mechanism. 
+When we are designing a robot, understanding the operating environment is a must. For a land mobile robot, we need to consider about the terrain and obstacles it needs to overcome.
+
+Mechanical design of the robot is highly dependent on this details. A suspension is the system which allows the relative motion between wheels and the body and connect them together.  Rocker Bogie is a special suspension mechanism designed for land mobile platforms. Expectation of this design is providing a maximum stability to the platform in all kinds of difficult terrains. A surface with rough terrain including rocks, pits, sand or even stairs can be overcome by a mobile platform with the use of this mechanism. 
 
 ## Origin of Rocker Bogie
 Rocker Bogie is a suspension system developed by NASA for its Mars Rover missions in 1988. First it was introduced for the Sojourner Mars Rover which landed on Mars on 1997 and after that for Spirit and Opportunity Rovers belonged to MER (Mars Exploration Rover) project in 2003 and also for Curiosity Rover on MSL (Mars Science Laboratory)  project in 2012.   Not only that, this system is already added to the Mars 2020 rover of NASA which is planed to launch in 2021.

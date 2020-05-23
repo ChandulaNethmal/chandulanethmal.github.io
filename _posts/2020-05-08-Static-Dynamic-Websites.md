@@ -1,6 +1,9 @@
 ---
 title: "Static Vs. Dynamic Websites"
 header:
+  overlay_color: "#000"
+  overlay_filter: "0.4"
+  overlay_image:  "assets/images/static_dynamic/stat-dynamic_1.jpg"
   teaser: "assets/images/static_dynamic/stat-dynamic_1.jpg"
   og_image: "assets/images/static_dynamic/stat-dynamic_1.jpg"
 categories:
