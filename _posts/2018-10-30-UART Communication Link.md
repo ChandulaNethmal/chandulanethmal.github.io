@@ -1,7 +1,6 @@
 ---
 title: "UART Communication Link Implementation with Verilog HDL on FPGA"
 header:
-header:
   overlay_color: "#000"
   overlay_filter: "0.4"
   overlay_image:  "assets/images/uart_link/1.jpg"
