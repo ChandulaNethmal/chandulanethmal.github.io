@@ -16,6 +16,8 @@ tags:
   - Jekyll
 toc: true
 ---
+Nowadays, the word "Website" is a very common thing, even among primary school chilren. We are going to discuss about a basic categorization of websites. 
+
 ## What is a Website?
 Nowadays, the word "Website" is a very common thing, even among primary school chilren. Everyone in the society is benefitted with different types of websites in their day-to-day life with or without a knowledge on this. 
 

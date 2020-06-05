@@ -13,8 +13,13 @@ header:
       url: "/year-archive/"
   caption: "Chandula Nethmal"
 excerpt: "**Welcome to the Creative Cloud of Chandula!** *You may find some CooL Tech and Fun stuffs in this Static Website.*"
+
 intro: 
-  - excerpt: '**Thinker`s Cloud is basically a Static website powered by Jekyll tools and hosted with Github. Most of the Contents of the web site are based on a Blog related to Electronics, Internet of Things, Telecommunication, Computer Science and many other cool informative stuffs including awesome photos, drawings and some  quotes may add some colors to your life. Also, you may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..**'
+  - image_path: /assets/images/site_data/2.gif
+    alt: "placeholder image 2"
+    excerpt: '
+
+**Thinker`s Cloud is basically a Static website powered by Jekyll tools and hosted with Github. Most of the Contents of the web site are based on a Blog related to Electronics, Internet of Things, Telecommunication, Computer Science and many other cool informative stuffs including awesome photos, drawings and some  quotes may add some colors to your life. Also, you may find some interesting projects related to in Robotics, PCB designing, IoT, Embedded systems and etc..**'
 
 site_map:
   - image_path: /assets/images/sitemap.png
@@ -29,17 +34,25 @@ feature_row:
     alt: "placeholder image 1"
     title: "Computer Science"
     excerpt: "This blog contains some articles related to **Computer Science** projects."
+    url: "/categories/#programming/"
+    btn_label: "Computer Science"
+    btn_class: "btn--primary"
+
   - image_path: "https://source.unsplash.com/800x800/?electronic_circuit"
     image_caption: "Chandula Nethmal"
     alt: "placeholder image 2"
     title: "Electronics"
     excerpt: "There are some cool **Elctronic** projects you may interested in."
-    url: "/year-archive/"
-    btn_label: "Go to the Blog"
+    url: "/categories/#electronics/"
+    btn_label: "Electronics"
     btn_class: "btn--primary"
   - image_path: "https://source.unsplash.com/800x800/?robotics"
     title: "Robotics"
-    excerpt: "**Robotics** projects also there at your interest."
+    excerpt: "Take a look at **Robotics** related articles and projects at your interest."
+    url: "/categories/#robotics/"
+    btn_label: "Robotics"
+    btn_class: "btn--primary"
+
 feature_row2:
   - image_path: "https://source.unsplash.com/400x400/?entertainment"
     alt: "placeholder image 2"
@@ -66,7 +79,7 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="right" %}
 
 {% include feature_row id="site_map" type="left" %}
 
