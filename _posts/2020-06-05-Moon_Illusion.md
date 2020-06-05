@@ -2,7 +2,7 @@
 title: "The Moon Illusion"
 header:
   overlay_color: "#000"
-  overlay_filter: "0.1"
+  overlay_filter: "0.0"
   overlay_image:  "assets/images/moon_illusion/1.jpg"
   teaser: "assets/images/moon_illusion/1.jpg"
   og_image: "assets/images/moon_illusion/1.jpg"
@@ -17,7 +17,7 @@ tags:
 toc: true
 ---
 We are going to discuss two really interesting phenomena for anyone curious about the Moon within this blog article!               
-[Touch Me If U cAn](/astronomy/Moon_illusion/){: .btn .btn--success}
+[සිංහල භාෂාවෙන් කියවන්න](/astronomy/Moon_illusion_sinhala/){: .btn .btn--success}
 
 ## Why the Moon appears in different sizes?
 
@@ -42,7 +42,7 @@ When the moon is at its Apogee position and it also at its full phase or a new m
 
 ![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/moon_illusion/8.png)
 
-Because of the elliptical orbit of the moon, it shows an oscillating nature in the distance to the Earth as the above graph with the time. As you can see, full moons are in dots and the new moons are illustrated in x makers. In the year 2020, you can see that there are two full moons having the closest distance to the Earth. Those were two supper moons on 9th of March and 7th of April which you may already watched from your own eyes.    
+Because of the elliptical orbit of the moon, it shows an oscillating nature in the distance to the Earth as the above graph with the time. As you can see, full moons are in dots and the new moons are illustrated in x makers. In the year 2020, you can see that there are two full moons having the closest distance to the Earth. Those were two super moons on 9th of March and 7th of April which you may have already watched from your own eyes.    
 
 ## Is it the only reason?
 
@@ -62,7 +62,7 @@ As in the above image, you see the moon larger near the horizon and it appears i
 
 ### 2.1 Apparent Distance Hypothesis
 
-This theory purposes that the horizon moon seems larger than the moon at the zenith (right above our head) because it looks farther away. Does that make no sense to you?? Let's say in your daily experience, an object overhead, like a bird or an aircraft flying by, appears closer and therefore larger than the same bird or aircraft near the horizon because it really is closer. Our brain built to think that objects near the horizon are (usually) more distant than those overhead because they appear to lie behind and beyond foreground objects. So the same image processing thing is happening inside our brain when we look at the moon.
+This theory purposes that the horizon moon seems larger than the moon at the zenith (right above our head) because it looks farther away. Does that make no sense to you?? Let's say in your daily experience, an object overhead, like a bird or an aircraft flying by, appears closer and therefore larger than the same bird or aircraft near the horizon because it really is closer. Our brain built to think that objects near the horizon are (usually) more distant than those are above us because they appear to lie behind and beyond foreground objects. So the same image processing thing is happening inside our brain when we look at the moon.
 
 
 ![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/moon_illusion/11.jpg) 
