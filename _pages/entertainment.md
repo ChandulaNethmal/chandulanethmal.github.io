@@ -36,6 +36,13 @@ feature_row3:
     url: "/quotes/"
     btn_label: "Go to Quotes"
     btn_class: "btn--primary"
+
+site_map:
+  - image_path: /assets/images/sitemap.png
+    alt: "placeholder image 2"
+    title: "Little Guide to Site-Map"
+    excerpt: 'The blog contains mostly tech related articles and you can get access to them in the order of timeline via the **Blog** page. These articles are also categorized under most suitable topics considering the content and you can easily go to a particular category of interest via **Categories** page. There is another advantage in this blog which is the **Tags** feature. You can easily find a similar set of articles categorized using common tags via tags you find in the end of each article. Other than above features, there is a keyword search feature in the header of the site, in order to find an article using whatever the keyword in your mind.'
+
 ---
 {% include feature_row id="intro" type="center" %}
 
@@ -44,4 +51,6 @@ feature_row3:
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="site_map" type="left" %}
 
