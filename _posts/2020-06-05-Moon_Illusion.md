@@ -25,7 +25,7 @@ It's obvious that you normally tend to take a look at the moon when you just wal
 
 ![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/moon_illusion/6.jpg)
 
-If your answer is yes and you are still keen to know the real science behind this phenomena, then you are just about to find out in a simplified manner. We can break this problem in to two cases. One case is something really happening in the physical space and the other case is something happenning inside your brain which can be understood with some hypothetical(simplified) explanations. 
+If your answer is yes and you are still keen to know the real science behind this phenomena, then you are just about to find out in a simplified manner. We can break this problem in to two cases. One case is something really happening in the physical space and the other case is something happening inside your brain which can be understood with some hypothetical(simplified) explanations. 
 
 ## 1. Super Moon
 A super moon is a full moon or a new moon which is having a slightly lager disk than the usual apparent size of the full moon you see from the Earth, happening due to the nature of the orbit of the moon around the earth. This moon's orbit around the Earth is not a perfect cycle. It is an elliptical one having an average distance of 382,000km to the Earth. Scientists of NASA explain that the Earth, sun and all the other planets are exerting different gravitational pulling and pushing forces on the moon which give us the opportunity to have this elliptical orbit.  
@@ -46,7 +46,7 @@ Because of the elliptical orbit of the moon, it shows an oscillating nature in t
 
 ## Is it the only reason?
 
-In the above section we discussed about one reason for moon to be appeared in different size than usual. However, it is not the only reason and super moons are not really show a huge size increment for human eyes. Anyway, at the super moon, you cannot catch a considareble apparent size increment of the moon but, its brightness increment will be very noticable and really beautiful. 
+In the above section we discussed about one reason for moon to be appeared in different size than usual. However, it is not the only reason and super moons are not really show a huge size increment for human eyes. Anyway, at the super moon, you cannot catch a considerable apparent size increment of the moon but, its brightness increment will be very noticeable and really beautiful. 
 
 There is another reason which the image processing inside human brain makes us to believe that "Whoa! Moon is HUGE today!". This is called as **the Moon Illusion** and in this article we are going to discuss the reasons behind it. 
 

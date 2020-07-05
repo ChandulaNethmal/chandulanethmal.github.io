@@ -1,5 +1,6 @@
 ---
 title: "Some Random Quotes"
+layout: gallery_entertainment
 permalink: /quotes/
 header:
   og_image: "/assets/images/quotes/11.jpg" 

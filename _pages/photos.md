@@ -1,6 +1,7 @@
 ---
 permalink: /photos/
 title: "Random Photos"
+layout: gallery_entertainment
 header:
   og_image: /assets/images/photos/1.jpg 
 excerpt: "This is Chandula Nethmal's Official web site."

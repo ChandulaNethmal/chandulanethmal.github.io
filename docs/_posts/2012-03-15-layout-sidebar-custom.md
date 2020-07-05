@@ -4,7 +4,7 @@ excerpt: "A post with custom sidebar content."
 author_profile: false
 sidebar:
   - title: "Title"
-    image: http://placehold.it/350x250
+    image: /assets/images/site_data/1.gif
     image_alt: "image"
     text: "Some text here."
   - title: "Another Title"
