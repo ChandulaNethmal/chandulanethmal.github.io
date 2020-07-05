@@ -5,16 +5,118 @@ layout: gallery_entertainment
 header:
   og_image: /assets/images/photos/1.jpg 
 excerpt: "This is Chandula Nethmal's Official web site."
-layouts_gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
-    alt: "splash layout example"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
-    alt: "archive layout example"
+gallery:
+  - url: /assets/images/photos/1.jpg
+    image_path: /assets/images/photos/1.jpg
+    alt: "imag1"
+    title: "Did U see the pollens in the legs of the flying Hornet?? How marvellous is that these vibrant colors of the  flowers have evolved to attract insects in order courage the pollination..."
+  - url: /assets/images/photos/2.jpg
+    image_path: /assets/images/photos/2.jpg
+    alt: "im2"
+    title: "Red & Blue! What a combination of the wonderful nature!."
+
+  - url: /assets/images/photos/3.jpg
+    image_path: /assets/images/photos/3.jpg
+    alt: "im3"
+    title: "Just like the moon, we all go through different phases of live whether you like it or not! Btw, full moon is the happiest..because that's definitely a Holyday for me!"
+
+  - url: /assets/images/photos/4.jpg
+    image_path: /assets/images/photos/4.jpg
+    alt: "im4"
+    title: "Love!.There is only one Happiness in the life. To Love and To Be Loved.!  "
+
+  - url: /assets/images/photos/5.jpg
+    image_path: /assets/images/photos/5.jpg
+    alt: "im5"
+    title: "Love nature it will definitely give you its precious gifts such as this bunch of candy. (Embilla)"
+
+  - url: /assets/images/photos/7.jpg
+    image_path: /assets/images/photos/7.jpg
+    alt: "im6"
+    title: "Happiness is...sleeping undisturbed till you wakeup naturally. Hey dude! Don't wake me up !!!."
+
+  - url: /assets/images/photos/6-1.jpg
+    image_path: /assets/images/photos/6-1.jpg
+    alt: "im7"
+    title: "Touch my food and consider yourself fingerless."
+
+  - url: /assets/images/photos/9.jpg
+    image_path: /assets/images/photos/9.jpg
+    alt: "im8"
+    title: "Just a squirrel!."
+
+
+  - url: /assets/images/photos/8-1.jpg
+    image_path: /assets/images/photos/8-1.jpg
+    alt: "im9"
+    title: "Nature is painting for us, day after day,picture of infinite beauty."
+
+  - url: /assets/images/photos/10.jpg
+    image_path: /assets/images/photos/10.jpg
+    alt: "im10"
+    title: "She was in love with the sunset. No one else even stood a chance. Cat & sunSet"
+
+  - url: /assets/images/photos/10-1.jpg
+    image_path: /assets/images/photos/10-1.jpg
+    alt: "im11"
+    title: "Butterflies...flowers that fly and all but sing."
+
+  - url: /assets/images/photos/11.jpg
+    image_path: /assets/images/photos/11.jpg
+    alt: "im12"
+    title: "I can't see clear the clouds are still there... with a tiny something. (The UOM delivery drone)  ."
+
+  - url: /assets/images/photos/12.jpg
+    image_path: /assets/images/photos/12.jpg
+    alt: "im13"
+    title: "Cocus Nucifera(King Coconut) is a variety of cocunut, native to SriLanka."
+
+  - url: /assets/images/photos/13.jpg
+    image_path: /assets/images/photos/13.jpg
+    alt: "im14"
+    title: "Scattered in nearly every vista of Mongolia are the round white tents of Nomads and their gorgeous horses. "
+
+  - url: /assets/images/photos/13-1.jpg
+    image_path: /assets/images/photos/13-1.jpg
+    alt: "im15"
+    title: "Cats have it all: admiration, love without penalties and company when they want it. However, I always wonder and jealous on their endless peaceful sleep.  "
+
+  - url: /assets/images/photos/1.jpg
+    image_path: /assets/images/photos/1.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/photos/1.jpg
+    image_path: /assets/images/photos/1.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/photos/1.jpg
+    image_path: /assets/images/photos/1.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/photos/1.jpg
+    image_path: /assets/images/photos/1.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/photos/1.jpg
+    image_path: /assets/images/photos/1.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/photos/1.jpg
+    image_path: /assets/images/photos/1.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/photos/1.jpg
+    image_path: /assets/images/photos/1.jpg
+    alt: ""
+    title: ""
+
+
 last_modified_at: 2020-05-08T14:07:54-04:00
 intro: 
   - excerpt: 'Some random **Photos** taken by me in my jounery of life.*We take photos as a return ticket to a moment otherwise gone*'
@@ -24,133 +126,9 @@ toc: false
 
 *We take photos as a return ticket to a moment otherwise gone* 
 
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/1.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Did U see the pollens in the legs of the flying Hornet?? How marvellous is that these vibrant colors of the  flowers have evolved to attract insects in order courage the pollination...</figcaption>
-</figure>
+{% include gallery id="gallery" layout="half" caption="Gallery of some random photos." %}
 
 
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/2.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Red & Blue! What a combination of the wonderful nature!.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/3.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Just like the moon, we all go through different phases of live whether you like it or not! Btw, full moon is the happiest..because that's definitely a Holyday for me!</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/4.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Love!.There is only one Happiness in the life. To Love and To Be Loved.!  </figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/5.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Love nature it will definitely give you its precious gifts such as this bunch of candy. (Embilla)</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/7.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Happiness is...sleeping undisturbed till you wakeup naturally. Hey dude! Don't wake me up !!!.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/6-1.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Touch my food and consider yourself fingerless.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/9.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Just a squirrel!.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/8-1.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Nature is painting for us, day after day,picture of infinite beauty.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/10.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>She was in love with the sunset. No one else even stood a chance. Cat & sunSet </figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/10-1.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Butterflies...flowers that fly and all but sing.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/11.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>I can't see clear the clouds are still there... with a tiny something. (The UOM delivery drone)  .</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/12.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Cocus Nucifera(King Coconut) is a variety of cocunut, native to SriLanka.</figcaption>
-</figure>
-
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/13.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Scattered in nearly every vista of Mongolia are the round white tents of Nomads and their gorgeous horses. </figcaption>
-</figure>
 
 {% capture fig_img %}
 ![Foo]({{ '/assets/images/photos/13-1.jpg' | relative_url }})
@@ -158,7 +136,7 @@ toc: false
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Cats have it all: admiration, love without penalties and company when they want it. However, I always wonder and jealous on their endless peaceful sleep.  </figcaption>
+  <figcaption></figcaption>
 </figure>
 
 {% capture fig_img %}
