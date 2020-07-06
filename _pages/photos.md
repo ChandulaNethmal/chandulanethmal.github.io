@@ -81,43 +81,82 @@ gallery:
     alt: "im15"
     title: "Cats have it all: admiration, love without penalties and company when they want it. However, I always wonder and jealous on their endless peaceful sleep.  "
 
-  - url: /assets/images/photos/1.jpg
-    image_path: /assets/images/photos/1.jpg
-    alt: ""
+  - url: /assets/images/photos/14.jpg
+    image_path: /assets/images/photos/14.jpg
+    alt: "im16"
+    title: "The whispering breeze pants on the leaves, and dies upon the trees."
+
+  - url: /assets/images/photos/15.jpg
+    image_path: /assets/images/photos/15.jpg
+    alt: "im17"
+    title: "The journey of life is sweeter when you travel with a dog...The thing is they will follow you even if you do not invite them."
+
+  - url: /assets/images/photos/16.jpg
+    image_path: /assets/images/photos/16.jpg
+    alt: "im18"
+    title: "A green naure can be a medicine of our mind pain.. Believe me friend..it definitely is!."
+
+  - url: /assets/images/photos/17.jpg
+    image_path: /assets/images/photos/17.jpg
+    alt: "im19"
+    title: "The wonderful Singapore flyer which has a beautiful story with the lucky 28 number."
+
+  - url: /assets/images/photos/18.jpg
+    image_path: /assets/images/photos/18.jpg
+    alt: "im20"
+    title: "The Yahangala mountain, Sri Lanka."
+
+  - url: /assets/images/photos/19.jpg
+    image_path: /assets/images/photos/19.jpg
+    alt: "im21"
+    title: " There are somethings you cannot explain using a single sentense like this photo. Just went to my childhood and brought back some memories."
+
+  - url: /assets/images/photos/20.jpg
+    image_path: /assets/images/photos/20.jpg
+    alt: "im22"
+    title: "Algee is the perfect food plant. It doubles cell mass every twelve hours, depending on the strain."
+  - url: /assets/images/photos/21.jpg
+    image_path: /assets/images/photos/21.jpg
+    alt: "im23"
+    title: "Belive me this is a deivery drone in SriLanka going to deliver a package ordered by a  customer."
+
+  - url: /assets/images/photos/22.jpg
+    image_path: /assets/images/photos/22.jpg
+    alt: "im24"
+    title: "Above the clouds."
+  - url: /assets/images/photos/23.jpg
+    image_path: /assets/images/photos/23.jpg
+    alt: "im25"
+    title: "Trying to get you an awesome bird's eye view."
+  - url: /assets/images/photos/24.jpg
+    image_path: /assets/images/photos/24.jpg
+    alt: "im26"
     title: ""
-
-  - url: /assets/images/photos/1.jpg
-    image_path: /assets/images/photos/1.jpg
+  - url: /assets/images/photos/25.jpg
+    image_path: /assets/images/photos/25.jpg
+    alt: "im27"
+    title: "Ceylon Tea"
+  - url: /assets/images/photos/26.jpg
+    image_path: /assets/images/photos/26.jpg
+    alt: "im28"
+    title: "Under the sky of University of Moratuwa."
+  - url: /assets/images/photos/6.jpg
+    image_path: /assets/images/photos/6.jpg
+    alt: "im29"
+    title: "Above the clouds"
+  - url: /assets/images/photos/27.jpg
+    image_path: /assets/images/photos/27.jpg
+    alt: "im30"
+    title: "Wherever I wander, the one thing I've learned
+It's to here, I will always, always return."
+  - url: /assets/images/photos/28.jpg
+    image_path: /assets/images/photos/28.jpg
     alt: ""
-    title: ""
-
-  - url: /assets/images/photos/1.jpg
-    image_path: /assets/images/photos/1.jpg
-    alt: ""
-    title: ""
-
-  - url: /assets/images/photos/1.jpg
-    image_path: /assets/images/photos/1.jpg
-    alt: ""
-    title: ""
-
-  - url: /assets/images/photos/1.jpg
-    image_path: /assets/images/photos/1.jpg
-    alt: ""
-    title: ""
-
-  - url: /assets/images/photos/1.jpg
-    image_path: /assets/images/photos/1.jpg
-    alt: ""
-    title: ""
-
-  - url: /assets/images/photos/1.jpg
-    image_path: /assets/images/photos/1.jpg
-    alt: ""
-    title: ""
+    title: "Wherever I wander, the one thing I've learned
+It's to here, I will always, always return."
 
 
-last_modified_at: 2020-05-08T14:07:54-04:00
+last_modified_at: 2020-07-05T14:07:54-04:00
 intro: 
   - excerpt: 'Some random **Photos** taken by me in my jounery of life.*We take photos as a return ticket to a moment otherwise gone*'
 
@@ -129,160 +168,6 @@ toc: false
 {% include gallery id="gallery" layout="half" caption="Gallery of some random photos." %}
 
 
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/13-1.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption></figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/14.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>The whispering breeze pants on the leaves, and dies upon the trees.</figcaption>
-</figure>
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/15.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption> The journey of life is sweeter when you travel with a dog...The thing is they will follow you even if you do not invite them.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/16.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>A green naure can be a medicine of our mind pain.. Believe me friend..it definitely is!.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/17.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>The wonderful Singapore flyer which has a beautiful story with the lucky 28 number.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/18.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>The Yahangala mountain, Sri Lanka.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/19.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption> There are somethings you cannot explain using a single sentense like this photo. Just went to my childhood and brought back some memories. </figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/20.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Algee is the perfect food plant. It doubles cell mass every twelve hours, depending on the strain.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/21.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Belive me this is a deivery drone in SriLanka going to deliver a package ordered by a  customer.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/22.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Above the clouds.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/23.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Trying to get you an awesome bird's eye view.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/24.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/25.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>SriLankan tea.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/26.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Under the sky of University of Moratuwa.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/6.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Above the clouds.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/27.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Wherever I wander, the one thing I've learned
-It's to here, I will always, always return.</figcaption>
-</figure>
-
-{% capture fig_img %}
-![Foo]({{ '/assets/images/photos/28.jpg' | relative_url }})
-{% endcapture %}
-
-<figure>
-  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Wherever I wander, the one thing I've learned
-It's to here, I will always, always return.</figcaption>
-</figure>
 
 ## "Little Guide to Site-Map"
 
