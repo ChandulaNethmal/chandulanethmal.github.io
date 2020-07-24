@@ -2,10 +2,10 @@
 title: "Designing a Closed Loop DC Motor Controller"
 header:
   overlay_color: "#000"
-  overlay_filter: "0.4"
-  overlay_image:  "assets/images/motor_control2/1.jpeg"
-  teaser: "assets/images/motor_control2/1.jpeg"
-  og_image: "assets/images/motor_control2/1.jpeg"
+  overlay_filter: "0.2"
+  overlay_image:  "assets/images/motor_control2/challenge1.jpg"
+  teaser: "assets/images/motor_control2/challenge1.jpg"
+  og_image: "assets/images/motor_control2/challenge1.jpg"
 actions:
   - label: "Blog"
     url: "/year-archive/"
@@ -45,12 +45,17 @@ Since we discussed some basics of motor controlling and taking feedback from mot
 
 ## Introduction to My Design: Challenger Motor Controller
 ### Design Considerations
-Since we are dealing with many experimental and academic related robotics projects, I decided to design a DC brushed motor controller with development features. Many available cheap motor controllers are not capable of handling considerably large currents and many of them are open loop motor controllers. Commercially available closed loop motor controllers are expensive and some of them are not open source. Therefore, I went through following design considerations according to expected applications, further development and economic factors. 
+Since we are dealing with many experimental and academic related robotics projects, I decided to design a DC brushed motor controller with development features. That means, this motor controller can be used as a normal open loop motor controller as well as can be programmed to your custom closed loop operations.
+
+Many available cheap motor controllers are not capable of handling considerably large currents and many of them are open loop motor controllers. Commercially available closed loop motor controllers are expensive and some of them are not open source. Therefore, I went through following design considerations according to expected applications, further development and economic factors. 
+
 * Load current
 * Operating Voltage
 * Communication protocols
 * Processing Unit
-Best way to implement a DC motor driver is using H-bridge configurations per each single motor in order to achieve both clockwise and counter clockwise direction driving. We can use four MOSFETs(Metal Oxide Semiconductor Field Effect Transistor) to build each H-bridge as the following schemetics.  
+
+
+Best way to implement a DC motor driver is, using H-bridge configurations per each single motor in order to achieve both clockwise and counter clockwise direction driving. We can use four MOSFETs(Metal Oxide Semiconductor Field Effect Transistor) to build each H-bridge as the following schemetics.  
 
 <figure class="half">
 	<a href="/assets/images/motor_control2/3.gif"><img src="/assets/images/motor_control2/3.gif"></a>
@@ -147,7 +152,7 @@ Here I have used the via stitching option which gives us an array of copper plat
 	<a href="/assets/images/motor_control2/9.jpg"><img src="/assets/images/motor_control2/9.jpg"></a>
 	<a href="/assets/images/motor_control2/10.jpg"><img src="/assets/images/motor_control2/10.jpg"></a>
 
-<figcaption> Action of a MOSFET based H-brdge(Direction controlling).</figcaption>
+<figcaption> Soldered Challenger Controller (Top Side).</figcaption>
 </figure>
 
 
@@ -155,14 +160,14 @@ Here I have used the via stitching option which gives us an array of copper plat
 	<a href="/assets/images/motor_control2/8.jpg"><img src="/assets/images/motor_control2/8.jpg"></a>
 	<a href="/assets/images/motor_control2/11.jpg"><img src="/assets/images/motor_control2/11.jpg"></a>
 
-<figcaption> Action of a MOSFET based H-brdge(Direction controlling).</figcaption>
+<figcaption> Soldered Challenger controller (Bottom Side)</figcaption>
 </figure>
 
 ## Testing the **Challenger** Motor Controller
 
 I did basic testings for my first soldered challenger prototype, using one of my previous robot design project which is a six wheeled mobile robot platform with the **Rocker Bogie** suspension configuration.
 
-I selected this robot to test my motor controller because, this robot contains six motors to move. Therefore, it draws a considerably high current for all six motors while moving though a rocky area...(Just like a Mars Rover moves on the rocky terrain of Mars). Ths helped me to check the maximum current drawing capabilities of my conroller. 
+I selected this robot to test my motor controller because, this robot contains six motors to move. Therefore, it draws a considerably high current for all six motors while moving though a rocky area...(Just like a Mars Rover moves on the rocky terrain of Mars). This helped me to check the maximum current drawing capabilities of my conroller. 
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/cvEnfwppsPo?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
