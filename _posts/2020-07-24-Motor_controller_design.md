@@ -3,9 +3,9 @@ title: "Designing a Closed Loop DC Motor Controller"
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
-  overlay_image:  "assets/images/motor_control2/challenge1.jpg"
-  teaser: "assets/images/motor_control2/challenge1.jpg"
-  og_image: "assets/images/motor_control2/challenge1.jpg"
+  overlay_image:  "assets/images/motor_control2/challenge2.jpg"
+  teaser: "assets/images/motor_control2/challenge2.jpg"
+  og_image: "assets/images/motor_control2/challenge2.jpg"
 actions:
   - label: "Blog"
     url: "/year-archive/"
