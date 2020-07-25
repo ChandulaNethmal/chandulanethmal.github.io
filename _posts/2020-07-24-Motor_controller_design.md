@@ -12,8 +12,10 @@ actions:
 categories:
   - Electronics
   - Robotics
+  - Automation
 tags:
   - Motor
+  - Closed Loop
   - Controller
 toc: true
 ---
@@ -65,6 +67,8 @@ Best way to implement a DC motor driver is, using H-bridge configurations per ea
 
 However, this process consumes more PCB space and additional components to MOSFET gate drivers, protection monitoring, etc. Therefore, I chose an IC which have this full H bridge circuit with most of the essential peripheral components inside within itself.
 
+### Components of My Design
+
 The following figure shows you, all the ports for signal inputs/outputs , communication ports, programming ports, motor connecting screw block terminal connectors and power ports of my challenger closed loop motor controller. 
 <figure class="half">
 	<a href="/assets/images/motor_control2/13.jpg"><img src="/assets/images/motor_control2/13.jpg"></a>
@@ -74,7 +78,8 @@ The following figure shows you, all the ports for signal inputs/outputs , commun
 
 ## Components Selection
 ### Motor Driver H-Bridge
- As I mentioned above I selected ST Electronics' VNH5019A-E Full H-bridge IC which is capable of handling one DC brushed motor will speed and direction adjustments.  This Motor driver can handle continuous 12A current and Peak 30A current through the motor. This higher current carrying capability is the most attractive specification of this IC. Other than that low power consumption, current sensing capability, automatic under/over voltage shutdown and protection considerations are some other positive specs in choosing this product over other ICs. 
+ As I mentioned above, I selected ST Electronics' VNH5019A-E Full H-bridge IC which is capable of handling one DC brushed motor with speed and direction adjustments.  This Motor driver can handle continuous 12A current and Peak 30A current through the motor. This higher current carrying capability is the most attractive specification of this IC. Other than that, low power consumption, current sensing capability, automatic under/over voltage shutdown and protection are some other cool specs in choosing this product over other ICs. 
+
 <figure class="half">
 	<a href="/assets/images/motor_control2/2.jpg"><img src="/assets/images/motor_control2/2.jpg"></a>
 <figcaption> VNH5019 Full H-bridge IC Top and Bottom Sides.</figcaption>
@@ -105,7 +110,7 @@ Main component of the design is the Motor driver. Many of mobile robotics projec
 <figcaption> Schematic of Motor Driver part including two Full H-bridges.</figcaption>
 </figure>
 
-You can see in the schematic of the Motor driver unit drawn using the Easy EDA software. I selected this software to draw the circuit schematics and the PCB CAD drawing because PCB footprint libraries for many of the commercially available electronic components are there in this software due to the vast community contributions. The other reason is this software is issued by the JLC PCB company china which I used to send these PCB designs and get them printed. It is really easy to place that order through this software directly. 
+You can see in the schematic of the Motor driver unit drawn using the Easy EDA software. I selected this software to draw the circuit schematics and the PCB CAD drawing because, PCB footprint libraries for many of the commercially available electronic components are there in this software due to the vast community contributions. The other reason is this software is issued by the JLC PCB company china which I used to send these PCB designs and get them printed. It is really easy to place that order through this software directly. 
 ### Controlling Part
 Main functionality of this unit is to issue speed and direction commands to the above discussed motor driver part. In order to do this, encoder channel outputs of both motors are connected to the interrupt pins of Atmega328 chip. Encoder reading, error calculation, correction signal generation parts are doing inside this unit using a kind of correction algorithms like PID (Proportional Integral Derivative). 
 
@@ -114,7 +119,7 @@ Main functionality of this unit is to issue speed and direction commands to the 
 <figcaption>Scematic of processing part with atmega328 and respective connections between modules.</figcaption>
 </figure>
 
-As you can see in the schematic, a regulated 5V supply for the atmega328 controller is generating within this unit using a regulator IC. Since, this is a closed loop controller, and to be user friendly I placed serial UART interface take user inputs to connect this whole unit to the main controller of your project. Programming the unit can be done through the USB micro interface or the ISP (In-System Programming) programming interface with 6male headers. 
+As you can see in the schematic, a regulated 5V supply for the atmega328 controller is generating within this unit using a regulator IC. Since, this is a closed loop controller, and to be user friendly I placed serial UART interface which takes user inputs to connect this whole unit to the main controller of your project. Programming the unit can be done through the USB micro interface or the ISP (In-System Programming) programming interface with male headers. 
 
 ### Communication
 This is the final part of the design which is the CH340 USB to Serial UART converter based programming and communication interface. If there is no this kind of USB feature you need to find a separate FTDI converter or another programmer separately to program this device which is not a good user friend design.
@@ -123,10 +128,10 @@ This is the final part of the design which is the CH340 USB to Serial UART conve
 <figcaption>Schematic of USB to UART converter circuit.</figcaption>
 </figure>
 
-Other than these things in, if the user needs to use this as an open loop motor controller, that also okay with this design because, all the signal input pins for the motor driver are taken as male headers to manually give signals by overriding the atmega328 control unit. 
+Other than these things, if the user needs to use this as an open loop motor controller, that also okay with this design because, all the signal input pins for the motor driver are taken as male headers to manually give signals by overriding the atmega328 control unit. 
 
 ## PCB Design
-After finalizing the whole circuit drawing and double checking each module, I moved on to drawing the PCB CAD design. Main consideration of this part was design it as compact as possible. Inexpensive and compact way was to break this circuit in to two PCB layers. Placing input output headers and sockets in the proper places going through practical considerations was an important thing like any other PCB design. Otherwise you may be in a trouble when you try to solder them or plugging and detaching jumpers to your final product. 
+After finalizing the whole circuit drawing and double checking each module, I moved on to drawing the PCB CAD design. Main consideration of this part was designing it as compact as possible. Inexpensive and compact way was to break this circuit in to two PCB layers. Placing input output headers and sockets in the proper places going through practical considerations was an important thing like any other PCB design. Otherwise you may be in a big trouble when you try to solder them or plug and detach jumpers to your final product. 
 
 <figure class="half">
 	<a href="/assets/images/motor_control2/pcb1.jpg"><img src="/assets/images/motor_control2/pcb1.jpg"></a>
@@ -136,7 +141,7 @@ After finalizing the whole circuit drawing and double checking each module, I mo
 </figure>
 
 ### Important Facts on PCB design
-As you can see I have placed copper tracks in different trace sizes. The reason behind this was an extremely important fact which is current flowing ratings though each copper track. Current carrying capability of copper tracks are basically depending on trace width, copper thickness and coper material properties. 
+As you can see, I have placed copper tracks in different trace sizes. The reason behind this was an extremely important fact which is different current flowing ratings though each copper track. Current carrying capability of copper tracks are basically depending on trace width, copper thickness and coper material properties. 
 
 <figure class="half">
 	<a href="/assets/images/motor_control2/pcb5.jpg"><img src="/assets/images/motor_control2/pcb5.jpg"></a>
@@ -147,7 +152,7 @@ As you can see I have placed copper tracks in different trace sizes. The reason 
 
 
 Signals carrying tracks coming and going out from the Atmega microcontroller are actually carrying several tens of mili ampheres. Therefore, I placed traces with small trace widths (10milis) for those tracks. Supply and motor driving copper tracks may carry huge currents up to 30A. Therefore, I placed coper zones with higher widths as they can carry the amount of current they are supposed to carry without any harm to the tracks.  
-Here I have used the via stitching option which gives us an array of copper plated holes connecting upper and bottom side layers of the PCB improving current carrying capability and both sides connectivity. 
+Here, I have used the via stitching option which gives us an array of copper plated holes connecting upper and bottom side layers of the PCB improving the current carrying capability and both sides connectivity. 
 <figure class="half">
 	<a href="/assets/images/motor_control2/9.jpg"><img src="/assets/images/motor_control2/9.jpg"></a>
 	<a href="/assets/images/motor_control2/10.jpg"><img src="/assets/images/motor_control2/10.jpg"></a>
@@ -165,9 +170,9 @@ Here I have used the via stitching option which gives us an array of copper plat
 
 ## Testing the **Challenger** Motor Controller
 
-I did basic testings for my first soldered challenger prototype, using one of my previous robot design project which is a six wheeled mobile robot platform with the **Rocker Bogie** suspension configuration.
+I did basic testings for my first soldered challenger prototype using one of my previous robot design project which is a six wheeled mobile robot platform with the **Rocker Bogie** suspension configuration.
 
-I selected this robot to test my motor controller because, this robot contains six motors to move. Therefore, it draws a considerably high current for all six motors while moving though a rocky area...(Just like a Mars Rover moves on the rocky terrain of Mars). This helped me to check the maximum current drawing capabilities of my conroller. 
+I selected this robot to test my motor controller because, this robot contains six motors to achieve the mobility. Therefore, it draws a considerably high current for all six motors while moving though a rocky area...(Just like a Mars Rover moves on the rocky terrain of Mars). This helped me to check the maximum current drawing capabilities of my conroller. 
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/cvEnfwppsPo?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -176,7 +181,7 @@ I selected this robot to test my motor controller because, this robot contains s
 
 [Read Rocker Bogie Suspension System Article](/robotics/electronics/automation/rocker-bogie/){: .btn .btn--success}
 
-I did not upload the closed loop controlling code I used for the testings. You can use ICSP programming interface to upload the Arduino bootloader to the Atmega328chip and coding easily with your usual arduino IDE without a trouble. You can read my **Program Atmega328P microcontroller via Arduino board as an ISP Programmer** article in this blog to easily catch up if you don't know how to do that. 
+I did not upload the closed loop controlling code I used for the testings. You can use ICSP programming interface to upload the Arduino bootloader to the Atmega328chip and do coding easily with your usual arduino IDE without a trouble. You can read my **Program Atmega328P microcontroller via Arduino board as an ISP Programmer** article in this blog to easily catch up if you don't know how to do that. 
 
 It's time to wrap up this discussion. I can give you the circuit schematics and PCB CAD drawings if you are interested in, or you can design one of your own awesome motor driver with this knowledge.Contact me if you are willing to see the CAD drawings and do not hesitate to comment bellow if you have any question regarding the content of this article.      
 
