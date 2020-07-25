@@ -12,10 +12,9 @@ actions:
 categories:
   - Electronics
   - Robotics
-  - Automation
 tags:
   - Motor
-  - Closed Loop
+  - Closed_Loop
   - Controller
 toc: true
 ---
