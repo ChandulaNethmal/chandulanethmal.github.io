@@ -130,7 +130,7 @@ This is the final part of the design which is the CH340 USB to Serial UART conve
 Other than these things, if the user needs to use this as an open loop motor controller, that also okay with this design because, all the signal input pins for the motor driver are taken as male headers to manually give signals by overriding the atmega328 control unit. 
 
 ## PCB Design
-After finalizing the whole circuit drawing and double checking each module, I moved on to drawing the PCB CAD design. Main consideration of this part was designing it as compact as possible. Inexpensive and compact way was to break this circuit in to two PCB layers. Placing input output headers and sockets in the proper places going through practical considerations was an important thing like any other PCB design. Otherwise you may be in a big trouble when you try to solder them or plug and detach jumpers to your final product. 
+After finalizing the whole circuit, drawing and double checking each module, I moved on to draw the PCB CAD design. Main consideration of this part was designing it as compact as possible. Inexpensive and compact way was to break this circuit in to two PCB layers. Placing input output headers and sockets in the proper places going through practical considerations was an important thing like any other PCB design. Otherwise you may be in a big trouble when you try to solder them or plug and detach jumpers to your final product. 
 
 <figure class="half">
 	<a href="/assets/images/motor_control2/pcb1.jpg"><img src="/assets/images/motor_control2/pcb1.jpg"></a>
