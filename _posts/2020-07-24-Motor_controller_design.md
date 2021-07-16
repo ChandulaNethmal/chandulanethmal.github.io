@@ -58,7 +58,7 @@ Many available cheap motor controllers are not capable of handling considerably 
 
 Best way to implement a DC motor driver is, using H-bridge configurations per each single motor in order to achieve both clockwise and counter clockwise direction driving. We can use four MOSFETs(Metal Oxide Semiconductor Field Effect Transistor) to build each H-bridge as the following schemetics.  
 
-<figure class="half">
+<figure class="full">
 	<a href="/assets/images/motor_control2/3.gif"><img src="/assets/images/motor_control2/3.gif"></a>
 	<a href="/assets/images/motor_control2/4.gif"><img src="/assets/images/motor_control2/4.gif"></a>
 <figcaption> Action of a MOSFET based H-brdge(Direction controlling).</figcaption>
@@ -130,7 +130,7 @@ This is the final part of the design which is the CH340 USB to Serial UART conve
 Other than these things, if the user needs to use this as an open loop motor controller, that also okay with this design because, all the signal input pins for the motor driver are taken as male headers to manually give signals by overriding the atmega328 control unit. 
 
 ## PCB Design
-After finalizing the whole circuit, drawing and double checking each module, I moved on to draw the PCB CAD design. Main consideration of this part was designing it as compact as possible. Inexpensive and compact way was to break this circuit in to two PCB layers. Placing input output headers and sockets in the proper places going through practical considerations was an important thing like any other PCB design. Otherwise you may be in a big trouble when you try to solder them or plug and detach jumpers to your final product. 
+After finalizing the whole circuit, drawing and double checking each module, I moved on to draw the PCB CAD design. Main consideration of this part was designing it as compact as possible. Inexpensive and compact way was to break this circuit in to two PCB layers. Placing input output headers and sockets in the proper places going through practical considerations was an important thing like any other PCB design. Otherwise you may end up in a big trouble when you try to solder them or plug and detach jumpers to your final product. 
 
 <figure class="half">
 	<a href="/assets/images/motor_control2/pcb1.jpg"><img src="/assets/images/motor_control2/pcb1.jpg"></a>
