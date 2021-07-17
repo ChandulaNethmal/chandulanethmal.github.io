@@ -3,9 +3,6 @@ title: "PCB Design considerations for Switching Mode Power Supplies"
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: "assets/images/smps_pcb/smps_og.jpg"
-  teaser: "assets/images/smps_pcb/smps_og.jpg"
-  og_image: "assets/images/smps_pcb/smps_og.jpg"
 actions:
   - label: "Blog"
     url: "/year-archive/"
