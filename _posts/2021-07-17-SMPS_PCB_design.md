@@ -16,149 +16,170 @@ tags:
   - SMPS
   - PCB Design
 toc: true
----
+--- 
+DC motors are commonly used in electronics and automation fields with a vast range of industrial, educational and hobby applications. Closed loop motor controlling may offer a smooth and precise control with a less effort for the developers. Within this blog article we are going to discuss one of my experimental and hobby project related to robotics and electronics. 
 
-# A Switching Mode Power Supply(SMPS)
-Power supply is an essential part used to maintain desired levels of voltages and currents in any electronic appliance. When it comes to operating an electronic circuit using domestic power supply, most of the time we need to convert higher AC voltage input to a lower level DC voltage and regulate the output values against the input and load fluctuations. 
+**Note:** If you do not have a clear idea on closed loop motor controlling or need to clarify any detail regarding this area, I suggest you to read the previous blog article written by me on basics of closed loop motor controlling..
+{: .notice--danger}
 
-There are several configurations to do this power conversion and regulation process. Among those configurations, switching mode voltage converters are one the most efficient(up to 96% efficient) method compared to linear regulators which dissipate much power than SMPS. Nowadays, almost every circuit containing microcontrollers or microprocessors are powered with this SMPSs due to its higher efficiency and reliability. However, so called higher efficiency can only be achieved with a proper design including the critical PCB designing part.
+[Read Previous Article: Basics of Closed Loop Motor Controlling](/electronics/robotics/Basics_of_Closed_Loop/){: .btn .btn--success}
 
-In this article we are going to discuss PCB designing considerations referring a 230V AC to 5V DC 2A power supply which will be really interesting since, this may be a very useful design equivalent to a 10W USB mobile phone charger. I used "EasyEDA" application to draw the schematic and PCB designing. Any other EDA software like Altium Designer, EagleCAD, ORCAD , Proteus can be used for this since, many of them have the tools which I used in here.   
 
-# Components of the Design
+## Introduction to Closed Loop motor controller
+Since we discussed some basics of motor controlling and taking feedback from motors to measure output properties in my previous blog article, I am not going discuss them here. Just applying a constant or variable voltage supply to a motor without monitoring output may not give the expected movement in many real world motor applications due to practical constraints like friction. Using feedback information from an encoder, we can achieve smoother movement profiles from a motor because, if the output is not at the desired level we can adjust it accordingly.  
 
-This whole circuit can be separated into following main parts. I'm not going to explain the flow of a SMPS since we are more focusing on the PCB designing part.
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//smps_pcb/smps_schem.jpg)
-
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/motor_control2/9.jpg)
 <figure class="half">
-	<a href="/assets/images/smps_pcb/smps_schem.jpg"><img src="/assets/images/smps_pcb/smps_schem.jpg"></a>
-<figcaption> Schematic of my SMPS which I'm going to use as the example.</figcaption>
+	<a href="/assets/images/motor_control2/1.jpeg"><img src="/assets/images/motor_control2/1.jpeg"></a>
+<a href="/assets/images/motor_control2/10.gif"><img src="/assets/images/motor_control2/10.gif"></a>
+
+<figcaption> Challenger motor controller and Testing my design with a Rocker Bogie Robot</figcaption>
+</figure>
+
+### Advantages of Closed Loop Motor controlling
+* A constant torque or constant speed can be achieved against a variable load
+* Higher accuracy with fine controlling ability
+* Higher dynamic response
+* Advanced smoothing and speed profiles can be implemented
+* Easiness in integration with upper level of any application
+
+## Introduction to My Design: Challenger Motor Controller
+### Design Considerations
+Since we are dealing with many experimental and academic related robotics projects, I decided to design a DC brushed motor controller with development features. That means, this motor controller can be used as a normal open loop motor controller as well as can be programmed to your custom closed loop operations.
+
+Many available cheap motor controllers are not capable of handling considerably large currents and many of them are open loop motor controllers. Commercially available closed loop motor controllers are expensive and some of them are not open source. Therefore, I went through following design considerations according to expected applications, further development and economic factors. 
+
+* Load current
+* Operating Voltage
+* Communication protocols
+* Processing Unit
+
+
+Best way to implement a DC motor driver is, using H-bridge configurations per each single motor in order to achieve both clockwise and counter clockwise direction driving. We can use four MOSFETs(Metal Oxide Semiconductor Field Effect Transistor) to build each H-bridge as the following schemetics.  
+
+<figure class="full">
+	<a href="/assets/images/motor_control2/3.gif"><img src="/assets/images/motor_control2/3.gif"></a>
+	<a href="/assets/images/motor_control2/4.gif"><img src="/assets/images/motor_control2/4.gif"></a>
+<figcaption> Action of a MOSFET based H-brdge(Direction controlling).</figcaption>
+</figure>
+
+However, this process consumes more PCB space and additional components to MOSFET gate drivers, protection monitoring, etc. Therefore, I chose an IC which have this full H bridge circuit with most of the essential peripheral components inside within itself.
+
+### Components of My Design
+
+The following figure shows you, all the ports for signal inputs/outputs , communication ports, programming ports, motor connecting screw block terminal connectors and power ports of my challenger closed loop motor controller. 
+<figure class="half">
+	<a href="/assets/images/motor_control2/13.jpg"><img src="/assets/images/motor_control2/13.jpg"></a>
+<figcaption> Challenger motor controller pinouts and ports. </figcaption>
 </figure>
 
 
-1. Input with surge and over current protection (R1, U2):  
-R1 MOV is acting as an input surge protector by passing surge currents through itself, and U2 Fuse for fault protection within the circuit.
- 
-2. Rectification part	(D1):  
-	Bridge diode converts AC to DC.
+## Components Selection
+### Motor Driver H-Bridge
+ As I mentioned above, I selected ST Electronics' VNH5019A-E Full H-bridge IC which is capable of handling one DC brushed motor with speed and direction adjustments.  This Motor driver can handle continuous 12A current and Peak 30A current through the motor. This higher current carrying capability is the most attractive specification of this IC. Other than that, low power consumption, current sensing capability, automatic under/over voltage shutdown and protection are some other cool specs in choosing this product over other ICs. 
 
-3. Common mode EMI rejection filter	(C1, CM, C2):  
-	Rejects to common mode noise by CM common mode choke.
-
-4. Driver and switching circuit (U1, C3):  
-	Switching components (MOSFETs) and MOSFET driver circuit.
-5. Clamping and Under-voltage protection (clamp:D2, D3 UnderV:R2, R3)
-
-6. In-Out side Galvanic isolation(T1): 
-	Isolate Input from output
-
-7. Rectifier and Snubber circuit (Rect: D6, Snub: R8, c4)
-8. Output filter ( C6, C7, L2)
-9. Feedback circuit (U6, U10, R6, R7, R9, R10):
-	Feedback from output to the regulator part.
-
-I have used a simple SMPS circuit using the TNY286 switching IC which contains the MOSFET and MOSFET driver and some other safety features inside. 
-
-## Why PCB Designing so important?
-
-Most of the electronic circuits contain microcontrollers or logic devices which are supposed to work under reliable voltage levels. In order to achieve this reliability, not only the schematic design with correct calculations, but also the PCB designing plays a crucial role to achieve desired results.
-
-Since this Switching mode design contains some parts with high frequency switching currents, it becomes more important to have a proper PCB design to eliminate the electromagnetic interference for the output. Let's go through the PCB design considerations described under the following topic.
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//smps_pcb/smps_2d1.jpg)
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//smps_pcb/smps_2d2.jpg)
-
-<figcaption> Top side and Bottom side of the CAD generated view of my SMPS which I'm going to use as the example.</figcaption>
-
-# PCB Design Consideration for SMPS
-
-## High voltage DC trace Separation
-
-Traces which are carrying high voltage DC in a SMPS are always adding higher amount of noise to the signal lines due to the high frequency switching. Therefore, those lines needed to be separated from signal lines. In this Buck converter design, line which directly goes from the rectifier to the transformer must be separated. It is good to separate these lines using board cutouts Changing the high voltage lines and signal lines in to different layers also another good practice.      
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//smps_pcb/2.jpg)
-
-<figcaption> Highlighted traces are the separated power lines using board cutouts.</figcaption>
-
-## separation of Switching Traces
-
-SMPS contains power elements like MOSFETs and drivers which perform the major role of a converter. When they are in the switching action, they contribute a huge amount of noise to the signal lines which maintains the output regulation process. Here in this design, MOSFETs and the MOSFET driver are integrated in to a single TNY268PN IC package. You can separate feedback or other signal lines from these lines using different layers or board cutouts. The line going out from the Drain pin of the IC is the high frequency switching line and that line has been separated using physical board cutouts as you see in below.    
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//smps_pcb/1.jpg)
-
-<figcaption> Switching output of the MOSFET drain pin is separated withn board cutout.</figcaption>
-
-## Shorten the length and Separate Feedback Traces
-
-Feedback lines measure voltages or currents from output part and this lines are very sensitive even for small variations. Therefore, noisy supply lines or switching lines must be separated from feedback lines. Other than that, keeping feedback traces in short lengths and avoiding unnecessary higher widths can improve the quality of output. 
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//smps_pcb/3.jpg)
-
-<figcaption> Length of the feedback line is shorten as possible.</figcaption>
-
-## Assign Widths for Power traces accordingly
-
-Width of copper traces on a PCB is a crucial consideration when it comes to power supply designs or any other designs with high current drawing components. There is a maximum current which can be passed through a trace depending on the following factors.
-
-* copper layer thickness (normally in oz)
-* width of the copper trace   
-* temperature of then trace
-
-You can calculate the maximum current carrying capacity using following formula.
-
-Area = (Thickness x  Width x 1.378)
-
-Max_current = (k x (Temp_rise^b)) x (Area^c)                                      
-
-Where: k,b,c are constants,
-
-According to IPC-2221A Documents ("Conductive Material Requirements"), their values for inner layers are as follows:
-k = 0.048 b = 0.44 c = 0.725
-
-Generally, traces carrying high currents need to have a higher width than the signal carrying traces. After doing a proper calculation you can assign these widths if you know the maximum current flows of each trace. In this SMPS PCB design, I kept the high voltage input lines and high current carrying output DC lines with a higher width than feedback and other signal lines.
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//smps_pcb/4.jpg)
-
-<figcaption> Larger widths for Traces carrying larger currents (ex:power traces) and Smaller widths for small current carrying traces (ex:signal lines).</figcaption>
-
-## Placement of decoupling capacitors near the Inputs/outputs
-
-Adding Filter capacitors is another important part in any power supply to eliminate high frequency noise components from switching and AC sources. Both inputs and outputs can contain filter capacitors according to the design. They must be placed closer to the input or output connectors or signal pins of an IC. In this design I have placed input filter capacitor before the driver, C3 capacitor and C7 output filter capacitor   
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//smps_pcb/filt.jpg)
-
-<figcaption> Plcing Input filter capacitor near the driver IC and output capacitors near output port.</figcaption>
-
-
-## Separation between Transformer pads and Inductor Pads
-
-When it comes to AC-DC SMPS circuits, the separation of the input form the output is done by a transformer by providing galvanic isolation. It also reduces ripples from the switching output. An adequate distance between primary and secondary pads of this transformer must be there in the PCB to achieve better results. Therefore, it is better to have a physical PCB board cutout or a good separation as in this example PCB. 
-
-The inductor connecting to the switching output also plays a major role from the output side of the circuit. It isn't a good practice to route any traces in between the space of inductor pads since, those traces may be affected by EMI while passing high frequency currents through the inductor.      
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//smps_pcb/trns.jpg)
-
-<figcaption> Placing board cutout between transformer pri/sec pads and not routing signal lines between inductor pads clean.</figcaption>
-
-## Ground planes separation
-
-When it comes to adding copper zones (copper pouring) in to a  power supply PCBs with feedback signals, specially connecting the ground paths through copper pour , you may need to pay a good attention to avoid ground bounce. **Ground bounce** is a deviation of the ground reference value of a circuit with a bouncing kind of voltage graph due to many external factors like neighbour switching components. 
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//smps_pcb/gnd_b.jpg)
-
-<figcaption> Ground bounce illustration on an oscilloscope.</figcaption>
-
-[Reference : More Information About Ground Bouncing](https://www.tempoautomation.com/blog/understanding-the-causes-of-ground-bounce-in-pcbs/){: .btn .btn--success}
-
-Even if the ground connection of a SMPS is same for entire circuit in the electrical connections, it can be separated in to two paths as **Power ground** which carries higher currents with higher noise components and **Analog ground** which carries lower currents for feedbacks and regulation process. If you wish to add copper pour to ground planes it is a good practice to add separated ground planes to avoid noise from power ground to analog ground.
-   
 <figure class="half">
-	<a href="/assets/images/smps_pcb/gnd1.jpg"><img src="/assets/images/smps_pcb/gnd1.jpg"></a>
-<a href="/assets/images/smps_pcb/gnd2.jpg"><img src="/assets/images/smps_pcb/gnd2.jpg"></a>
+	<a href="/assets/images/motor_control2/2.jpg"><img src="/assets/images/motor_control2/2.jpg"></a>
+<figcaption> VNH5019 Full H-bridge IC Top and Bottom Sides.</figcaption>
+</figure>
 
-<figcaption> Here I have placed power ground in the bottom layer and analog ground in the top layer</figcaption>
+Here you can see three thermal pads underneath the IC in order to maintain an excellent thermal flow from the die to the PCB.  
+[More Information About VNH5019 Driver](https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf){: .btn .btn--success}
 
-Those are the facts which I wanted to share with you regarding PCB designing of Switching Mode power supplies. You can practice these things for other applications also according to the nature of the circuit achieve better outcome.      
-Please share your ideas and do not hesitate to ask anything related to the post on the comment section bellow.
+### Controller
+ Since we are going to implement a closed loop motor controller we need to have in-built processing unit to process encoder readings and process this data to provide corrected control signals to our VNH5019 H bridge. Since this is an experimental and hobby related project, I selected Atmega328P-AU microcontroller, because it provides all the required input/output pins, communication protocols and someone can program it using Arduino, C or C++ easily using existing tools and software. 
+<figure class="half">
+	<a href="/assets/images/motor_control2/3.jpg"><img src="/assets/images/motor_control2/3.jpg"></a>
+<figcaption> Atmel Atmega328P-AU microcontroller.</figcaption>
+</figure>
+
+### Communication
+ Communication between the VNH5019 and Atmega328 is happening through PWM pins or Digital input/output pins since it is the recommended way by the manufacturers of the H-bridge. Since this must be a user friendly device, plug and play kind of Communication method can be added. Therefore, I chose a USB to UART converter IC which is CH340 to easily plug the device to your PC or Laptop via a USB micro cable to programming and data receiving purposes.
+<figure class="half">
+	<a href="/assets/images/motor_control2/4.jpg"><img src="/assets/images/motor_control2/4.jpg"></a>
+<figcaption> CH340 USB to UART protocol converter IC.</figcaption>
+</figure>
+
+## Modular Design Approach
+### Motor driver
+Main component of the design is the Motor driver. Many of mobile robotics projects are equipped with at least two motors. Having two motors driver capability in one motor driver is an advancement for a developer. Therefore, I added two VNH5019 full H-bridges to the design. Each H-bridge have four input pins as Enable, In 1, In 2 and the PWM (Pulse Width Modulation) input. PWM input is for speed command for the motor. Up to a frequency of 20KHz PWM signal can be given for this. Direction of the rotation is given by the in1 and in2 pins. Enable pin will enable and disable the H-bridge when we input High and Low signals respectively.
+<figure class="half">
+	<a href="/assets/images/motor_control2/5.jpg"><img src="/assets/images/motor_control2/5.jpg"></a>
+<figcaption> Schematic of Motor Driver part including two Full H-bridges.</figcaption>
+</figure>
+
+You can see in the schematic of the Motor driver unit drawn using the Easy EDA software. I selected this software to draw the circuit schematics and the PCB CAD drawing because, PCB footprint libraries for many of the commercially available electronic components are there in this software due to the vast community contributions. The other reason is this software is issued by the JLC PCB company china which I used to send these PCB designs and get them printed. It is really easy to place that order through this software directly. 
+### Controlling Part
+Main functionality of this unit is to issue speed and direction commands to the above discussed motor driver part. In order to do this, encoder channel outputs of both motors are connected to the interrupt pins of Atmega328 chip. Encoder reading, error calculation, correction signal generation parts are doing inside this unit using a kind of correction algorithms like PID (Proportional Integral Derivative). 
+
+<figure class="half">
+	<a href="/assets/images/motor_control2/6.jpg"><img src="/assets/images/motor_control2/6.jpg"></a>
+<figcaption>Scematic of processing part with atmega328 and respective connections between modules.</figcaption>
+</figure>
+
+As you can see in the schematic, a regulated 5V supply for the atmega328 controller is generating within this unit using a regulator IC. Since, this is a closed loop controller, and to be user friendly I placed serial UART interface which takes user inputs to connect this whole unit to the main controller of your project. Programming the unit can be done through the USB micro interface or the ISP (In-System Programming) programming interface with male headers. 
+
+### Communication
+This is the final part of the design which is the CH340 USB to Serial UART converter based programming and communication interface. If there is no this kind of USB feature you need to find a separate FTDI converter or another programmer separately to program this device which is not a good user friend design.
+<figure class="half">
+	<a href="/assets/images/motor_control2/7.jpg"><img src="/assets/images/motor_control2/7.jpg"></a>
+<figcaption>Schematic of USB to UART converter circuit.</figcaption>
+</figure>
+
+Other than these things, if the user needs to use this as an open loop motor controller, that also okay with this design because, all the signal input pins for the motor driver are taken as male headers to manually give signals by overriding the atmega328 control unit. 
+
+## PCB Design
+After finalizing the whole circuit, drawing and double checking each module, I moved on to draw the PCB CAD design. Main consideration of this part was designing it as compact as possible. Inexpensive and compact way was to break this circuit in to two PCB layers. Placing input output headers and sockets in the proper places going through practical considerations was an important thing like any other PCB design. Otherwise you may end up in a big trouble when you try to solder them or plug and detach jumpers to your final product. 
+
+<figure class="half">
+	<a href="/assets/images/motor_control2/pcb1.jpg"><img src="/assets/images/motor_control2/pcb1.jpg"></a>
+	<a href="/assets/images/motor_control2/pcb2.jpg"><img src="/assets/images/motor_control2/pcb2.jpg"></a>
+
+<figcaption> PCB drawing of Top and bottom layers repectively( With both top and bottom Silk layers).</figcaption>
+</figure>
+
+### Important Facts on PCB design
+As you can see, I have placed copper tracks in different trace sizes. The reason behind this was an extremely important fact which is different current flowing ratings though each copper track. Current carrying capability of copper tracks are basically depending on trace width, copper thickness and coper material properties. 
+
+<figure class="half">
+	<a href="/assets/images/motor_control2/pcb5.jpg"><img src="/assets/images/motor_control2/pcb5.jpg"></a>
+	<a href="/assets/images/motor_control2/pcb6.jpg"><img src="/assets/images/motor_control2/pcb6.jpg"></a>
+
+<figcaption> Computer generated 2D view of the Printed board(Both Top and Bottom sides).</figcaption>
+</figure>
+
+
+Signals carrying tracks coming and going out from the Atmega microcontroller are actually carrying several tens of mili ampheres. Therefore, I placed traces with small trace widths (10milis) for those tracks. Supply and motor driving copper tracks may carry huge currents up to 30A. Therefore, I placed coper zones with higher widths as they can carry the amount of current they are supposed to carry without any harm to the tracks.  
+Here, I have used the via stitching option which gives us an array of copper plated holes connecting upper and bottom side layers of the PCB improving the current carrying capability and both sides connectivity. 
+<figure class="half">
+	<a href="/assets/images/motor_control2/9.jpg"><img src="/assets/images/motor_control2/9.jpg"></a>
+	<a href="/assets/images/motor_control2/10.jpg"><img src="/assets/images/motor_control2/10.jpg"></a>
+
+<figcaption> Soldered Challenger Controller (Top Side).</figcaption>
+</figure>
+
+
+<figure class="half">
+	<a href="/assets/images/motor_control2/8.jpg"><img src="/assets/images/motor_control2/8.jpg"></a>
+	<a href="/assets/images/motor_control2/11.jpg"><img src="/assets/images/motor_control2/11.jpg"></a>
+
+<figcaption> Soldered Challenger controller (Bottom Side)</figcaption>
+</figure>
+
+## Testing the **Challenger** Motor Controller
+
+I did basic testings for my first soldered challenger prototype using one of my previous robot design project which is a six wheeled mobile robot platform with the **Rocker Bogie** suspension configuration.
+
+I selected this robot to test my motor controller because, this robot contains six motors to achieve the mobility. Therefore, it draws a considerably high current for all six motors while moving though a rocky area...(Just like a Mars Rover moves on the rocky terrain of Mars). This helped me to check the maximum current drawing capabilities of my conroller. 
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/cvEnfwppsPo?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+[Read Rocker Bogie Suspension System Article](/robotics/electronics/automation/rocker-bogie/){: .btn .btn--success}
+
+I did not upload the closed loop controlling code I used for the testings. You can use ICSP programming interface to upload the Arduino bootloader to the Atmega328chip and do coding easily with your usual arduino IDE without a trouble. You can read my **Program Atmega328P microcontroller via Arduino board as an ISP Programmer** article in this blog to easily catch up if you don't know how to do that. 
+
+It's time to wrap up this discussion. I can give you the circuit schematics and PCB CAD drawings if you are interested in, or you can design one of your own awesome motor driver with this knowledge.Contact me if you are willing to see the CAD drawings and do not hesitate to comment bellow if you have any question regarding the content of this article.      
+
