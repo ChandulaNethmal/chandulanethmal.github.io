@@ -19,6 +19,8 @@ toc: true
 ---
 Read my article on important PCB designing considerations for a SMPS you may need to practice. We are referring a 230V AC to 5V DC 2A power supply which will be really interesting and useful because, this is equivalent to a 10W USB mobile phone charger. 
 
+
+
 # A Switching Mode Power Supply(SMPS)
 
 Power supply is an essential part used to maintain desired levels of voltages and currents in any electronic appliance. When it comes to operating an electronic circuit using domestic power supply, most of the time we need to convert higher AC voltage input to a lower level DC voltage and regulate the output values against the input and load fluctuations. 
