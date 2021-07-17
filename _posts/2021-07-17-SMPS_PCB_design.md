@@ -1,23 +1,22 @@
 ---
-title: "Designing a Closed Loop DC Motor Controller"
+title: "PCB Design considerations for Switching Mode Power Supplies"
 header:
   overlay_color: "#000"
-  overlay_filter: "0.2"
-  overlay_image:  "assets/images/motor_control2/challenge2.jpg"
-  teaser: "assets/images/motor_control2/challenge2.jpg"
-  og_image: "assets/images/motor_control2/challenge2.jpg"
+  overlay_filter: "0.4"
+  overlay_image: "assets/images/smps_pcb/smps_og.jpg"
+  teaser: "assets/images/smps_pcb/smps_og.jpg"
+  og_image: "assets/images/smps_pcb/smps_og.jpg"
 actions:
   - label: "Blog"
     url: "/year-archive/"
 categories:
   - Electronics
-  - Robotics
+  - PCB
 tags:
-  - Motor
-  - Closed_Loop
-  - Controller
+  - SMPS
+  - PCB Design
 toc: true
----
+--- 
 DC motors are commonly used in electronics and automation fields with a vast range of industrial, educational and hobby applications. Closed loop motor controlling may offer a smooth and precise control with a less effort for the developers. Within this blog article we are going to discuss one of my experimental and hobby project related to robotics and electronics. 
 
 **Note:** If you do not have a clear idea on closed loop motor controlling or need to clarify any detail regarding this area, I suggest you to read the previous blog article written by me on basics of closed loop motor controlling..
