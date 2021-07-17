@@ -14,7 +14,6 @@ tags:
   - PCB Design
 toc: true
 --- 
-Read my article on important PCB designing considerations for a SMPS you may need to practice. We are referring a 230V AC to 5V DC 2A power supply which will be really interesting and useful because, this is equivalent to a 10W USB mobile phone charger. 
 
 # A Switching Mode Power Supply(SMPS)
 
