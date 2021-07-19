@@ -30,7 +30,7 @@ gallery:
     title: "A multicolor copies of Book cover using Coreldraw."
 
   - url: /assets/images/drawings/emma.jpg
-    image_path: /assets/images/drawings/5.jpg
+    image_path: /assets/images/drawings/emma.jpg
     alt: ""
     title: ""
   - url: /assets/images/drawings/6.jpg
@@ -87,7 +87,7 @@ last_modified_at: 2020-05-08T14:07:54-04:00
 ---
 ## DRAWING IS NOT WHAT ONE SEES, BUT WHAT ONE CAN MAKE OTHERS SEE..
 
-{% include gallery id="gallery" layout="half" caption="Gallery of some Computer graphic designs." %}
+{% include gallery id="gallery" layout="half" caption="Gallery of some pencil sketches & Computer graphic designs." %}
 
 
 ---
