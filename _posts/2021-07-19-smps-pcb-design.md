@@ -15,7 +15,7 @@ toc: true
 ---
 Read my article on important PCB designing considerations for a SMPS you may need to practice. We are referring a 230V AC to 5V DC 2A power supply which will be really interesting and useful because, this is equivalent to a 10W USB mobile phone charger.
 
-# A Switching Mode Power Supply(SMPS)
+## A Switching Mode Power Supply(SMPS)
 
 Power supply is an essential part used to maintain desired levels of voltages and currents in any electronic appliance. When it comes to operating an electronic circuit using domestic power supply, most of the time we need to convert higher AC voltage input to a lower level DC voltage and regulate the output values against the input and load fluctuations. 
 
@@ -23,7 +23,7 @@ There are several configurations to do this power conversion and regulation proc
 
 In this article we are going to discuss PCB designing considerations referring a 230V AC to 5V DC 2A power supply which will be really interesting since, this may be a very useful design equivalent to a 10W USB mobile phone charger. I used "EasyEDA" application to draw the schematic and PCB designing. Any other EDA software like Altium Designer, EagleCAD, ORCAD , Proteus can be used for this since, many of them have the tools which I used in here.   
 
-# Components of the Design
+## Components of the Design
 
 This whole circuit can be separated into following main parts. I'm not going to explain the flow of a SMPS since we are more focusing on the PCB designing part.
 
