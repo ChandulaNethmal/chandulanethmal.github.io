@@ -29,6 +29,58 @@ gallery:
     alt: "A multicolor copies of Book cover using Coreldraw."
     title: "A multicolor copies of Book cover using Coreldraw."
 
+  - url: /assets/images/drawings/emma.jpg
+    image_path: /assets/images/drawings/5.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/drawings/6.jpg
+    image_path: /assets/images/drawings/6.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/drawings/7.jpg
+    image_path: /assets/images/drawings/7.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/drawings/8.jpg
+    image_path: /assets/images/drawings/8.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/drawings/9.jpg
+    image_path: /assets/images/drawings/9.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/drawings/10.jpg
+    image_path: /assets/images/drawings/10.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/drawings/11.jpg
+    image_path: /assets/images/drawings/11.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/drawings/12.jpg
+    image_path: /assets/images/drawings/12.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/drawings/13.jpg
+    image_path: /assets/images/drawings/13.jpg
+    alt: ""
+    title: ""
+
+  - url: /assets/images/drawings/14.jpg
+    image_path: /assets/images/drawings/14.jpg
+    alt: ""
+    title: ""
+  - url: /assets/images/drawings/15.jpg
+    image_path: /assets/images/drawings/15.jpg
+    alt: ""
+    title: ""
 
 
 last_modified_at: 2020-05-08T14:07:54-04:00
