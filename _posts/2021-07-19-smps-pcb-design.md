@@ -2,10 +2,10 @@
 title: "PCB Design considerations for Switching Mode Power Supplies"
 header:
   overlay_color: "#000"
-  overlay_filter: "0.55"
+  overlay_filter: "0.4"
   overlay_image:  "assets/images/smps_pcb/smps_og.jpg"
-  teaser: "assets/images/smps_pcb/smps_og.jpg"
-  og_image: "assets/images/smps_pcb/smps_og.jpg"
+  teaser: "assets/images/smps_pcb/smps_2d1.jpg"
+  og_image: "assets/images/smps_pcb/smps_2d1.jpg"
 categories:
   - Electronics
   - PCB
@@ -158,7 +158,6 @@ Even if the ground connection of a SMPS is same for entire circuit in the electr
 
 <figcaption> Here I have placed power ground in the bottom layer and analog ground in the top layer</figcaption>
 
-Those are the facts which I wanted to share with you regarding PCB designing of Switching Mode power supplies. You can practice these things for other applications also according to the nature of the circuit achieve better outcome.      
+Those are the facts which I wanted to share with you regarding PCB designing of Switching Mode power supplies. You can practice these things for other applications also according to the nature of the circuit achieve better outcome.   
   
 Please share your ideas and do not hesitate to ask anything related to the post on the comment section bellow.
-
