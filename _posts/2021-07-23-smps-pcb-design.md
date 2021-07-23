@@ -1,11 +1,11 @@
 ---
-title: "PCB Design considerations for Switching Mode Power Supplies"
+title: "PCB Designing considerations for Switching Mode Power Supplies"
 header:
   overlay_color: "#000"
-  overlay_filter: "0.4"
+  overlay_filter: "0.45"
   overlay_image:  "assets/images/smps_pcb/smps_og.jpg"
-  teaser: "assets/images/smps_pcb/smps_2d1.jpg"
-  og_image: "assets/images/smps_pcb/smps_2d1.jpg"
+  teaser: "assets/images/smps_pcb/smps_teaser2.jpg"
+  og_image: "assets/images/smps_pcb/smps_teaser2.jpg"
 categories:
   - Electronics
   - PCB
@@ -36,21 +36,16 @@ This whole circuit can be separated into following main parts. I'm not going to 
 
 
 1. Input with surge and over current protection (R1, U2):  
-R1 MOV is acting as an input surge protector by passing surge currents through itself, and U2 Fuse for fault protection within the circuit.
- 
+  R1 MOV is acting as an input surge protector by passing surge currents through itself, and U2 Fuse for fault protection within the circuit.
 2. Rectification part	(D1):  
 	Bridge diode converts AC to DC.
-
 3. Common mode EMI rejection filter	(C1, CM, C2):  
 	Rejects to common mode noise by CM common mode choke.
-
 4. Driver and switching circuit (U1, C3):  
 	Switching components (MOSFETs) and MOSFET driver circuit.
 5. Clamping and Under-voltage protection (clamp:D2, D3 UnderV:R2, R3)
-
-6. In-Out side Galvanic isolation(T1): 
+6. Input-Output Galvanic isolation(T1): 
 	Isolate Input from output
-
 7. Rectifier and Snubber circuit (Rect: D6, Snub: R8, c4)
 8. Output filter ( C6, C7, L2)
 9. Feedback circuit (U6, U10, R6, R7, R9, R10):
