@@ -3,9 +3,9 @@ title: "Basics of Digital Camera"
 header:
   overlay_color: "#000"
   overlay_filter: "0.45"
-  overlay_image:  "assets/images/camera/cam1.jpg"
-  teaser: "assets/images/camera/cam2.jpg"
-  og_image: "assets/images/camera/cam3.jpg"
+  overlay_image:  "assets/images/camera/cam1.jpeg"
+  teaser: "assets/images/camera/cam4.jpg"
+  og_image: "assets/images/camera/cam5.jpg"
 categories:
   - Electronics
   - Tech
@@ -13,9 +13,9 @@ tags:
   - Camera
 toc: true
 ---
-Read my article on important PCB designing considerations for a SMPS you may need to practice. We are referring a 230V AC to 5V DC 2A power supply which will be really interesting and useful because, this is equivalent to a 10W USB mobile phone charger.
+Read my article on some intersting details of digital cameras including camera types, basic structure and functionality. If you are interested in photography or courious about what is happening inside a digital camera this article is for you :D. 
 
-## A Switching Mode Power Supply(SMPS)
+## Digital Camera
 
 Power supply is an essential part used to maintain desired levels of voltages and currents in any electronic appliance. When it comes to operating an electronic circuit using domestic power supply, most of the time we need to convert higher AC voltage input to a lower level DC voltage and regulate the output values against the input and load fluctuations. 
 
@@ -23,11 +23,11 @@ There are several configurations to do this power conversion and regulation proc
 
 In this article we are going to discuss PCB designing considerations referring a 230V AC to 5V DC 2A power supply which will be really interesting since, this may be a very useful design equivalent to a 10W USB mobile phone charger. I used "EasyEDA" application to draw the schematic and PCB designing. Any other EDA software like Altium Designer, EagleCAD, ORCAD , Proteus can be used for this since, many of them have the tools which I used in here.   
 
-## Components of the Design
+## Camera Types
 
 This whole circuit can be separated into following main parts. I'm not going to explain the flow of a SMPS since we are more focusing on the PCB designing part.
 
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/smps_schem.jpg)
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
 <figure class="half">
 	<a href="/assets/images/camera/smps_schem.jpg"><img src="/assets/images/camera/smps_schem.jpg"></a>
