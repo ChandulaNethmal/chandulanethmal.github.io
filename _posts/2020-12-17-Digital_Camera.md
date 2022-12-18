@@ -17,15 +17,43 @@ Read my article on some intersting details of digital cameras including camera t
 
 ## Digital Camera
 
-Power supply is an essential part used to maintain desired levels of voltages and currents in any electronic appliance. When it comes to operating an electronic circuit using domestic power supply, most of the time we need to convert higher AC voltage input to a lower level DC voltage and regulate the output values against the input and load fluctuations. 
+Digital cameras are no longer stranger items since it has become a daytoday appliance of the modern society. It is a device that captures photographs and videos using an electronic image sensor and store the images and videos digitally, rather than on film. Digital cameras are becoming more and more popular because they offer a number of advantages over traditional film cameras. One advantage is that you can see the images you have taken immediately after you have taken them, because the images are displayed on a screen on the back of the camera. This allows you to check the composition and focus of the image, and delete any that are not satisfactory.
 
-There are several configurations to do this power conversion and regulation process. Among those configurations, switching mode voltage converters are one the most efficient(up to 96% efficient) method compared to linear regulators which dissipate much power than SMPS. Nowadays, almost every circuit containing microcontrollers or microprocessors are powered with this SMPSs due to its higher efficiency and reliability. However, so called higher efficiency can only be achieved with a proper design including the critical PCB designing part.
-
-In this article we are going to discuss PCB designing considerations referring a 230V AC to 5V DC 2A power supply which will be really interesting since, this may be a very useful design equivalent to a 10W USB mobile phone charger. I used "EasyEDA" application to draw the schematic and PCB designing. Any other EDA software like Altium Designer, EagleCAD, ORCAD , Proteus can be used for this since, many of them have the tools which I used in here.   
+Another advantage is that you can easily transfer the images from the camera to a computer, where you can view, edit, and share them. Digital cameras also offer a variety of shooting modes and settings that allow you to adjust the exposure, white balance, and other aspects of the image to get the desired result.We will discuss them later!
 
 ## Camera Types
+If you ever think of buying a camera, but don't have an clear idea to choose the best camera for your purpose, let me enlighten you with some details.
+Digital cameras are available in a range of sizes, from compact cameras to larger, more complex models with interchangeable lenses. They can be used for a variety of purposes, including casual photography, professional photography, and videography.
 
-This whole circuit can be separated into following main parts. I'm not going to explain the flow of a SMPS since we are more focusing on the PCB designing part.
+### 1. Point and Shoot Cameras
+
+Point-and-shoot cameras, also known as compact cameras, are digital cameras that are designed to be portable and easy to use. They are typically smaller and lighter than more advanced cameras and do not have interchangeable lenses.
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/smps_2d1.jpg)
+
+Point-and-shoot cameras are often preferred by amateur photographers or those who do not want to spend a lot of time adjusting settings or changing lenses. They typically have a built-in flash and a zoom lens that can cover a range of focal lengths, from wide-angle to telephoto.
+
+Some point-and-shoot cameras also have advanced features such as image stabilization, high-resolution sensors, and manual controls. These features can help produce better quality images, but may also make the camera more expensive and complex to use.
+
+Overall, point-and-shoot cameras are a good choice for people who want a simple, portable camera for casual photography and are not interested in the more advanced features and controls of larger cameras.
+	
+
+### 2. DSLR Cameras
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam2.png)
+
+
+#### Mirrorless Cameras
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam8.jpeg)
+	
+### 3. Bridge Cameras
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam9.jpg)
+
+### 4. Camera Phones 
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam9.jpg)
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
