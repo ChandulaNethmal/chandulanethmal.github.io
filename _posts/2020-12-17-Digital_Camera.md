@@ -64,19 +64,59 @@ DSLR cameras are available in a range of sizes and price points, from entry-leve
 They are a popular choice among professional photographers and serious hobbyists. 
 
 
+|                |Deatil                          |
+|----------------|-------------------------------|
+|Interchangeable lenses|Has a removable lens mount, allowing you to swap out lenses to achieve different focal lengths, apertures, and other effects. (Usually lenses are very expensive :D )         |
+|----------------|-------------------------------|
+|Manual controls:|Offers manual controls for exposure, white balance, focus, and other settings, giving you greater control over the final image.         |
 
 
-#### Mirrorless Cameras
 
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam9.jpg)
+### 3. Mirrorless Cameras
+
+A mirrorless camera is a type of digital camera that does not have a mirror or optical viewfinder like a traditional DSLR camera. Instead, it uses an electronic viewfinder (EVF) or an LCD screen to preview the image and display the camera's settings.
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam11.jpg)
+
+Mirrorless cameras have several advantages over DSLR cameras. They are generally smaller and lighter because they don't have the large mirror and pentaprism required for an optical viewfinder. This makes them more portable and easier to carry around. They also tend to have faster autofocus and continuous shooting speeds because they don't have to move a mirror(mechanicals) out of the way to take a picture. Additionally, the lack of a mirror allows for a shorter distance between the lens and the image sensor, which can result in better image quality and low light performance.
+
+Mirrorless cameras come in a range of sizes and prices, from high-end models with full-frame sensors and professional-level features to more affordable models with smaller sensors and more basic features. Many mirrorless cameras use interchangeable lenses, so you can choose the lens that best suits your needs. 
+
 	
-### 3. Bridge Cameras
+### 4. Bridge Cameras
 
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam9.jpg)
+Now this is the type I despeately wanted to hilight.. :D and my favourite type.
+A bridge camera is a type of digital camera that is designed to bridge the gap between point-and-shoot cameras and DSLR cameras. They are generally larger and more feature-rich than point-and-shoot cameras, but smaller and less expensive than DSLRs.
 
-### 4. Camera Phones 
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam11.jpg)
 
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam9.jpg)
+Bridge cameras typically have a long zoom lens built into the camera body, ranging from 20x to 50x or more, which allows you to get close-up shots of distant subjects without having to change lenses. They also often have manual controls and a range of advanced features, such as manual focus, raw image capture, and the ability to shoot in different shooting modes (such as aperture priority and shutter priority).
+
+Bridge cameras are a good choice for photographers who want more control over their images than a point-and-shoot camera offers, but don't want to carry around the larger and more expensive equipment that comes with a DSLR. They are also a good option for travelers who want a single, versatile camera that can handle a wide range of shooting situations.
+
+
+### 5. Camera Phones 
+
+Camera phones are mobile phones that have built-in cameras. Many people now rely on their camera phones as their primary camera, using them to take photos and videos for personal and professional use.
+
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam12.jpg)
+
+Overall, camera phones are a convenient and versatile option for photographers of all levels. While they may not have the same level of control and image quality as a dedicated camera, they offer a convenient and easy-to-use way to capture and share photos and videos on the go.
+
+
+## Structure of a Digital Camera
+
+
+
+
+## Operation Of a Camera
+
+
+
+## Select the Best Camera for You
+
+
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
@@ -85,44 +125,3 @@ They are a popular choice among professional photographers and serious hobbyists
 <figcaption> Schematic of my SMPS which I'm going to use as the example.</figcaption>
 </figure>
 
-
-1. Input with surge and over current protection (R1, U2):  
-  R1 MOV is acting as an input surge protector by passing surge currents through itself, and U2 Fuse for fault protection within the circuit.
-2. Rectification part	(D1):  
-	Bridge diode converts AC to DC.
-3. Common mode EMI rejection filter	(C1, CM, C2):  
-	Rejects to common mode noise by CM common mode choke.
-4. Driver and switching circuit (U1, C3):  
-	Switching components (MOSFETs) and MOSFET driver circuit.
-5. Clamping and Under-voltage protection (clamp:D2, D3 UnderV:R2, R3)
-6. Input-Output Galvanic isolation(T1): 
-	Isolate Input from output
-7. Rectifier and Snubber circuit (Rect: D6, Snub: R8, c4)
-8. Output filter ( C6, C7, L2)
-9. Feedback circuit (U6, U10, R6, R7, R9, R10):
-	Feedback from output to the regulator part.
-
-I have used a simple SMPS circuit using the TNY286 switching IC which contains the MOSFET and MOSFET driver and some other safety features inside. 
-
-## Why PCB Designing so important?
-
-Most of the electronic circuits contain microcontrollers or logic devices which are supposed to work under reliable voltage levels. In order to achieve this reliability, not only the schematic design with correct calculations, but also the PCB designing plays a crucial role to achieve desired results.
-
-Since this Switching mode design contains some parts with high frequency switching currents, it becomes more important to have a proper PCB design to eliminate the electromagnetic interference for the output. Let's go through the PCB design considerations described under the following topic.
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/smps_2d1.jpg)
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/smps_2d2.jpg)
-
-<figcaption> Top side and Bottom side of the CAD generated view of my SMPS which I'm going to use as the example.</figcaption>
-
-
-<figure class="half">
-	<a href="/assets/images/smps_pcb/gnd1.jpg"><img src="/assets/images/smps_pcb/gnd1.jpg"></a>
-<a href="/assets/images/smps_pcb/gnd2.jpg"><img src="/assets/images/smps_pcb/gnd2.jpg"></a>
-
-<figcaption> Here I have placed power ground in the bottom layer and analog ground in the top layer</figcaption>
-
-Those are the facts which I wanted to share with you regarding PCB designing of Switching Mode power supplies. You can practice these things for other applications also according to the nature of the circuit achieve better outcome.   
-  
-Please share your ideas and do not hesitate to ask anything related to the post on the comment section bellow.
