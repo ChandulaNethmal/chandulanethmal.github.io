@@ -3,7 +3,7 @@ title: "Basics of Digital Camera"
 header:
   overlay_color: "#000"
   overlay_filter: "0.45"
-  overlay_image:  "assets/images/camera/cam14.jpeg"
+  overlay_image:  "assets/images/camera/cam14.jpg"
   teaser: "assets/images/camera/cam14.jpg"
   og_image: "assets/images/camera/cam14.jpg"
 categories:
@@ -48,12 +48,6 @@ A DSLR (Digital Single-Lens Reflex) camera is a type of digital camera that uses
 
 DSLRs are popular among photographers because they offer a wide range of creative control, high image quality, and fast performance. Some of the key features of DSLR cameras include:
 
-#### Interchangeable lenses:
-Has a removable lens mount, allowing you to swap out lenses to achieve different focal lengths, apertures, and other effects. (Usually lenses are very expensive :D )
-
-#### Manual controls:
-Offers manual controls for exposure, white balance, focus, and other settings, giving you greater control over the final image.
-
 #### Viewfinder:
 A DSLR camera has an optical viewfinder, which allows you to preview the scene directly through the lens. This can be helpful in bright light(eg: display isn't visible due to sunlight).
 
@@ -88,7 +82,7 @@ Mirrorless cameras come in a range of sizes and prices, from high-end models wit
 Now this is the type I despeately wanted to hilight.. :D and my favourite type.
 A bridge camera is a type of digital camera that is designed to bridge the gap between point-and-shoot cameras and DSLR cameras. They are generally larger and more feature-rich than point-and-shoot cameras, but smaller and less expensive than DSLRs.
 
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam11.jpg)
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam9.jpg)
 
 Bridge cameras typically have a long zoom lens built into the camera body, ranging from 20x to 50x or more, which allows you to get close-up shots of distant subjects without having to change lenses. They also often have manual controls and a range of advanced features, such as manual focus, raw image capture, and the ability to shoot in different shooting modes (such as aperture priority and shutter priority).
 
@@ -107,18 +101,22 @@ Overall, camera phones are a convenient and versatile option for photographers o
 
 ## Structure of a Digital Camera
 
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam3.gif)
 
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam16.jpg)
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam17.jpg)
 
 
 ## Operation Of a Camera
 
-
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
 ## Select the Best Camera for You
 
 
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam15.jpg)
 
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
 <figure class="half">
 	<a href="/assets/images/camera/smps_schem.jpg"><img src="/assets/images/camera/smps_schem.jpg"></a>
