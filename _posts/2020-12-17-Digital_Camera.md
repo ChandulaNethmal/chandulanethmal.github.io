@@ -3,9 +3,9 @@ title: "Basics of Digital Camera"
 header:
   overlay_color: "#000"
   overlay_filter: "0.45"
-  overlay_image:  "assets/images/camera/cam1.jpeg"
-  teaser: "assets/images/camera/cam4.jpg"
-  og_image: "assets/images/camera/cam5.jpg"
+  overlay_image:  "assets/images/camera/cam14.jpeg"
+  teaser: "assets/images/camera/cam14.jpg"
+  og_image: "assets/images/camera/cam14.jpg"
 categories:
   - Electronics
   - Tech
