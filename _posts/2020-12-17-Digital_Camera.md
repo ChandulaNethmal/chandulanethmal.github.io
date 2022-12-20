@@ -29,14 +29,11 @@ Digital cameras are available in a range of sizes, from compact cameras to large
 
 ### 1. Point and Shoot Cameras
 
-Point-and-shoot cameras, also known as compact cameras, are designed to be portable and easy to use. They are typically smaller and lighter than more advanced cameras and do not have interchangeable lenses. Point-and-shoot cameras are often preferred by amateur photographers or those who do not want to spend a lot of time adjusting settings or changing lenses. They typically have a built-in flash and a zoom lens that can cover a range of focal lengths, from wide-angle to telephoto.
+Point-and-shoot cameras, also known as compact cameras, are designed to be portable and easy to use. They are typically smaller and lighter than more advanced cameras and do not have interchangeable lenses. Often preferred by amateur photographers or those who do not want to spend a lot of time adjusting settings or changing lenses. They typically have a built-in flash and a zoom lens that can cover a range of focal lengths, from wide-angle to telephoto.
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam8.jpeg)
 
-Some point-and-shoot cameras also have advanced features such as image stabilization, high-resolution sensors, and manual controls. These features can help produce better quality images, but may also make the camera more expensive and complex to use.
-
 Overall, point-and-shoot cameras are a good choice for people who want a simple, portable camera for casual photography and are not interested in the more advanced features and controls of larger cameras.
-
 	
 
 ### 2. DSLR Cameras
@@ -46,29 +43,24 @@ A DSLR (Digital Single-Lens Reflex) camera is a type of digital camera that uses
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam2.png)
 
 
-DSLRs are popular among photographers because they offer a wide range of creative control, high image quality, and fast performance. Some of the key features of DSLR cameras include:
+DSLRs are popular among photographers because they offer a wide range of creative control, high image quality, and fast performance. Some of the key features of DSLR cameras are as follows. 
 
-#### Viewfinder:
-A DSLR camera has an optical viewfinder, which allows you to preview the scene directly through the lens. This can be helpful in bright light(eg: display isn't visible due to sunlight).
-
-#### High image quality:
-They have larger image sensors. Therefore, produce high-quality images with good detail, dynamic range, and low noise, especially at low ISO settings.
+|        Feature        | Deatils                          |
+|----------------|-------------------------------|
+|Interchangeable lenses|Has a removable lens mount, allowing you to swap out lenses to achieve different focal lengths, apertures, and other effects. (Usually lenses are very expensive :D )         |
+|----------------|-------------------------------|
+|Manual controls|Offers manual controls for exposure, white balance, focus, and other settings, giving you greater control over the final image         |
+|----------------|-------------------------------|
+|Viewfinder|They have larger image sensors. Therefore, produce high-quality images with good detail, dynamic range, and low noise, especially at low ISO settings        |
+|----------------|-------------------------------|
+|High image quality|They have larger image sensors. Therefore, produce high-quality images with good detail, dynamic range, and low noise, especially at low ISO settings         |
 
 DSLR cameras are available in a range of sizes and price points, from entry-level models to professional-grade cameras.
 They are a popular choice among professional photographers and serious hobbyists. 
 
-
-|                |Deatil                          |
-|----------------|-------------------------------|
-|Interchangeable lenses|Has a removable lens mount, allowing you to swap out lenses to achieve different focal lengths, apertures, and other effects. (Usually lenses are very expensive :D )         |
-|----------------|-------------------------------|
-|Manual controls:|Offers manual controls for exposure, white balance, focus, and other settings, giving you greater control over the final image.         |
-
-
-
 ### 3. Mirrorless Cameras
 
-A mirrorless camera is a type of digital camera that does not have a mirror or optical viewfinder like a traditional DSLR camera. Instead, it uses an electronic viewfinder (EVF) or an LCD screen to preview the image and display the camera's settings.
+A mirrorless camera is a latest type of digital camera that does not have a mirror or optical viewfinder like a traditional DSLR camera. Instead, it uses an electronic viewfinder (EVF) or an LCD screen to preview the image and display the camera's settings.
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam11.jpg)
 
@@ -80,6 +72,7 @@ Mirrorless cameras come in a range of sizes and prices, from high-end models wit
 ### 4. Bridge Cameras
 
 Now this is the type I despeately wanted to hilight.. :D and my favourite type.
+
 A bridge camera is a type of digital camera that is designed to bridge the gap between point-and-shoot cameras and DSLR cameras. They are generally larger and more feature-rich than point-and-shoot cameras, but smaller and less expensive than DSLRs.
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam9.jpg)
@@ -91,28 +84,37 @@ Bridge cameras are a good choice for photographers who want more control over th
 
 ### 5. Camera Phones 
 
-Camera phones are mobile phones that have built-in cameras. Many people now rely on their camera phones as their primary camera, using them to take photos and videos for personal and professional use.
+Definitely you all are experts in this camera type and no need lengthy paragraphs. Camera phones are mobile phones that have built-in cameras. Many people now rely on their camera phones as their primary camera, using them to take photos and videos for personal and professional use.
 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam12.jpg)
 
+Main difference of phone cameras from above camera types is the sensor size(Overall photo quality is highly depends on this). Phone camera sensor size is relatively smaller to fit in a mobile phone. 
+  
 Overall, camera phones are a convenient and versatile option for photographers of all levels. While they may not have the same level of control and image quality as a dedicated camera, they offer a convenient and easy-to-use way to capture and share photos and videos on the go.
 
 
-## Structure of a Digital Camera
+## Structure and Operation of a Digital Camera
+
+I will explain a little about the inside of a typical DSLR camera whos in the below images. 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam3.gif)
 
+    
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam16.jpg)
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam17.jpg)
 
-
-## Operation Of a Camera
-
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
+Light will enter to the camera via the front lens(a combination of multiple lenses) and get reflected by a mirror(which can be moved up and down). Then the light enters to a prism struture made out of glass and goes in to the viewfinder at the top of the camera. This will helps the photographer to view the scene and focus and change best settings. 
+
+When the Capture button is pressed, the mirror will move upwords(mechanically) and allows the light to fall on the image sensor for a small time ( can be varied from minutes to few nano seconds) according to the settings. Then the sensor will sends the digitally created image of our scene to a small computer inside the camera( microprocessor ). 
+
+Voila...! The image will be stored in a SD memory card and can be review on the LCD display on the go...How fascinating!!
+
 ## Select the Best Camera for You
+
 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam15.jpg)
