@@ -17,11 +17,11 @@ Read my article on some intersting details of digital cameras including camera t
 
 ## Digital Camera
 
-Digital cameras are no longer stranger items since it has become a daytoday appliance of the modern society. It is a device that captures photographs and videos using an electronic image sensor and store the images and videos digitally, rather than on film. Digital cameras are becoming more and more popular because they offer a number of advantages over traditional film cameras. One advantage is that you can see the images you have taken immediately after you have taken them, because the images are displayed on a screen on the back of the camera. This allows you to check the composition and focus of the image, and delete any that are not satisfactory.
+Digital camera is no longer a stranger item since it's becomming a day-to-day appliance. It's a device that captures photographs and videos using an electronic image sensor and store the images and videos digitally, rather than on film.  One advantage is that you can see the images you have taken immediately after you have taken them, because the images are displayed on a screen on the back of the camera. This allows you to check the composition and focus of the image, and delete any that are not satisfactory.
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam2.gif)
 
-Another advantage is that you can easily transfer the images from the camera to a computer, where you can view, edit, and share them. Digital cameras also offer a variety of shooting modes and settings that allow you to adjust the exposure, white balance, and other aspects of the image to get the desired result.We'll discuss them later!
+Digital cameras also offer a variety of shooting modes and settings that allow you to adjust the exposure, white balance, and other aspects of the image to get the desired result.We'll discuss them later!
 
 ## Camera Types
 If you ever think of buying a camera, but don't have an clear idea to choose the best camera for your purpose, let me enlighten you with some details.
@@ -84,7 +84,7 @@ Bridge cameras are a good choice for photographers who want more control over th
 
 ### 5. Camera Phones 
 
-Definitely you all are experts in this camera type and no need lengthy paragraphs. Camera phones are mobile phones that have built-in cameras. Many people now rely on their camera phones as their primary camera, using them to take photos and videos for personal and professional use.
+Definitely you all are experts for this camera type and no need lengthy paragraphs since . Camera phones are mobile phones that have built-in cameras. Many people now rely on their camera phones as their primary camera, using them to take photos and videos for personal and professional use.
 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam12.jpg)
@@ -97,23 +97,20 @@ Overall, camera phones are a convenient and versatile option for photographers o
 ## Structure and Operation of a Digital Camera
 
 I will explain a little about the inside of a typical DSLR camera whos in the below images. 
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam3.gif)
-
     
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam16.jpg)
 
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam17.jpg)
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam3.gif)
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
-Light will enter to the camera via the front lens(a combination of multiple lenses) and get reflected by a mirror(which can be moved up and down). Then the light enters to a prism struture made out of glass and goes in to the viewfinder at the top of the camera. This will helps the photographer to view the scene and focus and change best settings. 
+1. Light will enter to the camera via the front lens(a combination of multiple lenses) and get reflected by a mirror(which can be moved up and down).
+2. Then the light enters to a prism struture made out of glass and goes in to the viewfinder at the top of the camera. This will helps the photographer to view the scene and focus and change best settings. 
+3. When the Capture button is pressed, the mirror will move upwords(mechanically) and allows the light to fall on the image sensor for a small time ( can be varied from minutes to few nano seconds) according to the settings. 
+4. Then the sensor will sends the digitally created image of our scene to a small computer inside the camera( microprocessor ). 
+5. Voila...! The image will be stored in a SD memory card and can be review on the LCD display on the go...How fascinating!!
 
-When the Capture button is pressed, the mirror will move upwords(mechanically) and allows the light to fall on the image sensor for a small time ( can be varied from minutes to few nano seconds) according to the settings. Then the sensor will sends the digitally created image of our scene to a small computer inside the camera( microprocessor ). 
-
-Voila...! The image will be stored in a SD memory card and can be review on the LCD display on the go...How fascinating!!
-
-## Select the Best Camera for You
+## Selecting the Best Camera for You
 
 
 
