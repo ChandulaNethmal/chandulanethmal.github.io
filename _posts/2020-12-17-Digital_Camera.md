@@ -3,9 +3,9 @@ title: "Basics of Digital Camera"
 header:
   overlay_color: "#000"
   overlay_filter: "0.45"
-  overlay_image:  "assets/images/camera/cam14.jpg"
-  teaser: "assets/images/camera/cam14.jpg"
-  og_image: "assets/images/camera/cam14.jpg"
+  overlay_image:  "assets/images/camera/cam15.jpg"
+  teaser: "assets/images/camera/cam1.jpeg"
+  og_image: "assets/images/camera/cam1.jpeg"
 categories:
   - Electronics
   - Tech
@@ -13,9 +13,12 @@ tags:
   - Camera
 toc: true
 ---
-Read my article on some intersting details of digital cameras including camera types, basic structure and functionality. If you are interested in photography or courious about what is happening inside a digital camera this article is for you :D. 
+Read my article on intersting story of digital cameras including camera types, basic structure and functionality. If you are interested in buying a camera or getting in to photography or courious about what is happening inside a digital camera this article is for you :D. 
 
 ## Digital Camera
+
+**Note:** I am just an amature for the photograpy field, not an expert photographer..
+{: .notice--danger}
 
 Digital camera is no longer a stranger item since it's becomming a day-to-day appliance. It's a device that captures photographs and videos using an electronic image sensor and store the images and videos digitally, rather than on film.  One advantage is that you can see the images you have taken immediately after you have taken them, because the images are displayed on a screen on the back of the camera. This allows you to check the composition and focus of the image, and delete any that are not satisfactory.
 
@@ -100,21 +103,34 @@ I will explain a little about the inside of a typical DSLR camera whos in the be
     
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam16.jpg)
 
+
+1. Light enter to the camera via the front lens(a combination of lenses) and get reflected by a mirror(which can be tilted up and down).
+
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam3.gif)
+
+2. Then, the light enter to a prism struture made out of glass and directed in to the viewfinder at the top of the camera. This will helps the photographer to view the scene and do focusing and settings. 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
-1. Light will enter to the camera via the front lens(a combination of multiple lenses) and get reflected by a mirror(which can be moved up and down).
-2. Then the light enters to a prism struture made out of glass and goes in to the viewfinder at the top of the camera. This will helps the photographer to view the scene and focus and change best settings. 
-3. When the Capture button is pressed, the mirror will move upwords(mechanically) and allows the light to fall on the image sensor for a small time ( can be varied from minutes to few nano seconds) according to the settings. 
-4. Then the sensor will sends the digitally created image of our scene to a small computer inside the camera( microprocessor ). 
-5. Voila...! The image will be stored in a SD memory card and can be review on the LCD display on the go...How fascinating!!
+3. When the Capture button is pressed, the mirror will move upwords(mechanically) and allows the light to fall on the image sensor for a small period of time ( can be varied from minutes to few nano seconds) according to the shutter settings. 
+4. Then the sensor sends the digitally created image of the scene to a small computer unit inside the camera. 
+5. Voila...! After some image processing the image will be stored in a SD memory card and can be review on the LCD display...How fascinating!!
 
 ## Selecting the Best Camera for You
 
 
+ 
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam14.jpg)
 
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam15.jpg)
+|        Type        | Deatils                          |
+|----------------|-------------------------------|
+|Point-and-shoot|Has a removable lens mount, allowing you to swap out lenses to achieve different focal lengths, apertures, and other effects. (Usually lenses are very expensive :D )         |
+|----------------|-------------------------------|
+|DSLR|Offers manual controls for exposure, white balance, focus, and other settings, giving you greater control over the final image         |
+|----------------|-------------------------------|
+|Mirrorless|They have larger image sensors. Therefore, produce high-quality images with good detail, dynamic range, and low noise, especially at low ISO settings        |
+|----------------|-------------------------------|
+|Bridge|They have larger image sensors. Therefore, produce high-quality images with good detail, dynamic range, and low noise, especially at low ISO settings         |
 
 
 <figure class="half">
