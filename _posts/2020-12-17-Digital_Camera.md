@@ -26,6 +26,23 @@ Digital camera is no longer a stranger item since it's becomming a day-to-day ap
 
 Digital cameras also offer a variety of shooting modes and settings that allow you to adjust the exposure, white balance, and other aspects of the image to get the desired result.We'll discuss them later!
 
+## Basic parts
+
+Almost every digital camera contains some common parts including a lens, set of controlling buttons or scroll wheels, LCD or LED display 
+
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam19.jpg)
+
+## Heart of a Digital Camera, Image Sensor!
+
+When capturing images with a digital camera, a small shutter opens, allowing light in for a fraction of a second. The light hits the film inside the camera, and it records light, colour, contrast and detail.
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam10.jpg)
+
+With digital cameras, the sensor is a device that sits inside the camera and works in much the same way – it replaced the film photography process.
+
+A sensor houses millions of tiny light-sensitive receptors called photosites – counted as megapixels or millions of pixels.
+
 ## Camera Types
 If you ever think of buying a camera, but don't have an clear idea to choose the best camera for your purpose, let me enlighten you with some details.
 Digital cameras are available in a range of sizes, from compact cameras to larger, more complex models with interchangeable lenses. They can be used for a variety of purposes, including casual photography, professional photography, and videography.
@@ -124,7 +141,7 @@ I will explain a little about the inside of a typical DSLR camera whos in the be
 
 |        Type        | Deatils                          |
 |----------------|-------------------------------|
-|Point-and-shoot|Has a removable lens mount, allowing you to swap out lenses to achieve different focal lengths, apertures, and other effects. (Usually lenses are very expensive :D )         |
+|Point-and-shoot|         |
 |----------------|-------------------------------|
 |DSLR|Offers manual controls for exposure, white balance, focus, and other settings, giving you greater control over the final image         |
 |----------------|-------------------------------|
