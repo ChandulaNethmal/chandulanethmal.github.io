@@ -35,13 +35,13 @@ Almost every digital camera contains some common parts including a lens, set of 
 
 This image shows basic parts we can see on a common DSLR type camera.
 
-Lens: Set of optical lenses combined together to get a desired focal length. Some types have interchnageble lens(can detach from the body and replace with another one) while others have fixed leses. 
+#### Lens:  Set of optical lenses combined together to get a desired focal length. Some types have interchnageble lens(can detach from the body and replace with another one) while others have fixed leses. 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam20.jpg)
 
-Viewfinder: Used to view the target scene placing an eye on this place to do focusing and settings, before taking a photo. Some camera types have an optical setup(no electronics, just mirrors,prisms and lenses) while some types have a small LCD display for this.
+#### Viewfinder:  Used to view the target scene placing an eye on this place to do focusing and settings, before taking a photo. Some camera types have an optical setup(no electronics, just mirrors,prisms and lenses) while some types have a small LCD display for this.
 
-Image Sensor: Now this is another big topic to discuss ;)  
+####Image Sensor: Now this is another big topic to discuss ;)  
 
 ## Heart of a Digital Camera, Image Sensor!
 
@@ -103,7 +103,7 @@ Mirrorless cameras come in a range of sizes and prices, from high-end models wit
 	
 ### 4. Bridge Cameras
 
-Now this is the type I despeately wanted to hilight.. :D and my favourite type.
+Now this is the type I despeately wanted to highlight.. :D and my favourite type.
 
 A bridge camera is a type of digital camera that is designed to bridge the gap between point-and-shoot cameras and DSLR cameras. They are generally larger and more feature-rich than point-and-shoot cameras, but smaller and less expensive than DSLRs.
 
@@ -116,7 +116,7 @@ Bridge cameras are a good choice for photographers who want more control over th
 
 ### 5. Camera Phones 
 
-Definitely you all are experts for this camera type and no need lengthy paragraphs since . Camera phones are mobile phones that have built-in cameras. Many people now rely on their camera phones as their primary camera, using them to take photos and videos for personal and professional use.
+Definitely you all are experts for this camera type and no need lengthy paragraphs. Camera phones are mobile phones that have built-in cameras. Many people now rely on their camera phones as their primary camera, using them to take photos and videos for personal and professional use.
 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam12.jpg)
