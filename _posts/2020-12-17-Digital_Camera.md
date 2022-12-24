@@ -3,7 +3,7 @@ title: "Basics of Digital Camera"
 header:
   overlay_color: "#000"
   overlay_filter: "0.45"
-  overlay_image:  "assets/images/camera/cam15.jpg"
+  overlay_image:  "assets/images/camera/cam14.jpg"
   teaser: "assets/images/camera/cam1.jpeg"
   og_image: "assets/images/camera/cam1.jpeg"
 categories:
@@ -13,7 +13,7 @@ tags:
   - Camera
 toc: true
 ---
-Read my article on intersting story of digital cameras including camera types, basic structure and functionality. If you are interested in buying a camera or getting in to photography or courious about what is happening inside a digital camera this article is for you :D. 
+Read my article on intersting story of digital cameras including camera types, basic structure and functionality. If you are interested in buying a camera or getting in to photography or courious about what is happening inside a digital camera, Good news! This article is for you :D. 
 
 ## Digital Camera
 
@@ -28,12 +28,24 @@ Digital cameras also offer a variety of shooting modes and settings that allow y
 
 ## Basic parts
 
-Almost every digital camera contains some common parts including a lens, set of controlling buttons or scroll wheels, LCD or LED display 
+Almost every digital camera contains some common parts including a lens, set of controlling buttons or scroll wheels, LCD or LED display and batteries. 
 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam19.jpg)
 
+This image shows basic parts we can see on a common DSLR type camera.
+
+Lens: Set of optical lenses combined together to get a desired focal length. Some types have interchnageble lens(can detach from the body and replace with another one) while others have fixed leses. 
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam20.jpg)
+
+Viewfinder: Used to view the target scene placing an eye on this place to do focusing and settings, before taking a photo. Some camera types have an optical setup(no electronics, just mirrors,prisms and lenses) while some types have a small LCD display for this.
+
+Image Sensor: Now this is another big topic to discuss ;)  
+
 ## Heart of a Digital Camera, Image Sensor!
+
+These refer to the function of converting light into an electrical signal within the sensor.
 
 When capturing images with a digital camera, a small shutter opens, allowing light in for a fraction of a second. The light hits the film inside the camera, and it records light, colour, contrast and detail.
 
@@ -41,7 +53,7 @@ When capturing images with a digital camera, a small shutter opens, allowing lig
 
 With digital cameras, the sensor is a device that sits inside the camera and works in much the same way – it replaced the film photography process.
 
-A sensor houses millions of tiny light-sensitive receptors called photosites – counted as megapixels or millions of pixels.
+A sensor houses millions of tiny light-sensitive receptors called photosites – counted as megapixels or millions of pixels. If you having a lower number of mega pixels with a bigger sensor size 
 
 ## Camera Types
 If you ever think of buying a camera, but don't have an clear idea to choose the best camera for your purpose, let me enlighten you with some details.
