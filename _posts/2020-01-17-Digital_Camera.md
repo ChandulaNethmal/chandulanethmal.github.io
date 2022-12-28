@@ -13,7 +13,7 @@ tags:
   - Camera
 toc: true
 ---
-Read my article on intersting story of digital cameras including camera types, basic structure and functionality. If you are interested in buying a camera or getting in to photography or courious about what is happening inside a digital camera, Awesome! This article is for you :D. 
+Read my article on intersting story of digital cameras including camera types, basic structure and functionality. If you're interested in buying a new camera or getting into photography or even courious about what is happening inside a digital camera, Great! This article is for you :D. 
 
 ## Digital Camera
 
@@ -36,27 +36,37 @@ Almost every digital camera contains some common parts including a lens, set of 
 This image shows basic parts we can see on a common DSLR type camera.
 
 #### Lens:
-Set of optical lenses combined together to get a desired focal length. Some types have interchnageble lens(can detach from the body and replace with another one) while others have fixed lenses. 
+Set of optical elements(lenses) combined together to get a desired focal length and aparture. Some types have interchnageble lens(can be detached from the body and replace with another one) while others have fixed lenses. 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam20.jpg)
+<figcaption> An interchangele lens and a camera body without a lens</figcaption>
 
 #### Viewfinder:
 Used to view the target scene placing an eye on this place to do focusing and settings, before taking a photo. Some camera types have an optical setup(no electronics, just mirrors,prisms and lenses) while some types have a small LCD display for this.
 
-####Image Sensor:
+#### Image Sensor:
+
 Now this is another big topic to discuss ;)  
 
-## Heart of a Digital Camera, Image Sensor!
+## Eye of a Digital Camera, Image Sensor!
 
-These refer to the function of converting light into an electrical signal within the sensor.
+This is the most important component which converts light into an electrical signal within the sensor.
 
-When capturing images with a digital camera, a small shutter opens, allowing light in for a fraction of a second. The light hits the film inside the camera, and it records light, colour, contrast and detail.
+When capturing images with a digital camera, a small shutter opens, allowing light in for a fraction of a second. The light hits the image sensor inside the camera, and it reads colour, contrast and detail using an array of tiny little pixels and convert it into electric signals.
+
+<figure class="half">
+	<a href="/assets/images/camera/cam21.jpg"><img src="/assets/images/camera/cam21.jpg"></a>
+<a href="/assets/images/camera/cam22.png"><img src="/assets/images/camera/cam22.png"></a>
+
+<figcaption> Real view of an Image sensor and the process of making digital image using light</figcaption>
+
+There are two major types of image sensors used in cameras as CCD(Charged Couple Device)  and CMOS(Complementary Metal-Oxide Semiconductor).
+A sensor houses millions of tiny light-sensitive receptors called photosites – counted as megapixels or millions of pixels.
+
+Image quality(colors,contrast,details,..) is highly depends on the physical size of the sensor. That's why dedicated cameras (DSLR,mirrorless,bridge,..) are always better for quality images than mobile phone cameras(because phone cams have smaller sensors even if they have many mega pixels).  
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam10.jpg)
-
-With digital cameras, the sensor is a device that sits inside the camera and works in much the same way – it replaced the film photography process.
-
-A sensor houses millions of tiny light-sensitive receptors called photosites – counted as megapixels or millions of pixels. If you having a lower number of mega pixels with a bigger sensor size 
+<figcaption> Sensor size comparisn for different camera types</figcaption>
 
 ## Camera Types
 If you ever think of buying a camera, but don't have an clear idea to choose the best camera for your purpose, let me enlighten you with some details.
@@ -86,7 +96,7 @@ DSLRs are popular among photographers because they offer a wide range of creativ
 |----------------|-------------------------------|
 |Manual controls|Offers manual controls for exposure, white balance, focus, and other settings, giving you greater control over the final image         |
 |----------------|-------------------------------|
-|Viewfinder|They have larger image sensors. Therefore, produce high-quality images with good detail, dynamic range, and low noise, especially at low ISO settings        |
+|Viewfinder|Have optical viewfinders which offer a clear view of the scene even in rough daylight conditions       |
 |----------------|-------------------------------|
 |High image quality|They have larger image sensors. Therefore, produce high-quality images with good detail, dynamic range, and low noise, especially at low ISO settings         |
 
