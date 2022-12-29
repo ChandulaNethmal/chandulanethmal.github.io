@@ -190,19 +190,30 @@ Cameras are availbale in the market for different purposes(personal cameras, pro
 
 |        Type        | Deatils                          |
 |----------------|-------------------------------|
-|Point-and-shoot| **pros**:  Less expensive , Small in size        |
-| | **cons**:  Quality is lower than DSLR/Mirrorless/Bridge, Do not have inter       |
+|**Point-and-shoot**| **pros**:  Less expensive , Small in size        |
+| **cons**:  Quality is lower than DSLR/Mirrorless/Bridge, Do not have inter       |
 | | **Best usage**:  for Travel or Personal momemts photograpy, If you are an amature and seeking for a cheap camera         |
 |----------------|-------------------------------|
-|DSLR| **pros**:  Exellent Quality photos, Highly customizable settings and control, Interchangelbe lens          |
+|----------------|-------------------------------|
+|**DSLR**| **pros**:  Exellent Quality photos, Highly customizable settings and control, Interchangelbe lens          |
 | | **cons**:  Expensive than others, Heavier and less portable, Difficult to use for beginners          |
 | | **Best Usage**:  For professional photographers, Beginners hoping to enter photography field, If you need more control over the settings         |
 |----------------|-------------------------------|
-|Mirrorless| **pros**:  Very good quaity images(often same quality as DSLRs), Lighter and more portable than DSLRs, Customizable Settings and lens are same as DSLR       |
+|----------------|-------------------------------|
+|**Mirrorless**| **pros**:  Very good quaity images(often same quality as DSLRs), Lighter and more portable than DSLRs, Customizable Settings and lens are same as DSLR       |
 | | **cons**:  Expensive than others, extra lenses can be very expensive, Difficult to use for beginners          |
 | | **Best Usage**:  For professional photographers, Beginners hoping to enter photography field, If you need more control over the settings         |
 |----------------|-------------------------------|
-|Bridge| **pros**:  High quality images( higher than point-and-shoot), Exellent zooming capabillity, Cheaper than DSLRs, Offers many controlls like DSLR, cheaper than DSLR/mirrorless         |
+|----------------|-------------------------------|
+|**Bridge**| **pros**:  High quality images( higher than point-and-shoot), Exellent zooming capabillity, Cheaper than DSLRs, Offers many controlls like DSLR, cheaper than DSLR/mirrorless         |
 | | **cons**:  Less quality than DSLRs, no interchangeble lens        |
 | | **Best Usage**:  Suitable for any kind of scenes:: casual,travel or wildlife photography, If you are seeking for a less expensive cam but, with quality images, creative  controls and zooming         |
+|----------------|-------------------------------|
+|----------------|-------------------------------|
+|**Phone camera**| **pros**:  High portable, Easy to view and share images         |
+| | **cons**:  Generally, quality is less than other cameras, Cannot have much control over settings        |
+| | **Best Usage**:  Suitable for casual photography and easy to use for anyone    |
+
+
+
 
