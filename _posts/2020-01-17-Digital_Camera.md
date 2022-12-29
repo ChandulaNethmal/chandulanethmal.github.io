@@ -26,7 +26,7 @@ Digital camera is no longer a stranger item since it's becomming a day-to-day ap
 
 Digital cameras also offer a variety of shooting modes and settings that allow you to adjust the exposure, white balance, and other aspects of the image to get the desired result.We'll discuss them later!
 
- **Basic parts**
+## Basic parts
 
 Almost every digital camera contains some common parts including a lens, set of controlling buttons or scroll wheels, LCD or LED display and batteries. 
 
@@ -36,15 +36,21 @@ Almost every digital camera contains some common parts including a lens, set of 
 This image shows basic parts we can see on a common DSLR type camera.
 
  **Lens**
+ 
+
 Set of optical elements(lenses) combined together to get a desired focal length and aparture. Some types have interchnageble lens(can be detached from the body and replace with another one) while others have fixed lenses. 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam20.jpg)
 <figcaption> An interchangele lens and a camera body without a lens</figcaption>
 
- **Viewfinder**
+ **Viewfinder** 
+ 
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam23.jpg)
+ 
 Used to view the target scene placing an eye on this place to do focusing and settings, before taking a photo. Some camera types have an optical setup(no electronics, just mirrors,prisms and lenses) while some types have a small LCD display for this.
 
  **Image Sensor**
+
 
 > Now this is another big topic to discuss ;)  
 
@@ -178,15 +184,19 @@ Cameras are availbale in the market for different purposes(personal cameras, pro
 
 |        Type        | Deatils                          |
 |----------------|-------------------------------|
-|Point-and-shoot| pros: Less expensive , Small in size        |
-|     | cons: Quality is lower than DSLR/Mirrorless/Bridge, Do not have inter       |
-| | Best usage: for Travel or Personal momemts photograpy, If you are an amature and seeking for a cheap camera         |
+|Point-and-shoot| **pros**:  Less expensive , Small in size        |
+| | **cons**:  Quality is lower than DSLR/Mirrorless/Bridge, Do not have inter       |
+| | **Best usage**:  for Travel or Personal momemts photograpy, If you are an amature and seeking for a cheap camera         |
 |----------------|-------------------------------|
-|DSLR|Offers manual controls for exposure, white balance, focus, and other settings, giving you greater control over the final image         |
+|DSLR| **pros**:  Exellent Quality photos, Highly customizable settings and control, Interchangelbe lens          |
+| | **cons**:  Expensive than others, Heavier and less portable, Difficult to use for beginners          |
+| | **Best Usage**:  For professional photographers, Beginners hoping to enter photography field, If you need more control over the settings         |
 |----------------|-------------------------------|
-|Mirrorless|They have larger image sensors. Therefore, produce high-quality images with good detail, dynamic range, and low noise, especially at low ISO settings        |
+|Mirrorless| **pros**:  Very good quaity images(often same quality as DSLRs), Lighter and more portable than DSLRs, Customizable Settings and lens are same as DSLR       |
+| | **cons**:  Expensive than others, extra lenses can be very expensive, Difficult to use for beginners          |
+| | **Best Usage**:  For professional photographers, Beginners hoping to enter photography field, If you need more control over the settings         |
 |----------------|-------------------------------|
-|Bridge|They have larger image sensors. Therefore, produce high-quality images with good detail, dynamic range, and low noise, especially at low ISO settings         |
-
-
+|Bridge| **pros**:  High quality images( higher than point-and-shoot), Exellent zooming capabillity, Cheaper than DSLRs, Offers many controlls like DSLR, cheaper than DSLR/mirrorless         |
+| | **cons**:  Less quality than DSLRs, no interchangeble lens        |
+| | **Best Usage**:  Suitable for any kind of scenes:: casual,travel or wildlife photography, If you are seeking for a less expensive cam but, with quality images, creative  controls and zooming         |
 
