@@ -17,7 +17,7 @@ Read my article on intersting story of digital cameras including camera types, b
 
 ## Digital Camera
 
-**Note:** I am just an amature for the photography field, Just a tech enthusiast and not an expert photographer..
+**Note:** I am just an amateur for the photography field, Just a tech enthusiast and not an expert photographer..
 {: .notice--danger}
 
 Digital camera is no longer a stranger item since it's becomming a day-to-day appliance. It's a device that captures photographs and videos using an electronic image sensor and store the images and videos digitally, rather than on film.  One advantage is that you can see the images you have taken immediately after you have taken them, because the images are displayed on a screen on the back of the camera. This allows you to check the composition and focus of the image, and delete any that are not satisfactory.
@@ -45,8 +45,10 @@ Set of optical elements(lenses) combined together to give desired focal lengths 
 
 There are many different types of interchangeable lenses available, 
 
-**wide-angle lenses**: have a short focal length and are often used for landscape photography or to capture a wide field of view
-**telephoto lenses**: have a long focal length and are often used for sports or wildlife photography, as they allow you to zoom in and capture distant subjects
+**wide-angle lenses**: have a short focal length and are often used for landscape photography or to capture a wide field of view.
+
+**telephoto lenses**: have a long focal length and are often used for sports or wildlife photography, as they allow you to zoom in and capture distant subjects.
+
 **prime lenses**: have a fixed focal length and are generally smaller and lighter than zoom lenses
 
  **Viewfinder** 
@@ -191,8 +193,8 @@ Cameras are availbale in the market for different purposes(personal cameras, pro
 |        Type        | Deatils                          |
 |----------------|-------------------------------|
 |**Point-and-shoot**| **pros**:  Less expensive , Small in size        |
-| **cons**:  Quality is lower than DSLR/Mirrorless/Bridge, Do not have inter       |
-| | **Best usage**:  for Travel or Personal momemts photograpy, If you are an amature and seeking for a cheap camera         |
+| | **cons**:  Quality is lower than DSLR/Mirrorless/Bridge, Do not have inter       |
+| | **Best usage**:  for Travel or Personal momemts photograpy, If you are an amateur and seeking for a cheap camera         |
 |----------------|-------------------------------|
 |----------------|-------------------------------|
 |**DSLR**| **pros**:  Exellent Quality photos, Highly customizable settings and control, Interchangelbe lens          |
@@ -215,5 +217,8 @@ Cameras are availbale in the market for different purposes(personal cameras, pro
 | | **Best Usage**:  Suitable for casual photography and easy to use for anyone    |
 
 
+My intention was to cover the basic idea of a digital camera including the structure and composition of a camera, camera types, operation of taking a photo and how to choose the most suitable camera for your need if you did not have an idea about camera types. So, I hope you had an informative and awesome time reading this article. Do not hesitate to comment bellow your ideas regarding the content or any mistakes I've made within the article. Have a great time with your cameras!! :D
+
+  
 
 
