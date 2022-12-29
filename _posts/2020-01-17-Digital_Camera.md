@@ -40,10 +40,10 @@ This image shows the basic parts we can see on a common DSLR type camera.
  **Lens**
  
 
-Set of optical elements(lenses) combined to give desired focal lengths and aparture sizes for photographers. Some camera types have interchnageble lens(can be detached from the body and replace with another one) while others have fixed lenses. 
+Set of optical elements(lenses) combined to give desired focal lengths and aperture sizes for photographers. Some camera types have an interchangeable lens(which can be detached from the body and replaced with another one) while others have fixed lenses. 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam20.jpg)
-<figcaption> An interchangeble lens and a camera body without a lens</figcaption>
+<figcaption> An interchangeable lens and a camera body without a lens</figcaption>
 
 There are many different types of interchangeable lenses available, 
 
@@ -55,7 +55,7 @@ There are many different types of interchangeable lenses available,
  
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam23.jpg)
  
-Used to view the target scene placing an eye on this place to do focusing and settings, before taking a photo. Some camera types have an optical setup(no electronics, just mirrors,prisms and lenses) while some types have a small LCD display for this.
+Used to view the target scene placing an eye on this place to do focusing and settings, before taking a photo. Some camera types have an optical setup(no electronics, just mirrors, prisms and lenses) while some types have a small LCD display for this.
 
  **Image Sensor**
 
@@ -66,26 +66,26 @@ Used to view the target scene placing an eye on this place to do focusing and se
 
 This is the most important component which converts light into an electrical signal within the sensor.
 
-When capturing images with a digital camera, a small shutter opens, allowing light in for a fraction of a second. The light hits the image sensor inside the camera, and it reads colour, contrast and detail using an array of tiny little pixels and convert it into electric signals.
+When capturing images with a digital camera, a small shutter opens, allowing light in for a fraction of a second. The light hits the image sensor inside the camera, and it reads color, contrast and detail using an array of tiny little pixels and converts it into electric signals.
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam21.jpg)
 <figcaption> Real view of an Image sensor</figcaption>
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam22.png)
-<figcaption> The process of making digital image using light</figcaption>
+<figcaption> The process of making a digital image using light</figcaption>
 
 There are two major types of image sensors used in cameras as CCD(Charged Couple Device)  and CMOS(Complementary Metal-Oxide Semiconductor).
 
 A sensor houses millions of tiny light-sensitive receptors called photosites – counted as megapixels or millions of pixels.
 
-> Image quality(colors,contrast,details,..) is highly depends on the physical size of the sensor. That's why dedicated cameras (DSLR,mirrorless,bridge,..) are always better for quality images than mobile phone cameras(because phone cams have smaller sensors even if they have many mega pixels).  
+> Image quality(colors, contrast, details,..) highly depends on the physical size of the sensor. That's why dedicated cameras (DSLR, mirrorless, bridge,..) are always better for quality images than mobile phone cameras(because phone cams have smaller sensors even if they have many megapixels).  
 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam10.jpg)
-<figcaption> Sensor size comparisn for different camera types</figcaption>
+<figcaption> Sensor size comparison for different camera types</figcaption>
 
 ## Camera Types
-If you ever think of buying a camera, but don't have an clear idea to choose the best camera for your purpose, let me enlighten you with some details.
+If you ever think of buying a camera but don't have a clear idea to choose the best camera for your purpose, let me enlighten you with some details.
 Digital cameras are available in a range of sizes, from compact cameras to larger, more complex models with interchangeable lenses. 
 
 1. Point and Shoot Cameras
@@ -116,7 +116,7 @@ DSLRs are popular among photographers because they offer a wide range of creativ
 
 |        Feature        | Deatils                          |
 |----------------|-------------------------------|
-|Interchangeable lenses|Has a removable lens mount, allowing you to swap out lenses to achieve different focal lengths, apertures, and other effects. (Usually lenses are very expensive :D )         |
+|Interchangeable lenses|Has a removable lens mount, allowing you to swap out lenses to achieve different focal lengths, apertures, and other effects. (Usually, lenses are very expensive :D )         |
 |----------------|-------------------------------|
 |Manual controls|Offers manual controls for exposure, white balance, focus, and other settings, giving you greater control over the final image         |
 |----------------|-------------------------------|
@@ -129,19 +129,17 @@ DSLR cameras are available in a range of sizes and price points, from entry-leve
 
 ### 3. Mirrorless Cameras
 
-A mirrorless camera is a latest type of digital camera that does not have a mirror or optical viewfinder like a traditional DSLR camera. Instead, it uses an electronic viewfinder (EVF) or an LCD screen to preview the image and display the camera's settings.
+A mirrorless camera is the latest type of digital camera that does not have a mirror or optical viewfinder like a traditional DSLR camera. Instead, it uses an electronic viewfinder (EVF) or an LCD screen to preview the image and display the camera's settings.
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam11.jpg)
 
-Mirrorless cameras have several advantages over DSLR cameras. They are generally smaller and lighter because they don't have the large mirror and pentaprism required for an optical viewfinder. This makes them more portable and easier to carry around. They also tend to have faster autofocus and continuous shooting speeds because they don't have to move a mirror(mechanicals) out of the way to take a picture. Additionally, the lack of a mirror allows for a shorter distance between the lens and the image sensor, which can result in better image quality and low light performance.
+Mirrorless cameras have several advantages over DSLR cameras. They are generally smaller and lighter because they don't have the large mirror and pentaprism required for an optical viewfinder. This makes them more portable and easier to carry around. They also tend to have faster autofocus and continuous shooting speeds because they don't have to move a mirror(mechanicals) out of the way to take a picture. Additionally, the lack of a mirror allows for a shorter distance between the lens and the image sensor, which can result in better image quality and low-light performance.
 
 Mirrorless cameras come in a range of sizes and prices, from high-end models with full-frame sensors and professional-level features to more affordable models with smaller sensors and more basic features. Many mirrorless cameras use interchangeable lenses, so you can choose the lens that best suits your needs. 
 
-> This is the modern alternative for DSLR cameras
+> This is the modern alternative to DSLR cameras
 	
 ### 4. Bridge Cameras
-
-Now, this is my favourite type and I desperately wanted to highlight.. :D 
 
 A bridge camera is a type of digital camera that is designed to bridge the gap between point-and-shoot cameras and DSLR cameras. They are generally larger and more feature-rich than point-and-shoot cameras, but smaller and less expensive than DSLRs.
 
@@ -149,46 +147,46 @@ A bridge camera is a type of digital camera that is designed to bridge the gap b
 
 Bridge cameras typically have a long zoom lens built into the camera body, ranging from 20x to 50x or more, which allows you to get close-up shots of distant subjects without having to change lenses. They also often have manual controls and a range of advanced features, such as manual focus, raw image capture, and the ability to shoot in different shooting modes (such as aperture priority and shutter priority).
 
-> Bridge cameras are a good choice for photographers who want more control over their images than a point-and-shoot camera offers, but don't want to carry around the larger and more expensive equipment that comes with a DSLR. They are also a good option for travelers who want a single, versatile camera that can handle a wide range of shooting situations.
+> Bridge cameras are a good choice for photographers who want more control over their images than a point-and-shoot camera offers but don't want to carry around the larger and more expensive equipment that comes with a DSLR. They are also a good option for travelers who want a single, versatile camera that can handle a wide range of shooting situations.
 
 
 ### 5. Camera Phones 
 
-Definitely you all are experts for this camera type and no need lengthy paragraphs. Camera phones are mobile phones that have built-in cameras. Many people now rely on their camera phones as their primary camera, using them to take photos and videos for personal and professional use.
+Definitely, you all are experts for this camera type, and no need for lengthy paragraphs. Camera phones are mobile phones that have built-in cameras. Many people now rely on their camera phones as their primary camera, using them to take photos and videos for personal and professional use.
 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam12.jpg)
 
-Main difference of phone cameras from above camera types is the sensor size(Overall photo quality is highly depends on this). Phone camera sensor size is relatively smaller to fit in a mobile phone. 
+The main difference between phone cameras and the above camera types is the sensor size(Overall photo quality highly depends on this). The phone camera sensor size is relatively smaller to fit in a mobile phone. 
   
 Overall, camera phones are a convenient and versatile option for photographers of all levels. While they may not have the same level of control and image quality as a dedicated camera, they offer a convenient and easy-to-use way to capture and share photos and videos on the go.
 
 
 ## Structure and Operation of a Digital Camera
 
-I will explain a little about the inside of a typical DSLR camera using below images. 
+I will explain a little about the inside of a typical DSLR camera using the below images. 
     
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam16.jpg)
 
 
-1. Light enter to the camera via the front lens(a combination of lenses) and get reflected by a mirror(which can be tilted up and down).
+1. Light enters the camera via the front lens(a combination of lenses) and gets reflected by a mirror(which can be tilted up and down).
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam3.gif)
 
-2. Then, the light enter to a prism struture and directed in to the viewfinder at the top of the camera. This will helps the photographer to view the scene and do focusing and settings. 
+2. Then, the light enters a prism structure and is directed into the viewfinder at the top of the camera. This will helps the photographer to view the scene and do focusing and settings. 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
-3. When the Capture button is pressed, the mirror will move upwords(mechanically) and allows the light to fall on the image sensor for a small period of time ( can be varied from minutes to few nano seconds) according to the shutter settings. 
+3. When the Capture button is pressed, the mirror will move upwards (mechanically) and allows the light to fall on the image sensor for a small period of time ( can be varied from minutes to a few nanoseconds) according to the shutter settings. 
 4. Then the sensor sends the digitally created image of the scene to a small computer unit inside the camera. 
-5. Voila...! After some image processing, the image will be stored in a SD memory card and can be review on the LCD display...How fascinating!!
+5. Voila...! After some image processing, the image will be stored in an SD memory card and can be reviewed on the LCD display...How fascinating!!
 
 
 ## Selecting the Best Camera for You
 
-Cameras are availbale in the market for different purposes(personal cameras, professional cameras, cinema cameras,camera drones, etc.) in different price ranges. So, after going through the above details of camera types, I guess, now you have some idea on the suitable camera type for you.
+Cameras are available in the market for different purposes(personal cameras, professional cameras, cinema cameras, camera drones, etc.) in different price ranges. So, after going through the above details of camera types, I guess, now you have some idea of the suitable camera type for you.
 
-> Let's take a look at the summary on camera seletcion.  
+> Let's take a look at the summary on camera selection.  
  
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam14.jpg)
 
@@ -196,33 +194,29 @@ Cameras are availbale in the market for different purposes(personal cameras, pro
 |----------------|-------------------------------|
 |**Point-and-shoot**| **pros**:  Less expensive , Small in size        |
 | | **cons**:  Quality is lower than DSLR/Mirrorless/Bridge, Do not have inter       |
-| | **Best usage**:  for Travel or Personal momemts photograpy, If you are an amateur and seeking for a cheap camera         |
+| | **Best usage**:  for Travel or Personal moments photography, If you are an amateur and seeking a cheap camera         |
 |----------------|-------------------------------|
 |----------------|-------------------------------|
-|**DSLR**| **pros**:  Exellent Quality photos, Highly customizable settings and control, Interchangelbe lens          |
+|**DSLR**| **pros**:  Excellent Quality photos, Highly customizable settings, and control, Interchangeable lens          |
 | | **cons**:  Expensive than others, Heavier and less portable, Difficult to use for beginners          |
-| | **Best Usage**:  For professional photographers, Beginners hoping to enter photography field, If you need more control over the settings         |
+| | **Best Usage**:  For professional photographers, Beginners hoping to enter the photography field, If you need more control over the settings         |
 |----------------|-------------------------------|
 |----------------|-------------------------------|
-|**Mirrorless**| **pros**:  Very good quaity images(often same quality as DSLRs), Lighter and more portable than DSLRs, Customizable Settings and lens are same as DSLR       |
+|**Mirrorless**| **pros**:  Very good quality images(often the same quality as DSLRs), Lighter and more portable than DSLRs, Customizable Settings and lens are same as DSLR       |
 | | **cons**:  Expensive than others, extra lenses can be very expensive, Difficult to use for beginners          |
-| | **Best Usage**:  For professional photographers, Beginners hoping to enter photography field, If you need more control over the settings         |
+| | **Best Usage**:  For professional photographers, Beginners hoping to enter the photography field, If you need more control over the settings         |
 |----------------|-------------------------------|
 |----------------|-------------------------------|
-|**Bridge**| **pros**:  High quality images( higher than point-and-shoot), Exellent zooming capabillity, Cheaper than DSLRs, Offers many controlls like DSLR, cheaper than DSLR/mirrorless         |
+|**Bridge**| **pros**: High-quality images( higher than point-and-shoot), Excellent zooming capability, Cheaper than DSLRs, Offers many controls like DSLR, cheaper than DSLR/mirrorless         |
 | | **cons**:  Less quality than DSLRs, no interchangeble lens        |
-| | **Best Usage**:  Suitable for any kind of scenes:: casual,travel or wildlife photography, If you are seeking for a less expensive cam but, with quality images, creative  controls and zooming         |
+| | **Best Usage**:  Suitable for any kind of scenes:: casual, travel or wildlife photography, If you are seeking a less expensive cam but, with quality images, creative controls, and zooming         |
 |----------------|-------------------------------|
 |----------------|-------------------------------|
 |**Phone camera**| **pros**:  High portable, Easy to view and share images         |
-| | **cons**:  Generally, quality is less than other cameras, Cannot have much control over settings        |
+| | **cons**:  Generally, quality is less than other cameras, and Cannot have much control over settings        |
 | | **Best Usage**:  Suitable for casual photography and easy to use for anyone    |
 
 
-My intention was to cover the basic idea of a digital camera including the structure and composition of a camera, camera types, operation of taking a photo and how to choose the most suitable camera for your need if you did not have an idea about camera types.
+I intended to cover the basic idea of a digital camera including the structure and composition of a camera, camera types, operation of taking a photo, and how to choose the most suitable camera for your need if you did not have an idea about camera types.
 
- So, I hope you had an informative and awesome time reading this article. Do not hesitate to comment bellow your ideas regarding the content or any mistakes I've made within the article. Have a great time with your cameras!! :D
-
-  
-
-
+ So, I hope you had an informative and awesome time reading this article. Do not hesitate to comment below your ideas regarding the content or any mistakes I've made within the article. Have a great time with your cameras!! :D
