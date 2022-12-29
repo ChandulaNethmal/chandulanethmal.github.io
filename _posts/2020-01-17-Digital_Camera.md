@@ -26,7 +26,7 @@ Digital camera is no longer a stranger item since it's becomming a day-to-day ap
 
 Digital cameras also offer a variety of shooting modes and settings that allow you to adjust the exposure, white balance, and other aspects of the image to get the desired result.We'll discuss them later!
 
-## Basic parts
+ **Basic parts**
 
 Almost every digital camera contains some common parts including a lens, set of controlling buttons or scroll wheels, LCD or LED display and batteries. 
 
@@ -35,18 +35,18 @@ Almost every digital camera contains some common parts including a lens, set of 
 
 This image shows basic parts we can see on a common DSLR type camera.
 
-#### Lens:
+ **Lens**
 Set of optical elements(lenses) combined together to get a desired focal length and aparture. Some types have interchnageble lens(can be detached from the body and replace with another one) while others have fixed lenses. 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam20.jpg)
 <figcaption> An interchangele lens and a camera body without a lens</figcaption>
 
-#### Viewfinder:
+ **Viewfinder**
 Used to view the target scene placing an eye on this place to do focusing and settings, before taking a photo. Some camera types have an optical setup(no electronics, just mirrors,prisms and lenses) while some types have a small LCD display for this.
 
-#### Image Sensor:
+ **Image Sensor**
 
-Now this is another big topic to discuss ;)  
+> Now this is another big topic to discuss ;)  
 
 ## Eye of a Digital Camera, Image Sensor!
 
@@ -170,13 +170,17 @@ I will explain a little about the inside of a typical DSLR camera whos in the be
 
 ## Selecting the Best Camera for You
 
+Cameras are availbale in the market for different purposes(personal cameras, professional cameras, cinema cameras,camera drones) in different price ranges. So, after going through the above details of camera types, I guess, now you have some idea on the suitable camera type for you.
 
+> Let's take a look at the summary on camera seletcion.  
  
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam14.jpg)
 
 |        Type        | Deatils                          |
 |----------------|-------------------------------|
-|Point-and-shoot|         |
+|Point-and-shoot| pros: Less expensive , Small in size        |
+|     | cons: Quality is lower than DSLR/Mirrorless/Bridge, Do not have inter       |
+| | Best usage: for Travel or Personal momemts photograpy, If you are an amature and seeking for a cheap camera         |
 |----------------|-------------------------------|
 |DSLR|Offers manual controls for exposure, white balance, focus, and other settings, giving you greater control over the final image         |
 |----------------|-------------------------------|
@@ -185,8 +189,4 @@ I will explain a little about the inside of a typical DSLR camera whos in the be
 |Bridge|They have larger image sensors. Therefore, produce high-quality images with good detail, dynamic range, and low noise, especially at low ISO settings         |
 
 
-<figure class="half">
-	<a href="/assets/images/camera/smps_schem.jpg"><img src="/assets/images/camera/smps_schem.jpg"></a>
-<figcaption> Schematic of my SMPS which I'm going to use as the example.</figcaption>
-</figure>
 
