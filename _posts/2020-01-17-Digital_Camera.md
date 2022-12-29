@@ -17,7 +17,7 @@ Read my article on intersting story of digital cameras including camera types, b
 
 ## Digital Camera
 
-**Note:** I am just an amature for the photograpy field, not an expert photographer..
+**Note:** I am just an amature for the photography field, Just a tech enthusiast and not an expert photographer..
 {: .notice--danger}
 
 Digital camera is no longer a stranger item since it's becomming a day-to-day appliance. It's a device that captures photographs and videos using an electronic image sensor and store the images and videos digitally, rather than on film.  One advantage is that you can see the images you have taken immediately after you have taken them, because the images are displayed on a screen on the back of the camera. This allows you to check the composition and focus of the image, and delete any that are not satisfactory.
@@ -38,10 +38,16 @@ This image shows basic parts we can see on a common DSLR type camera.
  **Lens**
  
 
-Set of optical elements(lenses) combined together to get a desired focal length and aparture. Some types have interchnageble lens(can be detached from the body and replace with another one) while others have fixed lenses. 
+Set of optical elements(lenses) combined together to give desired focal lengths and aparture sizes for photographers. Some camera types have interchnageble lens(can be detached from the body and replace with another one) while others have fixed lenses. 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam20.jpg)
-<figcaption> An interchangele lens and a camera body without a lens</figcaption>
+<figcaption> An interchangeble lens and a camera body without a lens</figcaption>
+
+There are many different types of interchangeable lenses available, 
+
+**wide-angle lenses**: have a short focal length and are often used for landscape photography or to capture a wide field of view
+**telephoto lenses**: have a long focal length and are often used for sports or wildlife photography, as they allow you to zoom in and capture distant subjects
+**prime lenses**: have a fixed focal length and are generally smaller and lighter than zoom lenses
 
  **Viewfinder** 
  
@@ -70,7 +76,7 @@ There are two major types of image sensors used in cameras as CCD(Charged Couple
 
 A sensor houses millions of tiny light-sensitive receptors called photosites – counted as megapixels or millions of pixels.
 
-Image quality(colors,contrast,details,..) is highly depends on the physical size of the sensor. That's why dedicated cameras (DSLR,mirrorless,bridge,..) are always better for quality images than mobile phone cameras(because phone cams have smaller sensors even if they have many mega pixels).  
+> Image quality(colors,contrast,details,..) is highly depends on the physical size of the sensor. That's why dedicated cameras (DSLR,mirrorless,bridge,..) are always better for quality images than mobile phone cameras(because phone cams have smaller sensors even if they have many mega pixels).  
 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam10.jpg)
