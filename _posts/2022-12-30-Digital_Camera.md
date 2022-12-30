@@ -170,17 +170,17 @@ I will explain a little about the inside of a typical DSLR camera using the belo
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam16.jpg)
 
 
-1. Light enters the camera via the front lens(a combination of lenses) and gets reflected by a mirror(which can be tilted up and down).
+Step1. Light enters the camera via the front lens(a combination of lenses) and gets reflected by a mirror(which can be tilted up and down).
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam3.gif)
 
-2. Then, the light enters a prism structure and is directed into the viewfinder at the top of the camera. This will helps the photographer to view the scene and do focusing and settings. 
+Step2. Then, the light enters a prism structure and is directed into the viewfinder at the top of the camera. This will helps the photographer to view the scene and do focusing and settings. 
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
-3. When the Capture button is pressed, the mirror will move upwards (mechanically) and allows the light to fall on the image sensor for a small period of time ( can be varied from minutes to a few nanoseconds) according to the shutter settings. 
-4. Then the sensor sends the digitally created image of the scene to a small computer unit inside the camera. 
-5. Voila...! After some image processing, the image will be stored in an SD memory card and can be reviewed on the LCD display...How fascinating!!
+Step3. When the Capture button is pressed, the mirror will move upwards (mechanically) and allows the light to fall on the image sensor for a small period of time ( can be varied from minutes to a few nanoseconds) according to the shutter settings. 
+Step4. Then the sensor sends the digitally created image of the scene to a small computer unit inside the camera. 
+Step5. Voila...! After some image processing, the image will be stored in an SD memory card and can be reviewed on the LCD display...How fascinating!!
 
 
 ## Selecting the Best Camera for You
@@ -213,7 +213,7 @@ Cameras are available in the market for different purposes(personal cameras, pro
 | | **Best Usage**:  Suitable for any kind of scenes:: casual, travel or wildlife photography, If you are seeking a less expensive cam but, with quality images, creative controls, and zooming         |
 |----------------|-------------------------------|
 |----------------|-------------------------------|
-|**Phone camera**| **pros**:  High portable, Easy to view and share images         |
+|**Phone camera**| **pros**:  Highly portable, Easy to use,view and share images         |
 | | **cons**:  Generally, quality is less than other cameras, and Cannot have much control over settings        |
 | | **Best Usage**:  Suitable for casual photography and easy to use for anyone    |
 
