@@ -179,9 +179,11 @@ Step2. Then, the light enters a prism structure and is directed into the viewfin
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam1.gif)
 
 Step3. When the Capture button is pressed, the mirror will move upwards (mechanically) and allows the light to fall on the image sensor for a small period of time ( can be varied from minutes to a few nanoseconds) according to the shutter settings. 
-Step4. Then the sensor sends the digitally created image of the scene to a small computer unit inside the camera. 
-Step5. Voila...! After some image processing, the image will be stored in an SD memory card and can be reviewed on the LCD display...How fascinating!!
 
+
+Step4. Then the sensor sends the digitally created image of the scene to a small computer unit inside the camera. 
+
+Step5. Voila...! After some image processing, the image will be stored in an SD memory card and can be reviewed on the LCD display...How fascinating!!
 
 ## Selecting the Best Camera for You
 
