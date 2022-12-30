@@ -1,5 +1,5 @@
 ---
-title: "Basics of Digital Camera"
+title: "Digital Camera Basics"
 header:
   overlay_color: "#000"
   overlay_filter: "0.45"
@@ -7,22 +7,21 @@ header:
   teaser: "assets/images/camera/cam1.jpeg"
   og_image: "assets/images/camera/cam1.jpeg"
 categories:
-  - Electronics
   - Tech
 tags:
   - Camera
 toc: true
 ---
-Read my article on the interesting story of digital cameras including camera types, basic structure and functionality. If you're interested in buying a new camera or getting into photography or even curious about what is happening inside a digital camera, Great! This article is for you :D. 
+Read my article on the interesting explanation of digital cameras including camera types, basic structure and functionality. If you're interested in buying a new camera or getting into photography or even curious about what is happening inside a digital camera, Great! This article is for you :D. 
 
 ## Digital Camera
 
-**Note:** I'm just a tech enthusiast and not an expert photographer...
+**Note:** I'm just a tech enthusiast, not an expert photographer
 {: .notice--danger}
 
 A digital camera is no longer a stranger item since it's becoming a day-to-day appliance. It's a device that captures photographs and videos using an electronic image sensor and stores the images and videos digitally, rather than on film. 
 
-One advantage is that you can see the images you have taken immediately after you have taken them because the images are displayed on a screen on the back of the camera. This allows you to check the composition and focus of the image, and delete any that are not satisfactory.
+One advantage is that you can see the images you have taken immediately after you have taken them because the images are displayed on a screen on the back of the camera. This allows you to check the composition of the image, and delete any that are not satisfactory.
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam2.gif)
 
@@ -55,7 +54,7 @@ There are many different types of interchangeable lenses available,
  
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam23.jpg)
  
-Used to view the target scene placing an eye on this place to do focusing and settings, before taking a photo. Some camera types have an optical setup(no electronics, just mirrors, prisms and lenses) while some types have a small LCD display for this.
+It's very difficult to see a scene from an LCD in a very bright daylight environment. That's when the viewfinder comes to help which is used to view the target scene placing an eye on this place to do focusing and settings, before taking a photo.  Some camera types have an optical setup(no electronics, just mirrors, prisms and lenses) while some types have a small LCD display for this.
 
  **Image Sensor**
 
@@ -64,9 +63,9 @@ Used to view the target scene placing an eye on this place to do focusing and se
 
 ## Eye of a Digital Camera, Image Sensor!
 
-This is the most important component which converts light into an electrical signal within the sensor.
+This is the most important component of a digital camera which converts light into an electric signal.
 
-When capturing images with a digital camera, a small shutter opens, allowing light in for a fraction of a second. The light hits the image sensor inside the camera, and it reads color, contrast and detail using an array of tiny little pixels and converts it into electric signals.
+When capturing images with a digital camera, a small shutter opens, allowing light in for a fraction of a second. When he light hits the image sensor inside the camera, it reads color, contrast and other detail using an array of tiny little pixels and converts it into electric signals.
 
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam21.jpg)
 <figcaption> Real view of an Image sensor</figcaption>
@@ -143,11 +142,13 @@ Mirrorless cameras come in a range of sizes and prices, from high-end models wit
 
 A bridge camera is a type of digital camera that is designed to bridge the gap between point-and-shoot cameras and DSLR cameras. They are generally larger and more feature-rich than point-and-shoot cameras, but smaller and less expensive than DSLRs.
 
+> Fun Fact: Bridge cameras are usually Mirrorless
+
 ![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam9.jpg)
 
 Bridge cameras typically have a long zoom lens built into the camera body, ranging from 20x to 50x or more, which allows you to get close-up shots of distant subjects without having to change lenses. They also often have manual controls and a range of advanced features, such as manual focus, raw image capture, and the ability to shoot in different shooting modes (such as aperture priority and shutter priority).
 
-> Bridge cameras are a good choice for photographers who want more control over their images than a point-and-shoot camera offers but don't want to carry around the larger and more expensive equipment that comes with a DSLR. They are also a good option for travelers who want a single, versatile camera that can handle a wide range of shooting situations.
+> Bridge cameras are a good choice for photographers who want more control (But maybe not highly flexible like DSLRs) over their images than a point-and-shoot camera offers but don't want to carry around the larger and more expensive equipment that comes with a DSLR. They are also a good option for travelers who want a single, versatile camera that can handle a wide range of shooting situations.
 
 
 ### 5. Camera Phones 
