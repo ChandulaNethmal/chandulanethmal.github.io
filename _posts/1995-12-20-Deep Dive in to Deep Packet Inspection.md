@@ -3,9 +3,9 @@ title: "Deep Dive into Deep Packet Inspection"
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: "assets/images/dpi/dpi_og.jpg"
-  teaser: "assets/images/dpi/dpi_og.jpg"
-  og_image: "assets/images/dpi/dpi_og.jpg"
+  overlay_image: "assets/images/dpi/dpi1.jpg"
+  teaser: "assets/images/dpi/dpi1.jpg"
+  og_image: "assets/images/dpi/dpi1.jpg"
 actions:
   - label: "Blog"
     url: "/year-archive/"
