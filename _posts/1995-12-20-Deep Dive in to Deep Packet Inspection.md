@@ -1,5 +1,5 @@
 ---
-title: "Deep Dive into Deep Packet Inspection"
+title: "A Deep Dive into Deep Packet Inspection"
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
@@ -20,9 +20,9 @@ This blog post aims to unravel the intricacies of DPI, exploring its definition,
 
 # Introduction
 
-Deep packet Inspection is a techneque in Network traffic analytics which is an essential part in computer networks field, applicable for any organzation having a bunch of computers operating within. Simply, packet inspection is the process of extracting details from network packets and use those details for many purposes such as; identify trends, catogorize trafiic in to applications, anomaliy or threat detection and so on. 
+Deep packet Inspection(DPI) is a techneque in Network traffic monitoring, which is an essential part in computer networks field. Simply, packet inspection is the process of extracting details from network packets and use those details for many purposes such as; identify trends, catogorize trafiic in to applications, anomaliy or threat detection and so on. 
 
-When it comes to the "Deep packet Inspection"  it is a more sophisticated technology than normal packet Inspection. It plays a crucial role in understanding, analyzing, and managing the complex flow of data across networks. In the vast landscape of network security and traffic management, one term that frequently surfaces is (DPI). 
+When it comes to the DPI, it is a more sophisticated technology than normal packet Inspection. It plays a crucial role in understanding, analyzing, and managing the complex flow of data across networks. In the vast landscape of network security and traffic management, one term that frequently surfaces is (DPI). 
 
 In this blog post, we will delve into the depths of Deep Packet Inspection, exploring its definitions, methods, and diverse applications.
 
@@ -30,7 +30,14 @@ This blog post aims to unravel the intricacies of DPI, exploring its definition,
 
 # Understanding Deep Packet Inspection
 
-Deep Packet Inspection, often abbreviated as DPI, is a technology that enables the inspection and analysis of the content of data packets as they traverse a network. Unlike traditional packet inspection, which focuses on the header information of packets, DPI dives into the payload, scrutinizing the actual data being transmitted. This granular level of examination provides a wealth of information about the nature and purpose of the data.
+Deep Packet Inspection, often abbreviated as DPI, is a technology that enables the inspection and analysis of the content of data packets as they traverse a network. Unlike traditional packet inspection, which focuses on the header information of packets, DPI dives into the payload, scrutinizing the actual data being transmitted. 
+
+Packet Inspection: 	Shallow Packet Inspection
+Analyze upto layer 4 of OSI Layer model
+				Deep packet Inspection
+Analyze upto layer 7 in OSI model(Visibility of all the layers)
+
+This granular level of examination provides a wealth of information about the nature and purpose of the data.
 
 
 # Deep Packet Inspection vs. Conventional Packet Filtering
@@ -38,6 +45,14 @@ Deep Packet Inspection, often abbreviated as DPI, is a technology that enables t
 ### Conventional Packet Filtering:
 
 Conventional packet filtering primarily examines the header information of data packets, making decisions based on source and destination addresses, ports, and protocols.
+
+* Five Touple: 	Source IP address
+			Destination IP address
+			Source Port
+			Destination Port
+			IP protocol
+Using above 5 details, we can categorize all the packets travessing trough a network into sessions. A session is a packet exchange between two entities having above 5 touple fixed during the sessoin. 
+
 It operates at the network layer of the OSI model and is effective for basic traffic control but lacks the depth required for detailed analysis.
 
 ### Deep Packet Inspection:
