@@ -24,6 +24,9 @@ Deep packet Inspection(DPI) is a techneque in Network traffic monitoring, which 
 
 When it comes to the DPI, it is a more sophisticated technology than normal packet Inspection. It plays a crucial role in understanding, analyzing, and managing the complex flow of data across networks. In the vast landscape of network security and traffic management, one term that frequently surfaces is (DPI). 
 
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi8.jpg)
+
+
 In this blog post, we will delve into the depths of Deep Packet Inspection, exploring its definitions, methods, and diverse applications.
 
 This blog post aims to unravel the intricacies of DPI, exploring its definition, methods, applications, modern technologies, and the challenges it presents in the ever-evolving landscape of cybersecurity.
@@ -31,6 +34,8 @@ This blog post aims to unravel the intricacies of DPI, exploring its definition,
 # Understanding Deep Packet Inspection
 
 Deep Packet Inspection, often abbreviated as DPI, is a technology that enables the inspection and analysis of the content of data packets as they traverse a network. Unlike traditional packet inspection, which focuses on the header information of packets, DPI dives into the payload, scrutinizing the actual data being transmitted. 
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi8.jpg)
 
 Packet Inspection: 	Shallow Packet Inspection
 Analyze upto layer 4 of OSI Layer model
@@ -60,6 +65,7 @@ It operates at the network layer of the OSI model and is effective for basic tra
 DPI goes beyond header information, delving into the payload or content of data packets. This granular inspection allows for a thorough understanding of the data being transmitted.
 By operating at the application layer of the OSI model, DPI provides insights into the specific applications and services generating the traffic.
 
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi2.png)
 
 # Methods of Deep Packet Inspection
 
@@ -80,6 +86,8 @@ Monitors and analyzes the behavior of network traffic over time, establishing ba
 Filters content based on predefined policies, allowing organizations to control access to specific websites or types of content.
 
 # Applications of DPI
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi3.png)
 
 ### Network Security:
 
@@ -102,6 +110,8 @@ DPI assists organizations in adhering to regulatory requirements by monitoring a
 
 ### Machine Learning and AI:
 
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi6.jpg)
+
 DPI leverages machine learning algorithms and artificial intelligence to enhance its ability to identify and respond to evolving threats.
 
 ### SSL/TLS Inspection:
@@ -111,6 +121,8 @@ DPI has evolved to inspect encrypted traffic, decrypting and analyzing the conte
 # Problems with DPI
 
 ### Privacy Concerns:
+
+![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam2.gif)
 
 DPI's deep inspection capabilities raise privacy concerns as it involves examining the content of user communications, potentially violating privacy rights.
 Performance Impact:
