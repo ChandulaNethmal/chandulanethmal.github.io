@@ -79,7 +79,10 @@ Uses algorithms and rules to identify deviations from normal patterns, allowing 
 
 3. Behavioral Analysis:
 
-Monitors and analyzes the behavior of network traffic over time, establishing baselines for normal behavior and detecting unusual patterns.
+Monitors and analyzes the behavior of network traffic over time, establishing baselines for normal behavior and detecting unusual patterns. 
+
+This is helpful to identify possible threats within a network such as cyber attacks. Ex: Whenever a DoS(Denial of Service) or DDoS(Distributed Denial of Service) attack happens, it can cause an unusual behaviour such as abnormally high amount of DNS requests(DNS floods), so suspicios traffic originating from a single IP or a subnet and sudden increment in bandwidths.
+ 
 
 4. Content Filtering:
 
