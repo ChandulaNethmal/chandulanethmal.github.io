@@ -37,10 +37,13 @@ Deep Packet Inspection, often abbreviated as DPI, is a technology that enables t
 
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi8.jpg)
 
-Packet Inspection: 	Shallow Packet Inspection
-Analyze upto layer 4 of OSI Layer model
-				Deep packet Inspection
-Analyze upto layer 7 in OSI model(Visibility of all the layers)
+Packet Inspection can be categorized into:
+* Shallow Packet Inspection :  
+    Analyze upto layer 4 of OSI Layer model
+* Deep packet Inspection : 
+    Analyze upto layer 7 in OSI model(Visibility of all the layers)
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi9.jpg)
 
 This granular level of examination provides a wealth of information about the nature and purpose of the data.
 
@@ -49,13 +52,17 @@ This granular level of examination provides a wealth of information about the na
 
 ### Conventional Packet Filtering:
 
-Conventional packet filtering primarily examines the header information of data packets, making decisions based on source and destination addresses, ports, and protocols.
+Conventional packet filtering(Shallow PAcket Inspection) primarily examines the header information of data packets, making decisions based on source and destination addresses, ports, and protocols.
 
-* Five Touple: 	Source IP address
+* Five Touple: 
+    	Source IP address
 			Destination IP address
 			Source Port
 			Destination Port
 			IP protocol
+
+      ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi10.jpg)
+
 Using above 5 details, we can categorize all the packets travessing trough a network into sessions. A session is a packet exchange between two entities having above 5 touple fixed during the sessoin. 
 
 It operates at the network layer of the OSI model and is effective for basic traffic control but lacks the depth required for detailed analysis.
@@ -65,7 +72,7 @@ It operates at the network layer of the OSI model and is effective for basic tra
 DPI goes beyond header information, delving into the payload or content of data packets. This granular inspection allows for a thorough understanding of the data being transmitted.
 By operating at the application layer of the OSI model, DPI provides insights into the specific applications and services generating the traffic.
 
-![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi2.png)
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi11.jpg)
 
 # Methods of Deep Packet Inspection
 
