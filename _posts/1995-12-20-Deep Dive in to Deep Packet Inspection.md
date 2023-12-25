@@ -20,9 +20,9 @@ This blog post aims to unravel the intricacies of DPI, exploring its definition,
 
 # Introduction
 
-Deep packet Inspection(DPI) is a techneque in Network traffic monitoring, which is an essential part in computer networks field. Simply, packet inspection is the process of extracting details from network packets and use those details for many purposes such as; identify trends, catogorize trafiic in to applications, anomaliy or threat detection and so on. 
+Deep packet Inspection(DPI) is a techneque in Network traffic monitoring, which is an essential part in computer networks field. Simply, packet inspection is the process of extracting details from network packets and use those details for many purposes such as; identify trends, catogorize trafiic into applications, anomalies detection or threat detection and so on. 
 
-When it comes to the DPI, it is a more sophisticated technology than normal packet Inspection. It plays a crucial role in understanding, analyzing, and managing the complex flow of data across networks. In the vast landscape of network security and traffic management, one term that frequently surfaces is (DPI). 
+When it comes to the DPI, it is a more sophisticated technology than normal packet Inspection. It plays a crucial role in understanding, analyzing, and managing the complex flow of data across networks. In the vast landscape of network security and traffic management, one term that frequently surfaces is DPI. 
 
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi8.jpg)
 
@@ -54,6 +54,8 @@ This granular level of examination provides a wealth of information about the na
 
 Conventional packet filtering(Shallow PAcket Inspection) primarily examines the header information of data packets, making decisions based on source and destination addresses, ports, and protocols.
 
+Using above 5 details, we can categorize all the packets travessing trough a network into sessions. A session is a packet exchange between two entities having above 5 touple fixed during the sessoin. 
+
 * Five Touple: 
     	Source IP address
 			Destination IP address
@@ -61,9 +63,7 @@ Conventional packet filtering(Shallow PAcket Inspection) primarily examines the 
 			Destination Port
 			IP protocol
 
-      ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi10.jpg)
-
-Using above 5 details, we can categorize all the packets travessing trough a network into sessions. A session is a packet exchange between two entities having above 5 touple fixed during the sessoin. 
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi10.jpg)
 
 It operates at the network layer of the OSI model and is effective for basic traffic control but lacks the depth required for detailed analysis.
 
