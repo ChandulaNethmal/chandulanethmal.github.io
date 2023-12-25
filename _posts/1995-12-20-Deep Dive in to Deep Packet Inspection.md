@@ -27,7 +27,7 @@ When it comes to the DPI, it is a more sophisticated technology than normal pack
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi8.jpg)
 
 
-In this blog post, we will delve into the depths of Deep Packet Inspection, exploring its definitions, methods, and diverse applications.
+In this blog post, we will dive into the depths of Deep Packet Inspection, exploring its definitions, methods, and diverse applications.
 
 This blog post aims to unravel the intricacies of DPI, exploring its definition, methods, applications, modern technologies, and the challenges it presents in the ever-evolving landscape of cybersecurity.
 
@@ -39,8 +39,11 @@ Deep Packet Inspection, often abbreviated as DPI, is a technology that enables t
 
 Packet Inspection can be categorized into:
 * Shallow Packet Inspection :  
+
     Analyze upto layer 4 of OSI Layer model
+
 * Deep packet Inspection : 
+
     Analyze upto layer 7 in OSI model(Visibility of all the layers)
 
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi9.jpg)
@@ -65,11 +68,11 @@ Using above 5 details, we can categorize all the packets travessing trough a net
 
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi10.jpg)
 
-It operates at the network layer of the OSI model and is effective for basic traffic control but lacks the depth required for detailed analysis.
+It operates at the network layer of the OSI(Open Systems Interconnection) model and is effective for basic traffic categorization as sessions for the purposes of basic traffic analytics and control but lacks the depth required for detailed analysis.
 
 ### Deep Packet Inspection:
 
-DPI goes beyond header information, delving into the payload or content of data packets. This granular inspection allows for a thorough understanding of the data being transmitted.
+DPI goes beyond header information, dig into the payload or content of data packets. This granular inspection allows for a thorough understanding of the data being transmitted.
 By operating at the application layer of the OSI model, DPI provides insights into the specific applications and services generating the traffic.
 
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi11.jpg)
@@ -78,7 +81,13 @@ By operating at the application layer of the OSI model, DPI provides insights in
 
 1. Signature-Based Inspection:
 
-Identifies known patterns or signatures within packet payloads, enabling the detection of specific applications, protocols, or threats.
+This is one of the basic methods which Identifies known patterns or signatures within packet payloads, enabling the detection of specific applications, protocols, or threats.
+
+Here, the content of the packets is compared against a database of predefined signatures. These signatures represent patterns associated with known applications, threats, viruses, malware, or other undesirable content.
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi12.jpg)
+
+Basically, this act as mapping a set of bytes against a known byte pattern. Those signatures need to be updated regularly according to new applications or new threats by network engineers.  
 
 2. Heuristic-Based Inspection:
 
