@@ -60,11 +60,11 @@ Conventional packet filtering(Shallow PAcket Inspection) primarily examines the 
 Using above 5 details, we can categorize all the packets travessing trough a network into sessions. A session is a packet exchange between two entities having above 5 touple fixed during the sessoin. 
 
 * Five Touple: 
-    	Source IP address
-			Destination IP address
-			Source Port
-			Destination Port
-			IP protocol
+    * Source IP address
+		* Destination IP address
+		*	Source Port
+		*	Destination Port
+		*	IP protocol
 
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi10.jpg)
 
@@ -91,14 +91,17 @@ Basically, this act as mapping a set of bytes against a known byte pattern. Thos
 
 2. Heuristic-Based Inspection:
 
-Uses algorithms and rules to identify deviations from normal patterns, allowing the detection of previously unknown threats or anomalies.
+Uses algorithms and rules to identify deviations from normal patterns, allowing the detection of previously unknown threats or anomalies. Here we are defining set of rules which can be used to clearly identify normal vs abnormal behavior of sessions. 
 
 3. Behavioral Analysis:
 
 Monitors and analyzes the behavior of network traffic over time, establishing baselines for normal behavior and detecting unusual patterns. 
 
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi13.jpg)
+
 This is helpful to identify possible threats within a network such as cyber attacks. Ex: Whenever a DoS(Denial of Service) or DDoS(Distributed Denial of Service) attack happens, it can cause an unusual behaviour such as abnormally high amount of DNS requests(DNS floods), so suspicios traffic originating from a single IP or a subnet and sudden increment in bandwidths.
  
+
 
 4. Content Filtering:
 
