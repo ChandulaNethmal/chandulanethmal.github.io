@@ -55,16 +55,16 @@ This granular level of examination provides a wealth of information about the na
 
 ### Conventional Packet Filtering:
 
-Conventional packet filtering(Shallow PAcket Inspection) primarily examines the header information of data packets, making decisions based on source and destination addresses, ports, and protocols.
+> Conventional packet filtering(Shallow PAcket Inspection) primarily examines the header information of data packets, making decisions based on source and destination addresses, ports, and protocols.
 
 Using above 5 details, we can categorize all the packets travessing trough a network into sessions. A session is a packet exchange between two entities having above 5 touple fixed during the sessoin. 
 
-* Five Touple: 
-    * Source IP address
-		* Destination IP address
-		*	Source Port
-		*	Destination Port
-		*	IP protocol
+- Five Touple: 
+  - Source IP address
+	- Destination IP address
+	-	Source Port
+	-	Destination Port
+	-	IP protocol
 
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi10.jpg)
 
