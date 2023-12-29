@@ -79,6 +79,9 @@ By operating at the application layer of the OSI model, DPI provides insights in
 
 # Methods of Deep Packet Inspection
 
+1. Application Detection
+This is the most common use case 
+
 1. Signature-Based Inspection:
 
 This is one of the basic methods which Identifies known patterns or signatures within packet payloads, enabling the detection of specific applications, protocols, or threats.
@@ -89,11 +92,16 @@ Here, the content of the packets is compared against a database of predefined si
 
 Basically, this act as mapping a set of bytes against a known byte pattern. Those signatures need to be updated regularly according to new applications or new threats by network engineers.  
 
+2. String Matching Analysis 
+Many applications have textual identifiers 
+(http : user agent string contains Device info; Model, OS, Browser,..etc.)
+
+
 2. Heuristic-Based Inspection:
 
 Uses algorithms and rules to identify deviations from normal patterns, allowing the detection of previously unknown threats or anomalies. Here we are defining set of rules which can be used to clearly identify normal vs abnormal behavior of sessions. 
 
-3. Behavioral Analysis:
+4. Behavioral Analysis:
 
 Monitors and analyzes the behavior of network traffic over time, establishing baselines for normal behavior and detecting unusual patterns. 
 
@@ -101,11 +109,35 @@ Monitors and analyzes the behavior of network traffic over time, establishing ba
 
 This is helpful to identify possible threats within a network such as cyber attacks. Ex: Whenever a DoS(Denial of Service) or DDoS(Distributed Denial of Service) attack happens, it can cause an unusual behaviour such as abnormally high amount of DNS requests(DNS floods), so suspicios traffic originating from a single IP or a subnet and sudden increment in bandwidths.
  
+5. Numerical Properties Analysis
+
+There are many properties within network sessions we can monitor such as, 
+packet/payload sizes
+Packet Timing
+Throughput
+Connection Duration
 
 
-4. Content Filtering:
+### Encryption Challenges:
 
-Filters content based on predefined policies, allowing organizations to control access to specific websites or types of content.
+As encryption becomes more widespread, DPI faces challenges in inspecting encrypted traffic, leading to blind spots in threat detection.
+
+# Modern Technologies of DPI
+
+### Machine Learning and AI:
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi6.jpg)
+
+DPI leverages machine learning algorithms and artificial intelligence to enhance its ability to identify and respond to evolving threats.
+
+Machine learning algorithms enable the classification of network traffic by training models on known categories. These models can automatically identify and classify new traffic. Common algorithms used for this purpose include decision trees, support vector machines (SVM), and Naive Bayes classifiers.
+
+### SSL/TLS Inspection:
+
+DPI has evolved to inspect encrypted traffic, decrypting and analyzing the content of SSL/TLS-encrypted packets to ensure the security of the network.
+
+A Solution for HTTPS Encryption
+Some firewalls now offer HTTPS inspections (Firewall SSL/TLS Interception), which would decrypt the HTTPS-protected traffic and determine whether the content can pass through.
 
 # Applications of DPI
 
@@ -125,35 +157,6 @@ DPI classifies and identifies applications running on a network, offering insigh
 ### Regulatory Compliance:
 
 DPI assists organizations in adhering to regulatory requirements by monitoring and controlling the content of data traversing the network.
-
-
-
-# Modern Technologies of DPI
-
-### Machine Learning and AI:
-
-![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi6.jpg)
-
-DPI leverages machine learning algorithms and artificial intelligence to enhance its ability to identify and respond to evolving threats.
-
-### SSL/TLS Inspection:
-
-DPI has evolved to inspect encrypted traffic, decrypting and analyzing the content of SSL/TLS-encrypted packets to ensure the security of the network.
-
-# Problems with DPI
-
-### Privacy Concerns:
-
-![SMPS schem]({{ site.url }}{{ site.baseurl }}/assets/images//camera/cam2.gif)
-
-DPI's deep inspection capabilities raise privacy concerns as it involves examining the content of user communications, potentially violating privacy rights.
-Performance Impact:
-
-The intensive analysis performed by DPI can have a performance impact on network devices, potentially leading to latency and throughput issues.
-
-### Encryption Challenges:
-
-As encryption becomes more widespread, DPI faces challenges in inspecting encrypted traffic, leading to blind spots in threat detection.
 
 
 # Conclusion
