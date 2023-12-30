@@ -34,11 +34,11 @@ In this blog post, we will dive into the depths of Deep Packet Inspection, explo
 Deep Packet Inspection, often abbreviated as DPI, is a technology that enables the inspection and analysis of the content of data packets as they traverse a network. Unlike traditional packet inspection, which focuses on the header information of packets, DPI dives into the payload, scrutinizing the actual data being transmitted. 
 
 Packet Inspection can be categorized into two parts as:
-* Shallow Packet Inspection :  
+* Shallow Packet Inspection
 
   Analyze upto layer 4 of OSI Layer model
 
-* Deep packet Inspection : 
+* Deep packet Inspection
 
   Analyze upto layer 7 in OSI model(Visibility of all the layers)
 
@@ -55,7 +55,7 @@ This granular level of examination provides a wealth of information about the na
 
 Using above 5 details, we can categorize all the packets travessing trough a network into sessions. A session is a packet exchange between two entities having above 5 touple fixed during the sessoin. 
 
-- Five Touple: 
+- Five Touple
   - Source IP address
 	- Destination IP address
 	-	Source Port
@@ -66,7 +66,7 @@ Using above 5 details, we can categorize all the packets travessing trough a net
 
 It operates at the network layer of the OSI(Open Systems Interconnection) model and is effective for basic traffic categorization as sessions for the purposes of basic traffic analytics and control but lacks the depth required for detailed analysis.
 
-### Deep Packet Inspection:
+### Deep Packet Inspection
 
 DPI goes beyond header information, dig into the payload or content of data packets. This granular inspection allows for a thorough understanding of the data being transmitted.
 By operating at the application layer of the OSI model, DPI provides insights into the specific applications and services generating the traffic.
@@ -75,7 +75,7 @@ By operating at the application layer of the OSI model, DPI provides insights in
 
 # Methods of Deep Packet Inspection
 
-1. Signature-Based Inspection:
+1. Signature-Based Inspection
 
 This is one of the basic methods which Identifies known patterns or signatures within packet payloads, enabling the detection of specific applications, protocols, or threats.
 
@@ -91,11 +91,11 @@ Many applications have textual identifiers which are contained within the payloa
 (http request packets: user agent string contains Device info; Model, OS, Browser,..etc.)
 
 
-3. Heuristic-Based Inspection:
+3. Heuristic-Based Inspection
 
 Uses algorithms and rules to identify deviations from normal patterns, allowing the detection of previously unknown threats or anomalies. Here we are defining set of rules which can be used to clearly identify normal vs abnormal behavior of sessions. 
 
-4. Behavioral Analysis:
+4. Behavioral Analysis
 
 Monitors and analyzes the behavior of network traffic over time, establishing baselines for normal behavior and detecting unusual patterns. 
 
@@ -114,13 +114,13 @@ There are many other properties which we can track with the time related to the 
 Monitoring the trends of those properties over time, we can comeup with analytic conclusions about the sessions. This can help in identifying patterns or anomalies associated with certain types of traffic.
 
 
-# A Challenge for DPI!:  "Data Encryption"
+# A Challenge for DPI:  "Data Encryption"
 
 As encryption becomes more widespread, DPI faces challenges in inspecting encrypted traffic, leading to blind spots in threat detection. There are multiple encryption protocols and algorithms in use, such as TLS (Transport Layer Security) for web traffic and end-to-end encryption in messaging applications. Those are really challenging situations for DPI since deeper details cannot be extracted with many of the existing techniques. 
 
 # Modern Technologies of DPI
 
-### Machine Learning and AI for DPI:
+### Machine Learning and AI for DPI
 
 DPI leverages machine learning algorithms and artificial intelligence to enhance its ability to identify and respond to evolving threats.
 
@@ -128,7 +128,7 @@ DPI leverages machine learning algorithms and artificial intelligence to enhance
 
 Machine learning algorithms enable the classification of network traffic by training models on known categories. These models can automatically identify and classify new traffic. Common algorithms used for this purpose include decision trees, support vector machines (SVM), and Naive Bayes classifiers.
 
-### SSL/TLS Inspection:
+### SSL/TLS Inspection
 
 DPI has evolved to inspect encrypted traffic, decrypting and analyzing the content of SSL/TLS-encrypted packets to ensure the security of the network.
 
@@ -137,18 +137,18 @@ Some firewalls now offer HTTPS inspections (Firewall SSL/TLS Interception), whic
 
 # Applications of DPI
 
-### Network Security:
+### Network Security
 
 DPI is a cornerstone of modern network security, providing the ability to detect and mitigate various threats, including malware, intrusion attempts, and data exfiltration.
-### Quality of Service (QoS):
+### Quality of Service (QoS)
 
 DPI is crucial for managing network traffic, ensuring optimal performance for critical applications by prioritizing and allocating bandwidth based on application needs.
 
-### Application Identification:
+### Application Identification
 
 DPI classifies and identifies applications running on a network, offering insights into application-level traffic patterns and enabling policy enforcement.
 
-### Regulatory Compliance:
+### Regulatory Compliance
 
 DPI assists organizations in adhering to regulatory requirements by monitoring and controlling the content of data traversing the network.
 
