@@ -16,9 +16,9 @@ tags:
   - Computer
 toc: true
 --- 
-This blog post aims to unravel the intricacies of DPI, exploring its definition, methods, applications, modern technologies, and the challenges it presents in the ever-evolving landscape of cybersecurity.
+This blog post aims to unfold the details of DPI, exploring its definition, methods, applications, modern technologies, and the challenges it presents in the ever-evolving landscape of cybersecurity.
 
-# Introduction
+# Introduction to DPI
 
 Deep packet Inspection(DPI) is a techneque in Network traffic monitoring, which is an essential part in computer networks field. Simply, packet inspection is the process of extracting details from network packets and use those details for many purposes such as; identify trends, catogorize trafiic into applications, anomalies detection or threat detection and so on. 
 
@@ -29,31 +29,27 @@ When it comes to the DPI, it is a more sophisticated technology than normal pack
 
 In this blog post, we will dive into the depths of Deep Packet Inspection, exploring its definitions, methods, and diverse applications.
 
-This blog post aims to unravel the intricacies of DPI, exploring its definition, methods, applications, modern technologies, and the challenges it presents in the ever-evolving landscape of cybersecurity.
-
 # Understanding Deep Packet Inspection
 
 Deep Packet Inspection, often abbreviated as DPI, is a technology that enables the inspection and analysis of the content of data packets as they traverse a network. Unlike traditional packet inspection, which focuses on the header information of packets, DPI dives into the payload, scrutinizing the actual data being transmitted. 
 
-![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi8.jpg)
-
-Packet Inspection can be categorized into:
+Packet Inspection can be categorized into two parts as:
 * Shallow Packet Inspection :  
 
-    Analyze upto layer 4 of OSI Layer model
+  Analyze upto layer 4 of OSI Layer model
 
 * Deep packet Inspection : 
 
-    Analyze upto layer 7 in OSI model(Visibility of all the layers)
+  Analyze upto layer 7 in OSI model(Visibility of all the layers)
 
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi9.jpg)
 
 This granular level of examination provides a wealth of information about the nature and purpose of the data.
 
 
-# Deep Packet Inspection vs. Conventional Packet Filtering
+# Conventional Packet Filtering vs Deep Packet Inspection
 
-### Conventional Packet Filtering:
+### Conventional Packet Filtering
 
 > Conventional packet filtering(Shallow PAcket Inspection) primarily examines the header information of data packets, making decisions based on source and destination addresses, ports, and protocols.
 
@@ -79,9 +75,6 @@ By operating at the application layer of the OSI model, DPI provides insights in
 
 # Methods of Deep Packet Inspection
 
-1. Application Detection
-This is the most common use case 
-
 1. Signature-Based Inspection:
 
 This is one of the basic methods which Identifies known patterns or signatures within packet payloads, enabling the detection of specific applications, protocols, or threats.
@@ -93,11 +86,12 @@ Here, the content of the packets is compared against a database of predefined si
 Basically, this act as mapping a set of bytes against a known byte pattern. Those signatures need to be updated regularly according to new applications or new threats by network engineers.  
 
 2. String Matching Analysis 
-Many applications have textual identifiers 
-(http : user agent string contains Device info; Model, OS, Browser,..etc.)
+
+Many applications have textual identifiers which are contained within the payload part of the IP packets. We can use those specific words or phrases to identify the applications and even extract more sophesticated details of the users as well. 
+(http request packets: user agent string contains Device info; Model, OS, Browser,..etc.)
 
 
-2. Heuristic-Based Inspection:
+3. Heuristic-Based Inspection:
 
 Uses algorithms and rules to identify deviations from normal patterns, allowing the detection of previously unknown threats or anomalies. Here we are defining set of rules which can be used to clearly identify normal vs abnormal behavior of sessions. 
 
@@ -111,24 +105,26 @@ This is helpful to identify possible threats within a network such as cyber atta
  
 5. Numerical Properties Analysis
 
-There are many properties within network sessions we can monitor such as, 
-packet/payload sizes
-Packet Timing
-Throughput
-Connection Duration
+There are many other properties which we can track with the time related to the statistics of network sessions such as, 
+- packet/payload sizes
+- Packet Timing
+- Throughput
+- Connection Duration
+
+Monitoring the trends of those properties over time, we can comeup with analytic conclusions about the sessions. This can help in identifying patterns or anomalies associated with certain types of traffic.
 
 
-### Encryption Challenges:
+# A Challenge for DPI!:  "Data Encryption"
 
-As encryption becomes more widespread, DPI faces challenges in inspecting encrypted traffic, leading to blind spots in threat detection.
+As encryption becomes more widespread, DPI faces challenges in inspecting encrypted traffic, leading to blind spots in threat detection. There are multiple encryption protocols and algorithms in use, such as TLS (Transport Layer Security) for web traffic and end-to-end encryption in messaging applications. Those are really challenging situations for DPI since deeper details cannot be extracted with many of the existing techniques. 
 
 # Modern Technologies of DPI
 
-### Machine Learning and AI:
-
-![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi6.jpg)
+### Machine Learning and AI for DPI:
 
 DPI leverages machine learning algorithms and artificial intelligence to enhance its ability to identify and respond to evolving threats.
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi14.jpg)
 
 Machine learning algorithms enable the classification of network traffic by training models on known categories. These models can automatically identify and classify new traffic. Common algorithms used for this purpose include decision trees, support vector machines (SVM), and Naive Bayes classifiers.
 
@@ -140,8 +136,6 @@ A Solution for HTTPS Encryption
 Some firewalls now offer HTTPS inspections (Firewall SSL/TLS Interception), which would decrypt the HTTPS-protected traffic and determine whether the content can pass through.
 
 # Applications of DPI
-
-![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi3.png)
 
 ### Network Security:
 
