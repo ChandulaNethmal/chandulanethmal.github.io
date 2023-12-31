@@ -68,8 +68,8 @@ It operates at the network layer of the OSI(Open Systems Interconnection) model 
 
 ### Deep Packet Inspection
 
-DPI goes beyond header information, dig into the payload or content of data packets. This granular inspection allows for a thorough understanding of the data being transmitted.
-By operating at the application layer of the OSI model, DPI provides insights into the specific applications and services generating the traffic.
+> DPI goes beyond header information, dig into the payload or content of data packets. This granular inspection allows for a thorough understanding of the data being transmitted.
+> By operating at the application layer of the OSI model, DPI provides insights into the specific applications and services generating the traffic.
 
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi11.jpg)
 
@@ -128,6 +128,8 @@ DPI leverages machine learning algorithms and artificial intelligence to enhance
 
 Machine learning algorithms enable the classification of network traffic by training models on known categories. These models can automatically identify and classify new traffic. Common algorithms used for this purpose include decision trees, support vector machines (SVM), and Naive Bayes classifiers.
 
+Additionally, ML can assist in the automatic generation of signatures for known threats or applications. By analyzing historical data and patterns, ML models can create signatures that can be used to detect similar traffic in the future.
+
 ### SSL/TLS Interception
 
 DPI has evolved to inspect encrypted traffic, decrypting and analyzing the content of SSL/TLS-encrypted packets to ensure the security of the network.
@@ -138,18 +140,27 @@ Some firewalls now offer HTTPS inspections (Firewall SSL/TLS Interception), whic
 
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi15.jpg)
 
+According to the above illustration, 
+- the middle box (a firewall) decrypt the incomming packets from the Server or the client using its own a dynamic SSL certificate. 
+- Then read the decrypted payload using above DPI methods and extract usefull information for application and threat detection.
+- Finally, it re-encrypt the packet using a certificate and forward to the receiving end.
+
+> Users' browsers must trust this certificate, which is usually signed by a local certificate authority (CA) configured on the security device.
+
 ## Applications of DPI
+
+### Application Identification
+
+DPI classifies and identifies applications running on a network, offering insights into application-level traffic patterns and enabling policy enforcement. This is most common because application wise traffic and usage monitoring is an essential need of any ISP. 
+(Ex: ISPs offer data packages with high priority for business critical applications )
 
 ### Network Security
 
 DPI is a cornerstone of modern network security, providing the ability to detect and mitigate various threats, including malware, intrusion attempts, and data exfiltration.
+
 ### Quality of Service (QoS)
 
 DPI is crucial for managing network traffic, ensuring optimal performance for critical applications by prioritizing and allocating bandwidth based on application needs.
-
-### Application Identification
-
-DPI classifies and identifies applications running on a network, offering insights into application-level traffic patterns and enabling policy enforcement.
 
 ### Regulatory Compliance
 
