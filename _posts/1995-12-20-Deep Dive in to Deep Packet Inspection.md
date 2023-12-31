@@ -154,6 +154,8 @@ According to the above illustration,
 DPI classifies and identifies applications running on a network, offering insights into application-level traffic patterns and enabling policy enforcement. This is most common because application wise traffic and usage monitoring is an essential need of any ISP. 
 (Ex: ISPs offer data packages with high priority for business critical applications )
 
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/dpi/dpi16.jpg)
+
 ### Network Security
 
 DPI is a cornerstone of modern network security, providing the ability to detect and mitigate various threats, including malware, intrusion attempts, and data exfiltration.
@@ -169,4 +171,4 @@ DPI assists organizations in adhering to regulatory requirements by monitoring a
 
 ## Conclusion
 
-Deep Packet Inspection has emerged as a pivotal technology in the realm of network security and management. Its ability to scrutinize the content of data packets at a granular level provides invaluable insights for securing networks, optimizing performance, and ensuring regulatory compliance. However, the adoption of DPI comes with challenges, including privacy concerns and the need to adapt to evolving encryption technologies. As we navigate the intricate landscape of cybersecurity, DPI stands as a powerful tool, continually evolving to meet the demands of an ever-changing digital landscape.
+Deep Packet Inspection has emerged as a pivotal technology in the area of network security and management. Its ability to extract the content of data packets at a granular level provides invaluable insights for securing networks, optimizing performance, and ensuring regulatory compliance. However, the adoption of DPI comes with challenges, including privacy concerns and the need to adapt to evolving encryption technologies. As we docus on the the cybersecurity field, DPI stands as a powerful tool, continually evolving to meet the demands of an ever-changing technlogies.
