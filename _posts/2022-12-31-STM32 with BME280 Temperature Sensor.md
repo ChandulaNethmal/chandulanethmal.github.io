@@ -1,11 +1,11 @@
 ---
-title: "BME280 Temperature sensor with STM32 Nucleo"
+title: "BMP280 Pressure and Temperature sensor with STM32 Nucleo"
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: "assets/images/stm32_bme280/dpi1.jpg"
-  teaser: "assets/images/stm32_bme280/dpi1.jpg"
-  og_image: "assets/images/stm32_bme280/dpi1.jpg"
+  overlay_image: "assets/images/stm32_bmp280/dpi1.jpg"
+  teaser: "assets/images/stm32_bmp280/dpi1.jpg"
+  og_image: "assets/images/stm32_bmp280/dpi1.jpg"
 actions:
   - label: "Blog"
     url: "/year-archive/"
@@ -17,25 +17,31 @@ tags:
 toc: true
 --- 
 
-Title: Exploring Environmental Sensing: Integrating the BME280 Temperature Sensor with STM32 Nucleo
+Title: Exploring Environmental Sensing: Integrating the BME280 Sensor with STM32 Nucleo
 
 Introduction:
 In the realm of embedded systems and IoT applications, environmental sensing plays a crucial role. Monitoring temperature, humidity, and pressure levels is essential in various domains, from weather forecasting to indoor climate control and industrial automation. In this blog post, we delve into the integration of the BME280 temperature sensor with the STM32 Nucleo development board, offering insights into the setup, programming, and potential applications of this powerful combination.
 
 1. Understanding the BME280 Sensor:
-   - Brief overview of the BME280 sensor: capabilities, features, and specifications.
-   - Discuss the importance of temperature sensing in environmental monitoring.
-   - Highlight the versatility of the BME280 sensor in measuring temperature, humidity, and pressure with high accuracy and reliability.
+BMP280 is an absolute barometric pressure sensor designed by Bosch in an extremely compact package targetting mobile applications. Since this it has a low power consumption and a small package, this product is ideal for implementation in battery driven devices such as mobile phones, GPS modules or watches
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/stm32_bmp280/dpi8.jpg)
+
+It measures;
+	- Barrometric air pressure
+	- Temperature
 
 2. Introduction to STM32 Nucleo:
-   - Overview of the STM32 Nucleo development board series: features, capabilities, and compatibility.
-   - Emphasize the popularity and widespread usage of STM32 Nucleo boards in embedded systems development.
-   - Highlight the advantages of using STM32 Nucleo for sensor integration projects, including its powerful ARM Cortex-M processor and extensive peripheral support.
+The STM32 Nucleo development board is a powerful and resource rich platform for prototyping and developing embedded applications. This development platform doesn't need any external programmer as it integrates the ST-LINK/V2-1 debugger/programmer. This Nucleo board series are based on ARM Cortex-M 32-bit RISC processor based microcontrollers with energy efficiency.
+
+For this excercise I have used a Nucleo board with STM32F411RE ARM Cortex-M4 chip.
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/stm32_bmp280/bmp280_img1.jpg)
+
 
 3. Hardware Setup:
-   - Step-by-step guide on connecting the BME280 sensor to the STM32 Nucleo development board.
-   - Discuss the wiring connections, including power, ground, and communication lines.
-   - Provide visual aids such as circuit diagrams or images to aid in the setup process.
+BMP280 has two commucnication interfaces which are SPI and I2C for interfacing with microcontrollers or processors. Here we are using I2C interface to read the data from our STM32 development board. STM32 chips usually contains single or multiple I2C interfaces. Our STM32F411RE have three I2C interfaces and I am using "i2c2" interface from them. I have connect Vcc and Gnd pins of the BMP280 to the 3.3V and Gnd power connections of the Nucleo board. Next, SCL and SDA for serial wire communication are connected to D15 and D14 pins of Nucleo board respectively as follows.    
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/stm32_bmp280/stm32_nucleo_img1.png)
 
 4. Software Implementation:
    - Introduction to programming STM32 Nucleo using an IDE such as STM32CubeIDE or Keil µVision.
