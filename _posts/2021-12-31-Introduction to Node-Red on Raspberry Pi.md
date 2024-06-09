@@ -3,9 +3,9 @@ title: "IoT with Node-RED on a Raspberry Pi"
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: "assets/images/nodered_intro/nodered1.jpg"
-  teaser: "assets/images/nodered_intro/nodered1.jpg"
-  og_image: "assets/images/nodered_intro/nodered1.jpg"
+  overlay_image: "assets/images/nodered_intro/nodered1.png"
+  teaser: "assets/images/nodered_intro/nodered1.png"
+  og_image: "assets/images/nodered_intro/nodered1.png"
 actions:
   - label: "Blog"
     url: "/year-archive/"
@@ -22,28 +22,30 @@ Beginner's Guide for IoT with Node-RED on Raspberry Pi
 # Introduction
 The Internet of Things (IoT) has revolutionized the way we interact with devices and the world around us. With IoT, everyday objects are connected to the internet, enabling them to send and receive data. Node-RED, a flow-based development tool, makes it easy to create IoT applications by wiring together devices, APIs, and online services.
 
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/nodered_intro/nodered2.png)
+
 # Node-Red
 Node-RED is an open-source visual programming tool designed for flow-based development of IoT applications. It provides a browser-based flow editor that allows users to wire together devices, APIs, and online services in a visual manner. Node-RED is built on top of Node.js, which allows it to run on various platforms, including Raspberry Pi, cloud environments, and edge devices
 
 # Node-Red on Raspberry Pi 
 
 ## Why Node-Red on an RPi?
-> Visual Programming: Node-RED provides a visual programming environment that allows users to create IoT applications by simply dragging and dropping nodes, making it easy for beginners to get started with IoT development.
+* Visual Programming: Node-RED provides a visual programming environment that allows users to create IoT applications by simply dragging and dropping nodes, making it easy for beginners to get started with IoT development.
 
-> Raspberry Pi GPIO Support: Node-RED has built-in support for interacting with the Raspberry Pi's GPIO pins, allowing users to easily interface with sensors, actuators, and other hardware components.
+* Raspberry Pi GPIO Support: Node-RED has built-in support for interacting with the Raspberry Pi's GPIO pins, allowing users to easily interface with sensors, actuators, and other hardware components.
 
-> Dashboarding: Node-RED includes a dashboard feature that allows users to create web-based dashboards for visualizing data from IoT devices, making it easy to monitor and control IoT applications from anywhere.
+* Dashboarding: Node-RED includes a dashboard feature that allows users to create web-based dashboards for visualizing data from IoT devices, making it easy to monitor and control IoT applications from anywhere.
 
-> Prototyping and Rapid Development: The combination of Raspberry Pi and Node-RED enables rapid prototyping and development of IoT applications, allowing developers to quickly iterate on ideas and concepts.
+* Prototyping and Rapid Development: The combination of Raspberry Pi and Node-RED enables rapid prototyping and development of IoT applications, allowing developers to quickly iterate on ideas and concepts.
 
-> Open-Source and Customizable: Node-RED is open-source and highly customizable, allowing users to extend its functionality by creating custom nodes and modules to suit their specific IoT project requirements.
+* Open-Source and Customizable: Node-RED is open-source and highly customizable, allowing users to extend its functionality by creating custom nodes and modules to suit their specific IoT project requirements.
 
 ## Setting Up Raspberry Pi
 
-> Get a Raspberry Pi: Purchase a Raspberry Pi board(Here I've used a RPi 3B+ for this preoject) along with essential accessories like a microSD card and a power supply.
-> Install Raspberry Pi OS: Download and install Raspberry Pi OS on the microSD card using the Raspberry Pi Imager tool.
+* Get a Raspberry Pi: Purchase a Raspberry Pi board(Here I've used a RPi 3B+ for this preoject) along with essential accessories like a microSD card and a power supply.
+* Install Raspberry Pi OS: Download and install Raspberry Pi OS on the microSD card using the Raspberry Pi Imager tool.
 Boot Raspberry Pi: Insert the microSD card into the Raspberry Pi, connect it to a monitor, keyboard, and mouse, and power it up.
-> Installing Node-RED
+* Installing Node-RED
 Open Terminal: Launch the terminal on Raspberry Pi.
 
 Update Raspberry Pi:
