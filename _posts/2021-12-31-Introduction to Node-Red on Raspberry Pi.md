@@ -79,29 +79,51 @@ node-red-start
 ![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/nodered_intro/nodered6.png)
 You will see a set of status messages on the terminal as the above screenshot while the node-red is running.
 
+## Node-red User Interface
 
-Access Node-RED: Open a web browser and navigate to http://localhost:1880 to access the Node-RED editor.
-Creating Your First Flow
+Access Node-RED:
+Open a web browser and navigate to http://localhost:1880 to access the Node-RED editor.
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/nodered_intro/nodered6.1.png)
+
+You will be directed to a login prompt where you can enter the pre-assigned username and password there.
+After a successful login you will see the Node-red user interface where there are several palettes for 
+different purposes as the below image. 
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/nodered_intro/nodered7.png)
+
+In the left corner, we have the list of nodes and in the right-corner section we have Project navigaor, debug and dashboard panels. 
 
 Drag and Drop Nodes: In the Node-RED editor, drag nodes from the palette onto the workspace. Nodes represent devices, APIs, and functions.
-Connect Nodes: Click and drag from the output of one node to the input of another to create connections (flows).
+Connect Nodes: Click and drag from the output of one node to the input of another to create connections 
 
-Configure Nodes: Double-click on a node to configure it. For example, configure an inject node to send a message at regular intervals.
-Deploy Flow: Click the "Deploy" button to deploy your flow. Your IoT application is now running!
+### Creating Your First Flow
 
-Connecting IoT Devices
-Install Additional Nodes: Node-RED supports a wide range of nodes for connecting to IoT devices. Install additional nodes from the palette manager if needed.
+Drag and Drop Nodes: In the Node-RED editor, drag 'Inject' and 'debug' nodes from the palette onto the workspace. 
+Connect Nodes: Click and drag from the output of the inject node to the input of the debug node to create the connection (flow).
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/nodered_intro/nodered8.png)
 
-Configure IoT Nodes: Configure the nodes to connect to your IoT devices. For example, configure a MQTT node to connect to a MQTT broker.
-Integrate IoT Data: Use Node-RED's built-in functions and flows to process and visualize the data from your IoT devices.
+Edit Inject node: Double click on the inject node and get the properties window. There select the 'string' as the payload type and enter "Hello" on the payload field.
 
-Example IoT Project: Temperature Monitoring
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/nodered_intro/nodered10.png)
 
-Hardware Setup: Connect a temperature sensor (e.g., DS18B20) to the Raspberry Pi GPIO pins.
-Install Required Libraries: Use sudo apt-get install python3-w1thermsensor to install the required Python library for the temperature sensor.
+Check the Debug node: Click on the debug node and go to the properties tab.There we do ont need to edit eny properties for this test. just close the window. 
 
-Create Node-RED Flow: Create a flow in Node-RED to read temperature data from the sensor and display it on a dashboard.
-Deploy and Test: Deploy the flow and monitor the temperature readings on the Node-RED dashboard.
-Conclusion
+
+Deploy Flow: Click the "Deploy" button to deploy your flow. Your first test application is now running!
+
+Now you can go to the 'debug' palette from the right-corner tabs which shows the output from te debug nodes. 
+Once you click the button beside the 'inject' node, it will trigger the flow to send the message to the debug node. You will see the message in the debug section as well just like the bellow screeshot.
+
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/nodered_intro/nodered11.png)
+
+Congratulations!! you have successfully learned the basics of node-red interface. 
+
 Node-RED simplifies IoT development on Raspberry Pi, allowing beginners to create powerful IoT applications with ease. By following this guide, you can start building your IoT projects and explore the endless possibilities of IoT with Node-RED.
+
+There are many more wonderful features in this tool. We'll bring some of the projects with node-red in the future blog posts.
+
+Please feel free to ask any questions or clarifictaions regarding the post content in the comment section bellow.
+Thanks!!
 
