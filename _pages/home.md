@@ -30,7 +30,7 @@ site_map:
 *Finally, have a kind request from you to give us a feedback and share to your favourite Social site. Whatever on your mind about articles, please don`t hesitate to hit an emoji and type a comment.* '
 
 feature_row:
-  - image_path: "/assets/images/1_main/computer"
+  - image_path: "/assets/images/1_main/computer.jpg"
     alt: "placeholder image 1"
     title: "Computer Science"
     excerpt: "This blog contains some articles related to **Computer Science** projects."
@@ -38,7 +38,7 @@ feature_row:
     btn_label: "Computer Science"
     btn_class: "btn--primary"
 
-  - image_path: "/assets/images/1_main/electronics"
+  - image_path: "/assets/images/1_main/electronics.jpg"
     image_caption: "Chandula Nethmal"
     alt: "placeholder image 2"
     title: "Electronics"
@@ -46,7 +46,7 @@ feature_row:
     url: "/categories/#electronics/"
     btn_label: "Electronics"
     btn_class: "btn--primary"
-  - image_path: "/assets/images/1_main/robotics"
+  - image_path: "/assets/images/1_main/robotics.jpg"
     title: "Robotics"
     excerpt: "Take a look at **Robotics** related articles and projects at your interest."
     url: "/categories/#robotics/"
@@ -54,7 +54,7 @@ feature_row:
     btn_class: "btn--primary"
 
 feature_row2:
-  - image_path: "/assets/images/1_main/art2"
+  - image_path: "/assets/images/1_main/art2.jpg"
     alt: "placeholder image 2"
     title: "Entertainment"
     excerpt: 'Some **Entertainment** items for you to add some  colors to ur life. *Entertainment is about taking people away from the regular order of things when there is some chaos and pain and stress.*'
@@ -62,7 +62,7 @@ feature_row2:
     btn_label: "Go to Entertainment Items"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: "/assets/images/1_main/email"
+  - image_path: "/assets/images/1_main/contact.jpg"
     alt: "placeholder image 2"
     title: "Contact Us"
     excerpt: 'If you have anything to share with us or need to know something related to the content, do not hesitate to contact us!'
