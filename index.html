@@ -227,17 +227,6 @@
       
 <div class="feature__wrapper">
 
-  <div class="page__related">
-    <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "Read Latest Articles" }}</h4>
-    <div class="grid__wrapper">
-      {% for post in site.posts limit:4 %}
-        {% if post.id == page.id %}
-          {% continue %}
-        {% endif %}
-        {% include archive-single.html type="grid" %}
-      {% endfor %}
-    </div>
-  </div>
   
     <div class="feature__item--right">
       <div class="archive__item">
@@ -258,6 +247,17 @@
 
             </div>
           
+            <div class="page__related">
+              <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
+              <div class="grid__wrapper">
+                {% for post in site.posts limit:4 %}
+                  {% if post.id == page.id %}
+                    {% continue %}
+                  {% endif %}
+                  {% include archive-single.html type="grid" %}
+                {% endfor %}
+              </div>
+            </div>  
 
           
         </div>
@@ -266,7 +266,6 @@
   
 
 </div>
-
 
 <div class="feature__wrapper">
 
