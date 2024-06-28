@@ -68,7 +68,7 @@ feature_row3:
     excerpt: 'If you have anything to share with us or need to know something related to the content, do not hesitate to contact us!'
     url: "/about/"
     btn_label: "Contact Details"
-    btn_class: "btn--primary"v
+    btn_class: "btn--primary"
 feature_row4:
   - image_path: "/assets/images/1_main/resume.jpg"
     alt: "placeholder image 2"
