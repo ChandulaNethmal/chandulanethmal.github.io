@@ -68,8 +68,16 @@ feature_row3:
     excerpt: 'If you have anything to share with us or need to know something related to the content, do not hesitate to contact us!'
     url: "/about/"
     btn_label: "Contact Details"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary"v
 feature_row4:
+  - image_path: "/assets/images/1_main/resume.jpg"
+    alt: "placeholder image 2"
+    title: "My Resume"
+    excerpt: 'Check out my professionl resume!'
+    url: "/resume/"
+    btn_label: "My resume"
+    btn_class: "btn--primary"    
+feature_row5:
   - image_path: /site-image.jpg
     alt: "placeholder image 2"
     title: "About Me"
@@ -89,4 +97,6 @@ feature_row4:
 
 {% include feature_row id="feature_row3" type="right" %}
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="feature_row4" type="left" %}
+
+{% include feature_row id="feature_row5" type="center" %}
