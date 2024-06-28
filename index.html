@@ -221,21 +221,20 @@
     <meta itemprop="headline" content="Thinker’s Cloud">
     <meta itemprop="description" content="Welcome to the Creative Cloud of Chandula! You may find some CooL Tech and Fun stuffs in this Static Website.">
     <meta itemprop="datePublished" content="2020-05-07T21:18:41+05:30">
-    
-
-    <div class="page__related">
-      <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      <div class="grid__wrapper">
-        {% for post in site.posts limit:4 %}
-          {% if post.id == page.id %}
-            {% continue %}
-          {% endif %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
-      </div>
-    </div>
 
     <section class="page__content" itemprop="text">
+      
+      <div class="page__related">
+        <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
+        <div class="grid__wrapper">
+          {% for post in site.posts limit:4 %}
+            {% if post.id == page.id %}
+              {% continue %}
+            {% endif %}
+            {% include archive-single.html type="grid" %}
+          {% endfor %}
+        </div>
+      </div>
       
 <div class="feature__wrapper">
 
