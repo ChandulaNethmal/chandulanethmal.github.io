@@ -21,10 +21,19 @@ Most of the Contents of the web site is based on a Blog related to Electronics, 
 Hi! I am Chandula Nethmal and I introduce myself as a tech enthusiast who loves to help others by sharing my knowledge and experience.
 
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/chandula_prof5.jpg)
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/1_main/chandula_profilepic.jpeg)
 
 
 I Completed my higher education at University of Moratuwa, SriLanka and graduated as a professional in Electronic and Telecommunictaion field. Throughout these years, I worked on many projects related to different tech fileds and I was so keen to share this experience with the vast community with the pure passion. However, I made sure to build this site with some fun and cool entertainment items because, it won't be sooo boring, going through a bunch of tech text paragraphs. I hope you may spend a better time going through the site.  
+
+feature_row:
+  - image_path: "/assets/images/1_main/resume.jpg"
+    alt: "placeholder image 2"
+    title: "My Resume"
+    excerpt: 'Check out my professionl resume!'
+    url: "/resume/"
+    btn_label: "My resume"
+    btn_class: "btn--primary"    
 
 ## What is a Static Site?
 
@@ -59,3 +68,4 @@ The blog within Thinker's Cloud contains mostly tech related articles and you ca
 
 ---
 
+{% include feature_row id="feature_row" type="left" %}
