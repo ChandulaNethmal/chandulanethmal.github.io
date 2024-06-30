@@ -15,10 +15,6 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
-    <section class="page__content" itemprop="text">
-      {{ content }}
-    </section>
-
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "Read Latest Articles" }}</h4>
       <div class="grid__wrapper">
@@ -30,6 +26,10 @@ layout: default
         {% endfor %}
       </div>
     </div>
+    
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
 
   </article>
 </div>
