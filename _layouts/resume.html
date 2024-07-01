@@ -40,13 +40,13 @@
         </a></li>
         {% endif %}
         {% if site.email %}
-          <li><a aria-label="My Email" href="mailto:{{ site.email }}">
+          <li><a aria-label="My Email" href="mailto:{{ chandulanethmal@gmail.com }}">
             <img src="{{ '/assets/img/envelope.svg' | prepend: site.baseurl }}" alt="My Email">
             <div><span>{{ site.email }}</span></div>
           </a></li>
         {% endif %}
         {% if site.linkedin_username %}
-          <li><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+          <li><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/chandula-karunathilake-8421a2118/">
             <img src="{{ '/assets/img/linkedin.svg' | prepend: site.baseurl }}" alt="My LinkedIn">
             <div><span>@{{ site.linkedin_username }}</span></div>
           </a></li>
@@ -57,10 +57,22 @@
             <div><span>@{{ site.github_username }}</span></div>
           </a></li>
         {% endif %}
-        {% if site.twitter_username %}
-          <li><a aria-label="My Twitter" href="https://twitter.com/{{ site.twitter_username }}">
-            <img src="{{ '/assets/img/twitter.svg' | prepend: site.baseurl }}" alt="My Twitter">
-            <div><span>@{{ site.twitter_username }}</span></div>
+        {% if site.blog_url %}
+          <li><a aria-label="My Blog" href="{{ site.blog_url }}">
+            <img src="{{ '/assets/img/house.svg' | prepend: site.baseurl }}" alt="My Blog">
+            <div><span>{{ site.blog_url }}</span></div>
+          </a></li>
+        {% endif %}
+        {% if site.youtube_username %}
+          <li><a aria-label="My Youtube" href="https://www.youtube.com/channel/UCu5Y-bCSEyw3r9yCrT-Stww">
+            <img src="{{ '/assets/img/youtube.svg' | prepend: site.baseurl }}" alt="My Youtube">
+            <div><span>@{{ site.youtube_username }}</span></div>
+          </a></li>
+        {% endif %}
+        {% if site.facebook_username %}
+          <li><a aria-label="My Facebook" href="https://www.facebook.com/profile.php?id=100064291592597">
+            <img src="{{ '/assets/img/facebook.svg' | prepend: site.baseurl }}" alt="My Facebook">
+            <div><span>@{{ site.facebook_username }}</span></div>
           </a></li>
         {% endif %}
         {% if site.instagram_username %}
@@ -69,22 +81,10 @@
             <div><span>@{{ site.instagram_username }}</span></div>
           </a></li>
         {% endif %}
-        {% if site.facebook_username %}
-          <li><a aria-label="My Facebook" href="https://www.facebook.com/{{ site.facebook_username }}">
-            <img src="{{ '/assets/img/facebook.svg' | prepend: site.baseurl }}" alt="My Facebook">
-            <div><span>@{{ site.facebook_username }}</span></div>
-          </a></li>
-        {% endif %}
-        {% if site.youtube_username %}
-          <li><a aria-label="My Youtube" href="https://www.youtube.com/{{ site.youtube_username }}">
-            <img src="{{ '/assets/img/youtube.svg' | prepend: site.baseurl }}" alt="My Youtube">
-            <div><span>@{{ site.youtube_username }}</span></div>
-          </a></li>
-        {% endif %}
-        {% if site.blog_url %}
-          <li><a aria-label="My Blog" href="{{ site.blog_url }}">
-            <img src="{{ '/assets/img/house.svg' | prepend: site.baseurl }}" alt="My Blog">
-            <div><span>{{ site.blog_url }}</span></div>
+        {% if site.twitter_username %}
+          <li><a aria-label="My Twitter" href="https://twitter.com/{{ site.twitter_username }}">
+            <img src="{{ '/assets/img/twitter.svg' | prepend: site.baseurl }}" alt="My Twitter">
+            <div><span>@{{ site.twitter_username }}</span></div>
           </a></li>
         {% endif %}
       </ul>

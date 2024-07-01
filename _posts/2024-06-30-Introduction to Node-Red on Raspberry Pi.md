@@ -16,7 +16,7 @@ tags:
   - Embedded
 toc: true
 --- 
-This blog post aims to unfold the details of DPI, exploring its definition, methods, applications, modern technologies, and the challenges it presents in the ever-evolving landscape of cybersecurity.
+This blog post aims to give an introduction to Node-red tool and how to create a simple project with Node-red on RaspberryPi.
 
 Beginner's Guide for IoT with Node-RED on Raspberry Pi
 # Introduction

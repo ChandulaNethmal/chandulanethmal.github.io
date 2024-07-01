@@ -118,7 +118,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-    #  url: mailto:chandulanethmal@gmail.com
+      url: mailto:chandulanethmal@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
      # url: "https://chandulanethmal.github.io"
@@ -127,7 +127,7 @@ author:
       url: "https://twitter.com/chandulanethmal"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/Thinkers-Cloud-104586784615737"
+      url: "https://www.facebook.com/profile.php?id=100064291592597"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chandulanethmal"
