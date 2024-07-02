@@ -27,23 +27,17 @@
     <div class="profile-zone">
       <img class="profile-img" src="{{ site.profile_img | prepend: site.baseurl }}" alt="My Photo">
       <ul class="personal-info">
-        {% if site.phone_number %}
-        <li><a aria-label="My Phone">
-          <img src="{{ '/assets/img/phone.svg' | prepend: site.baseurl }}" alt="My Phone Number">
-          <div><span>{{ site.phone_number }}</span></div>
-        </a></li>
+        {% if site.email %}
+          <li><a aria-label="My Email" href="mailto:{{ chandulanethmal@gmail.com }}">
+            <img src="{{ '/assets/img/envelope.svg' | prepend: site.baseurl }}" alt="My Email">
+            <div><span>{{ site.email }}</span></div>
+          </a></li>
         {% endif %}
         {% if site.address %}
         <li><a aria-label="My Address" href="https://www.google.com/maps/search/{{ site.address }}">
           <img src="{{ '/assets/img/location-dot.svg' | prepend: site.baseurl }}" alt="My Address">
           <div><span>{{ site.address }}</span></div>
         </a></li>
-        {% endif %}
-        {% if site.email %}
-          <li><a aria-label="My Email" href="mailto:{{ chandulanethmal@gmail.com }}">
-            <img src="{{ '/assets/img/envelope.svg' | prepend: site.baseurl }}" alt="My Email">
-            <div><span>{{ site.email }}</span></div>
-          </a></li>
         {% endif %}
         {% if site.linkedin_username %}
           <li><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/chandula-karunathilake-8421a2118/">
@@ -56,6 +50,12 @@
             <img src="{{ '/assets/img/github.svg' | prepend: site.baseurl }}" alt="My Github">
             <div><span>@{{ site.github_username }}</span></div>
           </a></li>
+        {% endif %}
+        {% if site.phone_number %}
+        <li><a aria-label="My Phone">
+          <img src="{{ '/assets/img/phone.svg' | prepend: site.baseurl }}" alt="My Phone Number">
+          <div><span>{{ site.phone_number }}</span></div>
+        </a></li>
         {% endif %}
         {% if site.blog_url %}
           <li><a aria-label="My Blog" href="{{ site.blog_url }}">
