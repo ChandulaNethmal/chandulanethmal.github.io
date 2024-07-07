@@ -133,9 +133,7 @@ $(document).ready(function() {
       $(this).append(anchor);
     }
   });
-});
 
-document.addEventListener('DOMContentLoaded', function(){
   const tocbox = document.querySelector('.toc-box');
   var headers = document.querySelectorAll('.subject-name');
 
@@ -191,4 +189,5 @@ document.addEventListener('DOMContentLoaded', function(){
           tocLink.classList.add('active');
       }
   }, 200);
+
 });
