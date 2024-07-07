@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Home"
+    url: /home/
+  - title: "Blog"
+    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Entertainment"
+    url: /entertainment/ 
+  - title: "About"
+    url: /about/
