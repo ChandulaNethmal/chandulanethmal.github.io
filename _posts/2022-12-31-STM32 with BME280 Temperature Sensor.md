@@ -3,9 +3,9 @@ title: "BMP280 Pressure and Temperature sensor with STM32 Nucleo"
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: "assets/images/stm32_bmp280/dpi1.jpg"
-  teaser: "assets/images/stm32_bmp280/dpi1.jpg"
-  og_image: "assets/images/stm32_bmp280/dpi1.jpg"
+  overlay_image: "assets/images/stm32_bmp280/1.jpg"
+  teaser: "assets/images/stm32_bmp280/1.jpg"
+  og_image: "assets/images/stm32_bmp280/1.jpg"
 actions:
   - label: "Blog"
     url: "/year-archive/"
@@ -41,7 +41,9 @@ For this excercise I have used a Nucleo board with STM32F411RE ARM Cortex-M4 chi
 ## 3. Hardware Setup:
 BMP280 has two commucnication interfaces which are SPI and I2C for interfacing with microcontrollers or processors. Here we are using I2C interface to read the data from our STM32 development board. STM32 chips usually contains single or multiple I2C interfaces. Our STM32F411RE have three I2C interfaces and I am using "i2c2" interface from them. I have connect Vcc and Gnd pins of the BMP280 to the 3.3V and Gnd power connections of the Nucleo board. Next, SCL and SDA for serial wire communication are connected to D15 and D14 pins of Nucleo board respectively as follows.    
 
-![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/stm32_bmp280/stm32_nucleo_img1.png)
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/stm32_bmp280/2.jpg)
+
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/stm32_bmp280/3.jpg)
 
 ## 4. Software Implementation:
 Here we are programming the STM32 Nucleo using an STM32CubeIDE. Before jump in to the code, let's see the steps in reading pressure ans tesmparture readings. 
@@ -93,6 +95,7 @@ read all the uint16_t vlues and assign them into the varibles which we declared.
 
 - Data Reading
 
+```
 void BMP280_calc_values(void)
 {
 	uint8_t status, rx_buff[6], starting_address=0xF7;
@@ -118,6 +121,7 @@ void BMP280_calc_values(void)
 
 		altitude=44330.0f*(1-powf(pressure/101325.0f,1.0f/5.255f));//altitude=((powf(101325.0/pressure, 1/5.257f)-1)*(temperature+273.15f))/0.0065f;
 }
+```
 
 - Temparature Reading
 
@@ -130,6 +134,7 @@ void BMP280_calc_values(void)
 ```
 
 - Temparature calculation  
+
 ```
 	double t_fine = (int32_t)(var1+var2);
   volatile	float T = (var1+var2)/5120.0;
@@ -140,6 +145,7 @@ void BMP280_calc_values(void)
 - Pressure Reaading
 
 - Data Compensation 
+
 	```
   var1=((double)t_fine/2.0)-64000.0;
 	var2=var1*var1*((double)Dig_P6)/32768.0;
@@ -148,7 +154,9 @@ void BMP280_calc_values(void)
 	var1=(((double)Dig_P3)*var1*var1/524288.0+((double)Dig_P2)*var1)/524288.0;
 	var1=(1.0+var1/32768.0)*((double)Dig_P1);
   ```
+
   - Pressure calculation
+
   ```
   volatile	double p=1048576.0-(double)pressure_raw;
 	p=(p-(var2/4096.0))*6250.0/var1;
