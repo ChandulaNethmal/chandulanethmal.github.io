@@ -3,9 +3,9 @@ title: "BMP280 Pressure and Temperature sensor with STM32 Nucleo"
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: "assets/images/stm32_bmp280/1.jpg"
-  teaser: "assets/images/stm32_bmp280/1.jpg"
-  og_image: "assets/images/stm32_bmp280/1.jpg"
+  overlay_image: "assets/images/stm32_bmp280/1.png"
+  teaser: "assets/images/stm32_bmp280/1.png"
+  og_image: "assets/images/stm32_bmp280/1.png"
 actions:
   - label: "Blog"
     url: "/year-archive/"
