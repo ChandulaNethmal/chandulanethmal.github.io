@@ -166,23 +166,18 @@ void BMP280_calc_values(void)
 	pressure=p;
   ```
 
-## 5. Testing and Calibration:
-   - Discuss the importance of testing and calibrating the sensor for accurate measurements.
-   - Provide guidelines for verifying sensor functionality and calibrating temperature readings if necessary.
-   - Share tips for optimizing sensor performance and troubleshooting common issues.
+## 5. Testing:
 
-## 6. Applications and Use Cases:
-   - Explore potential applications of the BME280 sensor integrated with STM32 Nucleo in various domains.
-   - Discuss how the sensor data can be utilized for weather monitoring, indoor climate control, predictive maintenance, and more.
-   - Inspire readers with creative project ideas and real-world examples of environmental sensing solutions.
+After successfully building the project without errors, we can move to the testing with our hardware setup. Once the wiring is okay we can debug the software by uploading to the STM32Nucleo board. Since we are using Nucleo's UART interface, we can open a serial monitor. Here I am using Arduino Serial monitor for this project.
+
+Once you hit the run button of STM32 cube IDE or press the reset button of the Nucleo board, it will start the program and send data via serial interface to the serial monitor as the following image.
+
+.
 
 ## 7. Conclusion:
    - Recap the key points covered in the blog post, including the setup process, programming, testing, and applications.
    - Emphasize the importance of environmental sensing in modern IoT and embedded systems.
    - Encourage readers to explore further and experiment with integrating sensors into their own projects using STM32 Nucleo and other development platforms.
-
-## 8. Additional Resources:
-   - Provide links to relevant datasheets, tutorials, and community forums for further learning.
-   - Encourage readers to share their experiences and projects related to BME280 and STM32 Nucleo integration.
+.
 
 By the end of this blog post, readers should have a comprehensive understanding of how to integrate the BME280 temperature sensor with the STM32 Nucleo development board, along with insights into its potential applications in environmental sensing projects.
