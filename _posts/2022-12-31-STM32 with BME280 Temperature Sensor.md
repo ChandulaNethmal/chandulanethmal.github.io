@@ -168,11 +168,13 @@ void BMP280_calc_values(void)
 
 ## 5. Testing:
 
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/stm32_bmp280/2.jpg)
+
 After successfully building the project without errors, we can move to the testing with our hardware setup. Once the wiring is okay we can debug the software by uploading to the STM32Nucleo board. Since we are using Nucleo's UART interface, we can open a serial monitor. Here I am using Arduino Serial monitor for this project.
 
 Once you hit the run button of STM32 cube IDE or press the reset button of the Nucleo board, it will start the program and send data via serial interface to the serial monitor as the following image.
 
-.
+![DPI schem]({{ site.url }}{{ site.baseurl }}/assets/images/stm32_bmp280/5.jpg)
 
 ## 7. Conclusion:
    - Recap the key points covered in the blog post, including the setup process, programming, testing, and applications.
