@@ -8,5 +8,7 @@ main:
     url: /categories/
   - title: "Entertainment"
     url: /entertainment/ 
+  - title: "Resume"
+    url: /resume/  
   - title: "About"
     url: /about/
