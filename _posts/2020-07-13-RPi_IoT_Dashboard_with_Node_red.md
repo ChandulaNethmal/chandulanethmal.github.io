@@ -3,9 +3,9 @@ title: "IoT Dashborad with Node-Red on Raspberry Pi"
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: "assets/images/iot_dash/1.png"
-  teaser: "assets/images/iot_dash/1.png"
-  og_image: "assets/images/iot_dash/1.png"
+  overlay_image: "assets/images/iot_dash/iot_1.jpg"
+  teaser: "assets/images/iot_dash/iot_1.jpg"
+  og_image: "assets/images/iot_dash/iot_1.jpg"
 actions:
   - label: "Blog"
     url: "/year-archive/"
@@ -26,52 +26,51 @@ The Internet of Things (IoT) has revolutionized how we interact with technology,
 Before we begin, ensure you have the following:
 
 - A Raspberry Pi with Raspbian OS installed
-- Internet connection
+- ESP32 or NodeMCU device to act as a sensor node
+- BMP280 Temperature Sensor ( you can use any sensor to monitor. e.g., temperature sensor, humidity sensor)
+- Wi-Fi connection
 - Basic understanding of Node-RED
-- Sensors or devices to monitor (e.g., temperature sensor, humidity sensor)
+
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/iot_dash/5.jpg)
 
 ## Step 1: Install Node-RED on Raspberry Pi
 
-First, ensure your Raspberry Pi is up to date. Open the terminal and run:
+First, ensure your Raspberry Pi is up to date with node-red. 
 
-```bash
-sudo apt update
-sudo apt upgrade
 ```
+If you have no experience of using node-red on RPi, I recommend you to read my previous article on "IoT with Node-RED on a RPi"  to have a better understanding before go through the following steps.
 
-Next, install Node-RED:
-
-```bash
-bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+[Read Article on "IoT with Node-RED on a RPi"](computer/Introduction-to-Node-Red-on-Raspberry-Pi/){: .btn .btn--success}
 
 ```
 
-After the installation is complete, enable Node-RED to start on boot:
+Let's start this tutorial by starting the Node-red on your Raspberry Pi. Open a terminal in Raspberry Pi user interface or access your RPi remotely using SSH and run following command to start Node-Red:
 
-```bash
-sudo systemctl enable nodered.service
-```
-
-Start Node-RED:
+Start Node-RED on RPi:
 ```bash
 node-red-start
 ```
-You can now access Node-RED by navigating to http://<your_pi_ip_address>:1880 in your web browser.
 
-### Step 2: Setting Up the Dashboard
-Node-RED includes a dashboard module that allows you to create a web-based user interface. 
-To install the dashboard nodes, run the following command in the Node-RED interface:
+You can now access Node-RED User interface by navigating to http://<your_pi_ip_address>:1880 in your web browser.
 
-```
-1. Click on the menu (three horizontal lines) in the top right corner.
-2. Select "Manage palette".
-3. Go to the "Install" tab.
-4. Search for node-red-dashboard.
-5. Click the install button.
-```
 
-### Step 3: Creating Your First Flow
-Let's create a simple flow to display sensor data on the dashboard. We'll use a temperature sensor as an example.
+
+### Step 2: Creating the Flow
+Let's create two simple flows to display sensor data on the dashboard. In this example We'll use a BMP280 temperature,pressure sensor as an example. You can use any sensor simillar to this one. We are going to create two  flows to read and visualize temperature readings and pressure readings separately.
+
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/iot_dash/iot_2.png)
+
+1. Temperature monitor flow
+
+First of all, you need to select and place a mqtt node from the left side nodes list panel.  Double click on the node and it will open up a configuration window as follows.
+
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/iot_dash/iot_3.png)
+
+There you can configure the "topic" as "sensor/bpm280/temperature". We use this topic to publish sensor data from the ESP32 sensor node and the same tpoic is used in here to subscribe and read the temperature data.
+
+Next you need to add an MQTT broker from the same configuration window. Click on the eidt butto and it will open up a new configuration window to a new MQTT broker as follows.
+
+![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/iot_dash/iot_5.png)
 
 1. Add an Inject Node: 
 * This node will simulate sensor data.
@@ -100,6 +99,18 @@ return msg;
 * Set the Group to "Add new ui_group" and name it (e.g., "Home").
 * Set the Label to "Temperature" and the value format to {{msg.payload.temperature}}.
 * Deploy the Flow: Click the "Deploy" button in the top right corner to deploy your flow.
+
+### Step 3: Setting Up the Nodes
+Node-RED includes a dashboard module that allows you to create a web-based user interface. 
+To install the dashboard nodes, run the following command in the Node-RED interface:
+
+```
+1. Click on the menu (three horizontal lines) in the top right corner.
+2. Select "Manage palette".
+3. Go to the "Install" tab.
+4. Search for node-red-dashboard.
+5. Click the install button.
+```
 
 ### Step 4: Accessing the Dashboard
 After deploying the flow, you can access your dashboard by navigating to http://<your_pi_ip_address>:1880/ui in your web browser. You should see your temperature gauge displaying the sensor data.
