@@ -1,0 +1,171 @@
+---
+title: "Edge AI-Powered Security Camera with TensorFlow on Raspberry"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.4"
+  overlay_image: "assets/images/security_cam/nodered1.png"
+  teaser: "assets/images/security_cam/nodered1.png"
+  og_image: "assets/images/security_cam/nodered1.png"
+actions:
+  - label: "Blog"
+    url: "/year-archive/"
+categories:
+  - Computer
+tags:
+  - IoT
+  - Embedded
+toc: true
+--- 
+# 🔐 Building an Edge AI-Powered Security Camera with Raspberry Pi 3B+
+
+*By Chandula Nethmal – July 2025*
+
+Security systems are becoming increasingly intelligent, decentralized, and affordable. With advancements in Edge AI and embedded systems, it's now possible to run real-time person detection and motion analysis on low-cost hardware like the **Raspberry Pi 3B+**.
+
+In this blog, I’ll walk you through how I built a **web-based, intelligent security camera system** using Raspberry Pi 3B+ and a camera module—equipped with live video streaming, AI-powered person detection, motion alerts, and an interactive configuration interface.
+
+---
+
+## 🎯 Project Objective
+
+The goal of this project was to create a **self-contained, edge-based security solution** that:
+
+- Operates in real time without relying on cloud resources
+- Detects motion and people using lightweight AI models
+- Streams video and displays detections through a responsive web interface
+- Allows user control over detection behavior from a browser UI
+- Runs efficiently on Raspberry Pi 3 Model B+ hardware
+
+This system is suitable for home automation, lab monitoring, IoT surveillance, and education in computer vision or embedded systems.
+
+---
+
+## 🛠️ Hardware and Software Stack
+
+| Category        | Component                              |
+|-----------------|-----------------------------------------|
+| 🧠 Platform      | Raspberry Pi 3 Model B+                  |
+| 📷 Camera        | Raspberry Pi Camera Module or USB cam   |
+| 📚 Libraries     | OpenCV, Flask, TensorFlow Lite          |
+| 🌐 Frontend      | HTML, CSS, JavaScript (Vanilla)         |
+| 💡 AI Model      | MobileNet SSD (pre-trained TFLite model)|
+| 🖥️ UI Framework  | Flask + AJAX + Bootstrap-inspired layout|
+| 🧪 Detection     | Frame differencing + object detection (person) |
+
+---
+
+## 🧠 Key Functionalities
+
+### ✅ 1. Live Video Streaming  
+A lightweight Flask backend serves a real-time MJPEG stream from the camera. The stream can be toggled on/off from the UI.
+
+### ✅ 2. Motion Detection  
+Implemented using OpenCV’s grayscale frame differencing with thresholding. When sufficient pixel change is detected between frames, motion is triggered.
+
+### ✅ 3. Person Detection with Edge AI  
+Using a MobileNet SSD model converted to TensorFlow Lite format, person detection is triggered either manually or automatically via motion events. The detection pipeline processes frames efficiently to identify persons in real-time.
+
+### ✅ 4. Advanced Detection Mode  
+This hybrid mode enables AI-based person detection **only when motion is detected**, and remains active for a short configurable window (e.g., 10 seconds) to optimize CPU usage.
+
+### ✅ 5. Smart Web Interface  
+The browser-based UI displays:
+- Real-time stream
+- Motion status
+- Current timestamp
+- Buttons to capture snapshots, toggle recording, and switch modes
+- A separate **Configurations tab** for enabling/disabling features
+
+### ✅ 6. Recording and Snapshots  
+Users can capture images or toggle video recording, which is saved directly to the Raspberry Pi storage.
+
+---
+
+## 💻 Web UI Overview
+
+### 📺 Live View Tab:
+- Real-time video feed
+- Timestamp
+- Motion alert indicator
+- Controls: 📸 Capture, 🎥 Toggle Stream, 🔴 Start/Stop Recording
+
+### ⚙️ Configurations Tab:
+- 👤 Toggle Person Detection
+- 🌀 Toggle Motion Detection
+- 🤖 Enable Advanced Mode (person detection only when motion is active)
+- 🎨 Switch between Light, Dark, and Cyberpunk themes
+
+### 🎨 Theme Support:
+Built-in UI themes allow users to switch visual styles instantly without reloading the page.
+
+---
+
+## 🧪 Performance on Raspberry Pi 3B+
+
+Despite being an older board with only 1 GB RAM, the Raspberry Pi 3B+ performs adequately with optimized frame sizes and efficient models:
+
+- Live stream operates at ~10-15 FPS
+- Motion detection uses minimal CPU
+- AI person detection is triggered only as needed
+- TFLite keeps memory usage low and inference fast
+
+⚠️ Tip: Use 320×240 or 480×360 resolution for better performance on Raspberry Pi 3B+.
+
+---
+
+## 📂 Code Structure
+EdgeAiSecureCam/
+├── camera_stream.py # Flask app and video feed
+├── camera_object_det.py # AI object detection
+├── templates/index.html # Web UI
+├── static/ # Optional CSS/JS
+├── tflite_model.tflite # AI model file
+└── requirements.txt # Dependencies
+
+
+---
+
+## 🚀 Possible Future Enhancements
+
+- 📩 Telegram/Email alerts on person detection
+- 🧠 Upgrade to YOLOv5 Nano or EfficientDet-Lite models
+- 📦 Save detection logs and build a history timeline
+- 🔔 Add sound alerts on detection
+- ☁️ Sync recorded videos to a cloud drive
+
+---
+
+## 📸 Gallery
+
+> *(Insert real screenshots, detection examples, and Raspberry Pi setup photos here)*
+
+---
+
+## 🧑‍💻 Source Code
+
+> GitHub: [github.com/yourusername/EdgeAiSecureCam](#)
+
+Feel free to fork, contribute, or use it for your personal smart security solutions.
+
+---
+
+## 🧠 Lessons Learned
+
+This project was a great way to explore:
+
+- Deploying AI at the edge
+- Optimizing real-time applications on constrained hardware
+- Integrating OpenCV and Flask
+- Designing user-friendly, browser-based control panels
+
+By offloading intelligence to the device itself, this project demonstrates how **Edge AI can make security systems faster, smarter, and more private.**
+
+---
+
+## 🏁 Conclusion
+
+We’ve turned a $35 board into a **smart, responsive, and intelligent security camera system**. This is just the beginning of what’s possible with Edge AI and embedded systems. Whether you're an enthusiast, student, or engineer—this project is an excellent starting point for building modern, autonomous IoT devices.
+
+---
+
+💬 **Have questions or feedback?** I’d love to hear your thoughts in the comments below or via GitHub.
