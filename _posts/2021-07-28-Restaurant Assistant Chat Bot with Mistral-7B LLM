@@ -1,0 +1,82 @@
+**Project Report: Gourmet Bistro Assistant Chatbot Using Mistral-7B via Ollama**
+
+---
+
+**1. Project Title:** Personalized Digital Assistant Chatbot for Restaurant Services using Open-Source LLM (Mistral-7B)
+
+---
+
+**2. Introduction:** The food service industry is undergoing a rapid transformation with the integration of digital technologies aimed at improving customer engagement, operational efficiency, and personalized services. In this competitive environment, restaurants are increasingly looking for solutions that can assist staff and interact with customers intelligently and autonomously. Traditional customer service systems, whether manual or rule-based, often fall short in delivering context-aware and natural interactions. This gap can be effectively bridged by leveraging the capabilities of Large Language Models (LLMs).
+
+This project introduces a Gourmet Bistro–focused digital assistant chatbot powered by the Mistral-7B-Instruct language model, deployed locally using the Ollama runtime. The assistant is designed to respond to various customer queries such as menu items, dietary restrictions, availability of services, and even engage in casual conversation—mimicking the responsiveness of a real human staff member. Unlike cloud-dependent AI services, this implementation runs entirely offline, preserving data privacy and operational continuity without recurring infrastructure costs.
+
+---
+
+**3. What is a Large Language Model (LLM)?** Large Language Models (LLMs) are artificial intelligence systems trained on vast amounts of text data. They understand and generate human-like language, enabling natural conversations, content generation, summarization, and more. These models use deep learning techniques, specifically transformers, to analyze and predict text patterns. LLMs like GPT, Mistral, and LLaMA are foundational to modern AI-powered chatbots.
+
+---
+
+**4. What is Ollama?** Ollama is a lightweight, local-first inference engine that allows developers to run open-source LLMs on personal machines. It abstracts away the complexities of model execution, hardware configuration, and dependency management. Ollama supports streaming responses, integrates easily with APIs, and is designed for low-resource systems. It provides a clean way to run quantized models like Mistral directly from the terminal or via HTTP.
+
+---
+
+**5. What is Mistral-7B?** Mistral-7B is a powerful open-source large language model developed with 7 billion parameters. It is instruction-tuned, meaning it has been fine-tuned to follow instructions and perform helpful dialogue-based tasks. Mistral-7B is known for high performance and low compute requirements, making it a popular choice for local deployment using tools like Ollama.
+
+---
+
+**6. Setup Process** To build this project, the following components must be installed and configured:
+
+- **Python 3.8+**: Required for Flask and backend code
+- **Ollama**: Downloaded from [ollama.com](https://ollama.com/) and installed via terminal
+- **Pull Mistral model**:
+  ```bash
+  ollama pull mistral
+  ollama serve
+  ```
+- **Flask**: Installed using pip
+  ```bash
+  pip install flask requests
+  ```
+- **Frontend HTML**: Created and served via Flask
+
+Ensure that Ollama is running (`ollama serve`) before starting the Flask application to serve responses through the local LLM.
+
+---
+
+**7. Giving Context to the LLM** LLMs generate responses based on the prompts provided to them. To customize behavior for a restaurant assistant, we craft a detailed system prompt that gives the model background information. For example:
+
+```python
+prompt = f"""
+You are a helpful restaurant assistant for Gourmet Bistro.
+
+Customer: {user_message}
+Assistant:
+"""
+```
+
+You can include more structured context such as:
+
+- Menu items
+- Dietary guidelines
+- Operating hours
+- Customer preferences
+
+This technique of prepending domain-relevant information is called **prompt engineering** and helps guide the LLM to act in specific ways.
+
+---
+
+**8. Technology Stack:**
+
+The technology stack for this project has been carefully chosen to prioritize simplicity, speed, and offline deployment. At its core is the Mistral-7B-Instruct model, a state-of-the-art open-source LLM specifically trained for instruction-following tasks. It is run locally using the Ollama framework, which allows efficient inference on consumer-grade hardware without GPU requirements.
+
+The backend is powered by Flask, a lightweight web framework in Python, which handles API requests and integrates the language model via HTTP calls to the Ollama server. For the user interface, standard HTML and JavaScript were used to create a responsive and interactive chat frontend that communicates with the Flask backend. All user profiles and menu data are stored locally in SQLite, an embedded relational database ideal for small-scale applications with minimal setup.
+
+This architecture ensures the assistant can run completely offline, providing fast responses and preserving privacy. It is modular, making it easy to extend with new features such as voice interaction or integration with messaging platforms.
+
+| Component      | Tool / Framework               | Reason for Selection                        |
+| -------------- | ------------------------------ | ------------------------------------------- |
+| Language Model | Mistral-7B-Instruct via Ollama | Fast, open-source, instruction-tuned, local |
+| Backend        | Flask                          | Lightweight Python web framework            |
+| Frontend       | HTML + JavaScript              | Simple, browser-based user interface        |
+| Database       | SQLite                         | Lightweight and embeddable local database   |
+| LLM Runner     | Ollama                         | Easiest way to run quantized LLMs locally   |
