@@ -1,3 +1,24 @@
+---
+title: "Restaurant Assistant Chat Bot with Mistral-7B LLM"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.2"
+  overlay_image:  "assets/images/chatbot/challenge2.jpg"
+  teaser: "assets/images/chatbot/challenge2.jpg"
+  og_image: "assets/images/chatbot/challenge2.jpg"
+actions:
+  - label: "Blog"
+    url: "/year-archive/"
+categories:
+  - Electronics
+  - Robotics
+tags:
+  - LLM
+  - AI
+  - Chat-Bot
+toc: true
+---
+
 **Project Report: Gourmet Bistro Assistant Chatbot Using Mistral-7B via Ollama**
 
 ---
